@@ -97,7 +97,7 @@ We use the [tables syntax described here](https://www.markdownguide.org/extended
 
 ## Icons
 
-You can embed [Font Awesome Icons](https://fontawesome.com/icons?d=gallery&m=free) into your documentation with the help of BBcode style `[fa=check /]` syntax (in this case embeds the [check icon](https://fontawesome.com/icons/check?style=solid).
+You can embed [Font Awesome Icons](https://fontawesome.com/icons?d=gallery&m=free) into your documentation with the help of BBcode style `[fa=check /]` syntax (in this case embeds the [check icon](https://fontawesome.com/icons/check?style=solid)).
 
 ### Colours
 
