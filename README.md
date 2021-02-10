@@ -20,7 +20,7 @@ A short metadata block is required at the top of each `chapter.en.md` and `docs.
 ```
 ---
 title: 'The page title'
-visibile: true
+visible: true
 metadata:
     description: 'A short 140-160 character summary of the page content, used in search engine listings. Make it accurate, informative, and concise - just like your content.'
 ---
