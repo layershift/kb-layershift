@@ -1,7 +1,8 @@
 ---
 title: 'Plesk editions explained'
-login:
-    visibility_requires_access: true
+metadata:
+    description: 'Plesk editions explained.'
+visible: true
 ---
 
 We offer three Plesk editions, each with a different domain limit and with some features (such as customer and reseller management) only offered on the higher editions
