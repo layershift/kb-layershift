@@ -14,18 +14,19 @@ metadata:
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
     'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/10.setting-up-your-default-webmail-client-in-plesk/Setting-up-your-default-webmail-client-in-Plesk-1.png'
-    'article:published_time': '2023-08-21T12:07:20+01:00'
-    'article:modified_time': '2023-08-21T12:07:20+01:00'
+    'article:published_time': '2023-08-21T12:09:38+01:00'
+    'article:modified_time': '2023-08-21T12:09:38+01:00'
     'article:author': Layershift
     description: setting-up-your-default-webmail-client-in-plesk
-published: false
+published: true
 aura:
     metadata:
         description: setting-up-your-default-webmail-client-in-plesk
     pagetype: website
 media_order: 'Setting-up-your-default-webmail-client-in-Plesk-1.png,Screenshot from 2023-08-21 14-06-42.png'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ## How do I change webmail client?
