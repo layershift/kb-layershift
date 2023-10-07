@@ -14,8 +14,8 @@ metadata:
     'twitter:title': 'Drush |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-30T08:46:51+01:00'
-    'article:modified_time': '2023-09-30T08:46:51+01:00'
+    'article:published_time': '2023-10-07T09:00:51+01:00'
+    'article:modified_time': '2023-10-07T09:00:51+01:00'
     'article:author': Layershift
 ---
 
@@ -25,7 +25,7 @@ The Drush Project Manager is an invaluable CLI tool for Drupal, enabling experie
 
 The recommended way to install Drush is now using Composer (the Pear channel still exists, but will likely become deprecated in future – as has already happened with many other projects). Composer is really easy to use and offers a lot of benefits over pear; not least the flexibility to have different versions of the same software co-existing on one server (pear works globally).
 
-So first up, you’ll need to install [Composer](https://kb2.layershift.com/enscale/php/composer) (if you haven’t already done so).
+So first up, you’ll need to install [Composer](/enscale/php/composer) (if you haven’t already done so).
 
 Drush installation now becomes as simple as:
 
