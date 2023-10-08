@@ -21,8 +21,8 @@ metadata:
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
     'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/13.how-to-clone-an-environment/How-to-Clone-an-Environment-2.png'
-    'article:published_time': '2023-10-08T18:10:53+01:00'
-    'article:modified_time': '2023-10-08T18:11:12+01:00'
+    'article:published_time': '2023-10-08T18:15:54+01:00'
+    'article:modified_time': '2023-10-08T18:15:54+01:00'
     'article:author': Layershift
     description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
 taxonomy:
@@ -32,13 +32,13 @@ taxonomy:
 
 # Clone Environment
 
-It’s good practice to validate all of your changes on a stage environment before deploying them to your live site or application. That way you find any last minute problems before they impact your users. Doing this is usually a lot of extra work, so this vital step is often skipped in favour of time saving, but with Jelastic we’ve made it easy – there’s no more excuses!
+It’s good practice to validate all of your changes on a stage environment before deploying them to your live site or application. That way you find any last minute problems before they impact your users. Doing this is usually a lot of extra work, so this vital step is often skipped in favour of time saving, but with Enscale we’ve made it easy – there’s no more excuses!
 
 ===
 
-## How to create a clone of your Jelastic environment
+## How to create a clone of your Enscale environment
 
-1. Log in to your Jelastic dashboard, and press the Clone Environment button on the environment that you wish to clone:
+1. Log in to your Enscale dashboard, and press the Clone Environment button on the environment that you wish to clone:
 
 ![How-to-Clone-an-Environment-1](How-to-Clone-an-Environment-1.png "How-to-Clone-an-Environment-1")
 
