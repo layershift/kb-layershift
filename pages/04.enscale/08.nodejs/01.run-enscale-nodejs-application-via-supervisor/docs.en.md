@@ -14,8 +14,8 @@ metadata:
     'twitter:title': 'Run Enscale NodeJS application via supervisor |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-23T06:37:58+01:00'
-    'article:modified_time': '2023-09-23T06:37:58+01:00'
+    'article:published_time': '2023-10-08T18:48:05+01:00'
+    'article:modified_time': '2023-10-08T18:48:05+01:00'
     'article:author': Layershift
 ---
 
@@ -34,18 +34,3 @@ See [how to connect via SSH to your Node](https://kb.layershift.com/en/admin/pag
 	sudo /etc/init.d/cartridge stop	
 	cd ~/ROOT/
 	supervisor --debug server.js &
-
-#### Set up a cron to make this the default at server boot
-
-Edit your crontab:
-
-	crontab -e
-
-Add the following entry on a new line:
-
-	@reboot sudo /etc/init.d/cartridge stop && cd ~/ROOT/ && supervisor --debug server.js &
-
-Save and quit with:
-	
-    :wq
-
