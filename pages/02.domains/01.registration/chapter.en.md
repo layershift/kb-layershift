@@ -1,5 +1,4 @@
 ---
-visible: true
 aura:
     pagetype: website
 metadata:
@@ -11,8 +10,10 @@ metadata:
     'twitter:title': 'Registration |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-23T14:33:39+01:00'
-    'article:modified_time': '2023-08-23T14:33:39+01:00'
+    'article:published_time': '2023-10-10T09:59:09+01:00'
+    'article:modified_time': '2023-10-10T09:59:09+01:00'
     'article:author': Layershift
+taxonomy:
+    category: docs
 ---
 
