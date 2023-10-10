@@ -1,5 +1,22 @@
 ---
 title: Jelastic
+published: false
+taxonomy:
+    category: docs
+aura:
+    pagetype: website
+metadata:
+    'og:url': 'https://kb.raul.uk.easy-server.com/jelastic'
+    'og:type': website
+    'og:title': 'Jelastic |  Layershift KB'
+    'og:author': Layershift
+    'twitter:card': summary_large_image
+    'twitter:title': 'Jelastic |  Layershift KB'
+    'twitter:site': '@layershift'
+    'twitter:creator': '@layershift'
+    'article:published_time': '2023-10-10T09:43:51+01:00'
+    'article:modified_time': '2023-10-10T09:43:51+01:00'
+    'article:author': Layershift
 ---
 
 # Jelastic PaaS
