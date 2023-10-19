@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting
-published: false
 taxonomy:
     category: docs
 aura:
@@ -14,8 +13,8 @@ metadata:
     'twitter:title': 'Troubleshooting |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'article:published_time': '2023-10-10T09:43:51+01:00'
-    'article:modified_time': '2023-10-10T09:43:51+01:00'
+    'article:published_time': '2023-10-19T13:16:38+01:00'
+    'article:modified_time': '2023-10-19T13:16:38+01:00'
     'article:author': Layershift
 ---
 
