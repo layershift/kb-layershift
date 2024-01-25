@@ -43,7 +43,7 @@ Your browser will load a page like the following:
 
 ![Getting%20Started%20with%20Plesk%20Dashboard-1](Getting%20Started%20with%20Plesk%20Dashboard-1.png "Getting%20Started%20with%20Plesk%20Dashboard-1")
 
-Simply complete the form with your administrative/user credentials and click **Log In**:
+Simply enter your administrative/user credentials and click **Log In**:
 
 ! The default username is: admin and the default password is emailed to you when your VPS is created.
 
@@ -51,7 +51,7 @@ This username cannot be changed in any version of Plesk but you can add addition
 
 ### Resetting your Plesk administrator password
 
-It’s possible to reset the password for your Plesk control panel at anytime via your Layershift account at https://control.layershift.com. Please refer to our article [How to reset your Plesk admin password](/how-to-reset-plesk-admin-password) for detailed instructions.
+It’s possible to reset the password for your Plesk control panel at anytime via your Layershift account at [control.layershift.com](https://control.layershift.com). Please refer to our article [How to reset your Plesk admin password](/cloud-vps/plesk/how-to-reset-plesk-admin-password) for detailed instructions.
 
 ! We strongly recommend that you change your password to something secure once logged in as the password was sent in plain text via email.
 
@@ -63,7 +63,7 @@ SpamAssassin is already installed and activated on your VPS, so you can enjoy a 
 
 The **Plesk Email Security** extension is effectively handling spam and viruses stands as a crucial function in email hosting. By adopting it, you can safeguard your business against the ever-growing cyber threat landscape and reduce potential harm to your operations. With the latest Plesk Email Security extension, spam and viruses are rendered powerless!
 
-To install, please see our separate article regarding on [How to Install Plesk Email Security](/installing-plesk-email-security)
+To install, please see our separate article regarding on [How to Install Plesk Email Security](/cloud-vps/plesk/installing-plesk-email-security)
 
 ### Using PostgreSQL
 
@@ -75,14 +75,14 @@ We do not install PostgreSQL automatically as it uses system resources (RAM, or 
 
 Using the **Plesk Mobile Manager** app is completely free. All you need to do is download the **Mobile Server Manager** on your device from the following links:
 
-* Download Plesk Mobile Manager for [iPhone](https://itunes.apple.com/us/app/parallels-panel-server-manager/id477441273?mt=8) from iTunes
-* Download Plesk Mobile for [Android](https://play.google.com/store/apps/details?id=com.odin.plesk.mobile) from Android Market
+* Download Plesk Mobile Manager for [iPhone](https://apps.apple.com/gb/app/plesk-mobile/id1086540296) from the App Store
+* Download Plesk Mobile for [Android](https://play.google.com/store/apps/details?id=com.odin.plesk.mobile&pcampaignid=web_share) from the Play Store
 
 ### Plesk documentation
 
 You can find additional documentation regarding the Plesk Control Panel on the links listed below:
 
-[Administrator’s Guide](https://docs.plesk.com/en-US/onyx/administrator-guide/about-plesk.70559/)
-[Reseller’s Guide](https://docs.plesk.com/en-US/onyx/reseller-guide/becoming-familiar-with-plesk.70426/)
-[Control Panel User’s Guide](https://docs.plesk.com/en-US/onyx/customer-guide/quick-start-with-plesk.69259/)
-[Other Documentation](https://docs.plesk.com/en-US/onyx/quick-start-guide/read-me-first.74371/)
+[Administrator’s Guide](https://docs.plesk.com/en-US/obsidian/administrator-guide/about-plesk.70559/)
+[Reseller’s Guide](https://docs.plesk.com/en-US/obsidian/reseller-guide/becoming-familiar-with-plesk.70426/)
+[Control Panel User’s Guide](https://docs.plesk.com/en-US/obsidian/customer-guide/quick-start-with-plesk.69259/)
+[Other Documentation](https://docs.plesk.com/en-US/obsidian/quick-start-guide/read-me-first.74371/)
