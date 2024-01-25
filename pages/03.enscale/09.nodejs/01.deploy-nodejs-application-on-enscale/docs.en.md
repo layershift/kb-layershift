@@ -6,28 +6,24 @@ taxonomy:
 aura:
     pagetype: website
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/nodejs/run-enscale-nodejs-application-via-supervisor'
+    'og:url': 'https://kb.raul.uk.easy-server.com/enscale/nodejs/deploy-nodejs-application-on-enscale'
     'og:type': website
     'og:title': 'Deploy NodeJS application on Enscale |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/08.nodejs/01.run-enscale-nodejs-application-via-supervisor/Run Enscale NodeJS application via supervisor-1.png'
-    'og:image:type': image/png
-    'og:image:width': 876
-    'og:image:height': 548
     'og:author': Layershift
     'twitter:card': summary_large_image
     'twitter:title': 'Deploy NodeJS application on Enscale |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/08.nodejs/01.run-enscale-nodejs-application-via-supervisor/Run Enscale NodeJS application via supervisor-1.png'
-    'article:published_time': '2023-12-27T03:35:42+00:00'
-    'article:modified_time': '2023-12-27T03:35:42+00:00'
+    'article:published_time': '2024-01-25T10:56:28+00:00'
+    'article:modified_time': '2024-01-25T10:56:28+00:00'
     'article:author': Layershift
 media_order: 'Run Enscale NodeJS application via supervisor-1.png,Deploy NodeJS application on Enscale-2.png,Deploy NodeJS application on Enscale-3.png,Deploy NodeJS application on Enscale-4.png'
+menu: 'Deploy NodeJS application'
 ---
 
 To launch your **Node.js application**, you must configure the necessary environment through the robust and user-friendly Topology Wizard. Navigate to the Node.js tab, choose the suitable engine version for your application server, and include any additional software stacks needed. If necessary, make adjustments to other parameters like cloudlets and node count, Public IPv4 and IPv6, etc.
 
-![Run%20Enscale%20NodeJS%20application%20via%20supervisor-1](Run%20Enscale%20NodeJS%20application%20via%20supervisor-1.png "Run%20Enscale%20NodeJS%20application%20via%20supervisor-1")
+![Deploy-NodeJS-application-on-Enscale-1](Deploy-NodeJS-application-on-Enscale-1.png "Deploy-NodeJS-application-on-Enscale-1")
 
 ### Node.js Versioning
 
@@ -48,8 +44,8 @@ Enscale PaaS automates the deployment process for the managed NodeJS application
 
 * application archive uploaded from the local machine or via external URL
 * remote VCS repository (e.g. 
- 
-![Deploy%20NodeJS%20application%20on%20Enscale-2](Deploy%20NodeJS%20application%20on%20Enscale-2.png "Deploy%20NodeJS%20application%20on%20Enscale-2")GitHub)
+
+![Deploy%20NodeJS%20application%20on%20Enscale-3](Deploy%20NodeJS%20application%20on%20Enscale-3.png "Deploy%20NodeJS%20application%20on%20Enscale-3")
 
 ### Node.js Package Managers
 
