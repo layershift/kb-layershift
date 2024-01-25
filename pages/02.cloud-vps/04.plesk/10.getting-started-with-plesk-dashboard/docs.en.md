@@ -57,7 +57,7 @@ It’s possible to reset the password for your Plesk control panel at anytime vi
 
 ### Using SpamAssassin 
 
-I am pleased to share that we have already installed and activated SpamAssassin on your Plesk instance to guarantee that your primary inbox remains free of spam emails.
+SpamAssassin is already installed and activated on your VPS, so you can enjoy a spam free mailbox. 
 
 ### Using Plesk Email Security
 
