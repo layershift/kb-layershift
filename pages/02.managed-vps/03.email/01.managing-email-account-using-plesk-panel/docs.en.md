@@ -4,10 +4,10 @@ media_order: 'Managing-email-account-using-Plesk-Panel-17.png,Managing-email-acc
 aura:
     pagetype: website
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/email/managing-email-account-using-plesk-panel'
+    'og:url': 'https://kb.raul.uk.easy-server.com/managed-vps/email/managing-email-account-using-plesk-panel'
     'og:type': website
     'og:title': 'Managing email account using Plesk Panel |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
+    'og:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.managed-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
     'og:image:type': image/png
     'og:image:width': 406
     'og:image:height': 312
@@ -16,15 +16,17 @@ metadata:
     'twitter:title': 'Managing email account using Plesk Panel |  Layershift KB'
     'twitter:site': '@layershift'
     'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
-    'article:published_time': '2023-08-20T14:44:15+01:00'
-    'article:modified_time': '2023-08-20T14:44:15+01:00'
+    'twitter:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.managed-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
+    'article:published_time': '2024-02-08T17:00:57+00:00'
+    'article:modified_time': '2024-02-08T17:00:57+00:00'
     'article:author': Layershift
+taxonomy:
+    category:
+        - docs
+menu: 'Manage email accounts'
 ---
 
-# Managing email account using Plesk Panel
-
-All our [Cloud VPS](https://www.layershift.com/managed-cloud-vps) plans come with an integrated mail server which allows you to host and manage your mailboxes using the industry-leading Plesk Panel. This control panel is very easy and intuitive to use but we would still like to show you how quickly it is to create, configure and access an email account in Plesk, so you can have your mailbox up an running in minutes!
+All our [Managed VPS](https://www.layershift.com/managed-cloud-vps) plans come with an integrated mail server which allows you to host and manage your mailboxes using the industry-leading Plesk Panel. This control panel is very easy and intuitive to use but we would still like to show you how quickly it is to create, configure and access an email account in Plesk, so you can have your mailbox up an running in minutes!
 
 ## Creating a new email address
 
@@ -50,7 +52,7 @@ On the following screen you will be prompted to create your new email account. J
 
 ![Managing-email-account-using-Plesk-Panel-6](Managing-email-account-using-Plesk-Panel-6.png "Managing-email-account-using-Plesk-Panel-6")
 
-Leave the **Access to the Control Panel** check box ticked if you wish to create a new user for the Plesk Panel using this email address and give the mail account owner access to your server.
+Leave the **Access to the Control Panel** check box ticked if you wish to create a new user for the Plesk Panel using this email address and give the mail account owner access to email address settings.
 
 If this is an email account that you will be using frequently, you should leave the Mailbox check box selected. If you are using this email account as a placeholder for a different email address (for example you have an official company email but you wish to receive all the emails on your personal email address instead), then you won’t need a Mailbox, just configure email forwarding for this account.
 
@@ -68,7 +70,7 @@ There are a few ways you can access your newly created email account:
 
 #### From Plesk, using one of the Webmail clients available
 
-TO-DO: link default webmail client config article (please remove after you do it)
+Plesk has a [selection](../setting-up-your-default-webmail-client-in-plesk) of Webmail clients you can use with your domains.
 
 ![Managing-email-account-using-Plesk-Panel-8](Managing-email-account-using-Plesk-Panel-8.png "Managing-email-account-using-Plesk-Panel-8")
 
@@ -76,7 +78,7 @@ Click on the small Envelope icon next to your email address to open webmail and 
 
 #### Directly from your browser
 
-Just type **http://webmail.domain.com**(where domain.com is a substitute for your actual domain name) in the navigation bar. This will take you to the login screen where you will need to fill in the email address you wish to access and the password you selected while creating the account.
+Just type **https://webmail.domain.com**(where domain.com is a substitute for your actual domain name) in the navigation bar. This will take you to the login screen where you will need to fill in the email address you wish to access and the password you selected while creating the account.
 
 **Example:**
 Username: email@tutorials.com
@@ -84,7 +86,7 @@ Password: insert-your-password-here
 
 #### Using an external mail client
 
-We have a separate [article](https://kb.layershift.com/configure-plesk-mail) showing how you how to connect your Plesk email accounts with other mail clients.
+We have a separate [article](../how-to-configure-plesk-mail) showing how you how to connect your Plesk email accounts with other mail clients.
 
 ## Forwarding emails
 
@@ -94,9 +96,9 @@ To forward your emails, just click on your newly created email address and selec
 
 You will be able to add as many forwarding email addresses as you wish, just separate them using a new line, commas or white spaces. Now just tick the Switch on mail forwarding box and that’s it!
 
-If your mailbox is switched on under the General tab, all your emails will get to the primary email address, but also to the email addresses you add to the forwarding list.
+If your "Mailbox" is switched on under the General tab or "Do not deliver copies of forwarded emails to the Plesk mailbox" is unchecked, all received emails will be delivered to the local mailbox and to the email addresses from the forwarding list.
 
-If you switch the mailbox off, the emails will be received by the forwarding email addresses only and no copies will reach the primary email address.
+If you switch the mailbox off, the emails will be received by the forwarding email addresses only and no copies will reach the local mailbox.
 
 ## Setting up aliases
 
@@ -120,15 +122,15 @@ You can easily set your automatic-reply by going to the Auto-Reply tab.
 
 ## Spam Filtering
 
-The Spam Filter option allows you to separate the genuine emails sent to your email address from all the daily email junk so you can keep your inbox safe and uncluttered. You can either delete, mark unwanted emails as spam or move them to a special spam folder. To switch the Spam Filter on just go to the **Spam Filter** tab and tick the **Switch on spam filter on for this email address** check box.
+The Spam Filter option allows you to separate the genuine emails sent to your email address from all the daily email junk so you can keep your inbox safe and uncluttered. You can either delete, mark unwanted emails as spam or move them to a special spam folder. To apply custom Spam Filter settings just go to the **Spam Filter** tab and tick the **Switch on spam filter on for this email address** check box.
 
 ![Managing-email-account-using-Plesk-Panel-12](Managing-email-account-using-Plesk-Panel-12.png "Managing-email-account-using-Plesk-Panel-12")
 
 You will also have the option to decide what to do with the spam messages:
 
-* edit the subject of the email to clearly say it’s spam;
-* delete the spam messages;
-* move the spam messages to a different folder.
+* edit the subject of the email to clearly say it’s spam
+* delete the spam messages
+* move the spam messages to the Spam folder (messages from this folder will be used for Spam Filter training)
 
 ![Managing-email-account-using-Plesk-Panel-13](Managing-email-account-using-Plesk-Panel-13.png "Managing-email-account-using-Plesk-Panel-13")
 
@@ -142,14 +144,12 @@ The email addresses you add on the **White List** section will not be checked by
 
 If you’re worried that Spam might still get through to your inbox or you’re not sure what the right filter sensitivity level is, don’t be ! We include **SpamAssasin** on all of our servers, free of charge. SpamAssasin is a powerful filtering system who can classify email and block spam, so you can rest assured as most of the spam messages will be stopped before reaching your Inbox.
 
-To-Do: link the article
 
-SpamAssasin is disabled by default, but you can add it to your server following the steps in this knowledge base article.
+## Reading and sending emails 
 
 Now that you’ve successfully created and configured your new email account, you should learn how to use it for reading and sending emails.
 
-### Reading and sending emails using the Roundcube Webmail
-### 
+### Using Roundcube Webmail 
 
 Once you login to your account, just click on the Inbox tab, on the left menu. You will be able to read all the messages sent to your email address.
 
@@ -163,7 +163,7 @@ To create a new email, just click on the **Compose** tab, right on the top on th
 
 Here you also have the options of forwarding your messages, reply and reply to all, delete, mark your messages, etc.
 
-### Reading and sending emails using Horde Webmail
+### Using Horde Webmail
 
 To read your emails using Horde Webmail is very easy, just click on the Mail tab, once logged in to your email account.
 
