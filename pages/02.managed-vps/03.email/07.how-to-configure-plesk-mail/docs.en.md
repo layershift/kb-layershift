@@ -1,14 +1,34 @@
 ---
 title: 'How to configure Plesk mail'
 media_order: How-to-configure-Plesk-mail-1.png
+taxonomy:
+    category:
+        - docs
+aura:
+    pagetype: website
+    description: 'Find the protocol most suited for you your needs, locate your mail server settings and configure Plesk mail on any device.'
+metadata:
+    description: 'Find the protocol most suited for you your needs, locate your mail server settings and configure Plesk mail on any device.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail'
+    'og:type': website
+    'og:title': 'How to configure Plesk mail | Layershift KB'
+    'og:description': 'Find the protocol most suited for you your needs, locate your mail server settings and configure Plesk mail on any device.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/07.how-to-configure-plesk-mail/How-to-configure-Plesk-mail-1.png'
+    'og:image:type': image/png
+    'og:image:width': 526
+    'og:image:height': 393
+    'og:author': Layershift
+    'article:published_time': '2024-03-01T16:54:52+00:00'
+    'article:modified_time': '2024-03-01T16:54:52+00:00'
+    'article:author': Layershift
 ---
 
 To see how to configure your Layershift hosted mail account on your specific device, please see the following links:
 
-*     [How to configure Plesk mail in Mac](/cloud-vps/email/how-to-configure-plesk-mail-in-mac)
-*     [How to configure Plesk mail in Outlook](/cloud-vps/email/how-to-configure-plesk-mail-in-outlook)
-*     [How to configure Plesk mail in iOS](/cloud-vps/email/how-to-configure-plesk-mail-in-ios)
-*     [How to configure Plesk mail in Android](/cloud-vps/email/how-to-configure-plesk-mail-in-android)
+*     [How to configure Plesk mail in Mac](../how-to-configure-plesk-mail-in-mac)
+*     [How to configure Plesk mail in Outlook](../how-to-configure-plesk-mail-in-outlook)
+*     [How to configure Plesk mail in iOS](../how-to-configure-plesk-mail-in-ios)
+*     [How to configure Plesk mail in Android](../how-to-configure-plesk-mail-in-android)
 
 If you would like to configure Plesk mail in a different device or mail client, please check the general configuration settings below.
 

@@ -2,7 +2,19 @@
 title: 'How to configure Plesk mail in Mac'
 media_order: '1_Configure-Plesk-mail-in-Mac-Step-1A.png,3_Configure-Plesk-mail-in-Mac-Step-2.png,2_Configure-Plesk-mail-in-Mac-Step-1B.png,4_Configure-Plesk-mail-in-Mac-Step-3.png,9_Configure-Plesk-mail-in-Mac-Step-8.png,8_Configure-Plesk-mail-in-Mac-Step-7.png,7_Configure-Plesk-mail-in-Mac-Step-6.png,5_Configure-Plesk-mail-in-Mac-Step-4.png,6_Configure-Plesk-mail-in-Mac-Step-5.png,10_Configure-Plesk-mail-in-Mac-Step-10.png,11_Configure-Plesk-mail-in-Mac-Step-11.png,12_Configure-Plesk-mail-in-Mac-Step-11.png'
 metadata:
-    description: how-to-configure-plesk-mail-in-mac
+    description: 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail-in-mac'
+    'og:type': website
+    'og:title': 'How to configure Plesk mail in Mac | Layershift KB'
+    'og:description': 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/06.how-to-configure-plesk-mail-in-mac/1_Configure-Plesk-mail-in-Mac-Step-1A.png'
+    'og:image:type': image/png
+    'og:image:width': 600
+    'og:image:height': 96
+    'og:author': Layershift
+    'article:published_time': '2024-03-01T16:48:56+00:00'
+    'article:modified_time': '2024-03-01T16:48:56+00:00'
+    'article:author': Layershift
 content:
     items:
         - '@self.children'
@@ -12,9 +24,11 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+menu: 'Plesk mail in Mac'
+aura:
+    pagetype: website
+    description: 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
 ---
-
-# How to configure Plesk mail in Mac
 
 Here is a step-by-step guide to help you configure Plesk mail in Mac.
 

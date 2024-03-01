@@ -2,23 +2,19 @@
 title: 'How to view email headers'
 media_order: '1_outlook-inbox.png,2_outlook-message-options.png,4_outlook.com-more-details-edited-670x222.png,3_headers-outlook.png,5_outlook.com-source-edited.png,6_outlook.com-headers_1.png,7_inbox-mac-e1428072974987-670x123.png,8_view-headers-mac.png,9_header-details-mac.png,10_horde-message.png,11_horde-source.png,12_headers-horde-601x600.png,13_mail-Roundcube.png,14_expand-Roundcube.png,15_headers-Roundcube.png,16_inbox-Yahoo-670x124.png,17_details-Yahoo-670x249.png,18_headers-Yahoo.png,19_inbox-gmail-670x110.png,20_show-original-gmail-670x335.png,21_headers-gmail-670x200.png'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/email/how-to-view-email-headers'
+    description: 'Step by step instructions on how to see the full email headers for Yahoo, Gmail, Horde, Mac Mail, Outlook, Outlook.com and Roundcube. Read more.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-view-email-headers'
     'og:type': website
-    'og:title': 'How to view email headers |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/06.how-to-view-email-headers/1_outlook-inbox.png'
+    'og:title': 'How to view email headers | Layershift KB'
+    'og:description': 'Step by step instructions on how to see the full email headers for Yahoo, Gmail, Horde, Mac Mail, Outlook, Outlook.com and Roundcube. Read more.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/08.how-to-view-email-headers/1_outlook-inbox.png'
     'og:image:type': image/png
     'og:image:width': 1267
     'og:image:height': 376
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to view email headers |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/06.how-to-view-email-headers/1_outlook-inbox.png'
-    'article:published_time': '2023-08-21T10:57:57+01:00'
-    'article:modified_time': '2023-08-21T10:57:57+01:00'
+    'article:published_time': '2024-03-01T16:52:27+00:00'
+    'article:modified_time': '2024-03-01T16:52:27+00:00'
     'article:author': Layershift
-    description: how-to-view-email-headers
 content:
     items:
         - '@self.children'
@@ -29,14 +25,14 @@ content:
     pagination: true
     url_taxonomy_filters: true
 aura:
-    metadata:
-        description: how-to-view-email-headers
     pagetype: website
+    description: 'Step by step instructions on how to see the full email headers for Yahoo, Gmail, Horde, Mac Mail, Outlook, Outlook.com and Roundcube. Read more.'
+taxonomy:
+    category:
+        - docs
 ---
 
-# How to view email headers
-
-### Why do I need to see the full email headers ?
+**Why do I need to see the full email headers ?**
 
 Being able to see the full email headers (or the internet headers as some people call them) can be very helpful in troubleshooting common delivery issues, finding the reasons behind a bounced message or even identifying spam emails from real ones. The information displayed by default by the email header is the sender and recipient email addresses and the time stamp showing when the email was received, but this is not all that a header contains. Most email clients don’t reveal the full headers, so things like the return path of the email or the SPF record are hidden. Knowing how to manually find these details can help our support team in identifying and solving your email problem quicker.
 
@@ -46,7 +42,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 [Outlook.com](#outlook.com)
 
-[Apple Mail](apple-mail)
+[Apple Mail](#apple-mail)
 
 [Horde](#horde)
 
@@ -57,7 +53,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 [Gmail/Google Apps](#gmail-google-apps)
 
 
-## Outlook
+### Outlook
 
 **1.** Go to your inbox and select the email you wish to check 
 
@@ -73,7 +69,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![3_headers-outlook](3_headers-outlook.png "3_headers-outlook")
 
-## Outlook.com
+### Outlook.com
 
 **1.** Sign in to your Outlook.com account
 
@@ -89,7 +85,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![6_outlook.com-headers_1](6_outlook.com-headers_1.png "6_outlook.com-headers_1") 
 
-## Apple Mail
+### Apple Mail
 
 **1.** Open your inbox and click on the email 
 
@@ -103,7 +99,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![9_header-details-mac](9_header-details-mac.png "9_header-details-mac") 
 
-## Horde
+### Horde
 
 **1.** Open the Horde webmail and select the email you wish to check.
 
@@ -117,7 +113,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![12_headers-horde-601x600](12_headers-horde-601x600.png "12_headers-horde-601x600")
 
-## Roundcube
+### Roundcube
 
 **1.** Login to your Roundcube webmail
 
@@ -133,7 +129,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![15_headers-Roundcube](15_headers-Roundcube.png "15_headers-Roundcube") 
 
-## Yahoo
+### Yahoo
 
 **1.** Login to your Yahoo! account
 
@@ -149,7 +145,7 @@ You’ll be able to see step by step instructions on how to check the full heade
 
 ![18_headers-Yahoo](18_headers-Yahoo.png "18_headers-Yahoo") 
 
-## Gmail/Google Apps
+### Gmail/Google Apps
 
 **1.** Sign in to your Gmail / Google Apps account
 

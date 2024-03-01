@@ -3,22 +3,20 @@ title: 'Managing email account using Plesk Panel'
 media_order: 'Managing-email-account-using-Plesk-Panel-17.png,Managing-email-account-using-Plesk-Panel-16.png,Managing-email-account-using-Plesk-Panel-1.png,Managing-email-account-using-Plesk-Panel-15.png,Managing-email-account-using-Plesk-Panel-13.png,Managing-email-account-using-Plesk-Panel-5.png,Managing-email-account-using-Plesk-Panel-4.png,Managing-email-account-using-Plesk-Panel-14.png,Managing-email-account-using-Plesk-Panel-6.png,Managing-email-account-using-Plesk-Panel-2.png,Managing-email-account-using-Plesk-Panel-18.png,Managing-email-account-using-Plesk-Panel-12.png,Managing-email-account-using-Plesk-Panel-8.png,Managing-email-account-using-Plesk-Panel-10.png,Managing-email-account-using-Plesk-Panel-9.png,Managing-email-account-using-Plesk-Panel-3.png,Managing-email-account-using-Plesk-Panel-7.png,Managing-email-account-using-Plesk-Panel-11.png'
 aura:
     pagetype: website
+    description: 'Learn how to create new mail accounts, access webmail, add aliases, configure email forwarding and auto-replies or enable filters to get rid of spam.'
 metadata:
-    'og:url': 'https://kb.raul.uk.easy-server.com/managed-vps/email/managing-email-account-using-plesk-panel'
+    description: 'Learn how to create new mail accounts, access webmail, add aliases, configure email forwarding and auto-replies or enable filters to get rid of spam.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/managing-email-account-using-plesk-panel'
     'og:type': website
-    'og:title': 'Managing email account using Plesk Panel |  Layershift KB'
-    'og:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.managed-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
+    'og:title': 'Managing email account using Plesk Panel | Layershift KB'
+    'og:description': 'Learn how to create new mail accounts, access webmail, add aliases, configure email forwarding and auto-replies or enable filters to get rid of spam.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
     'og:image:type': image/png
     'og:image:width': 406
     'og:image:height': 312
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Managing email account using Plesk Panel |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.managed-vps/03.email/01.managing-email-account-using-plesk-panel/Managing-email-account-using-Plesk-Panel-17.png'
-    'article:published_time': '2024-02-08T17:00:57+00:00'
-    'article:modified_time': '2024-02-08T17:00:57+00:00'
+    'article:published_time': '2024-02-09T16:24:52+00:00'
+    'article:modified_time': '2024-02-09T16:24:52+00:00'
     'article:author': Layershift
 taxonomy:
     category:

@@ -1,32 +1,28 @@
 ---
 title: 'Setting up your default webmail client in Plesk'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/email/setting-up-your-default-webmail-client-in-plesk'
+    description: 'We offer a choice between two great webmail clients, Roundcube and Horde in our Plesk Managed VPS Hosting services!'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/setting-up-your-default-webmail-client-in-plesk'
     'og:type': website
-    'og:title': 'Setting up your default webmail client in Plesk |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/10.setting-up-your-default-webmail-client-in-plesk/Setting-up-your-default-webmail-client-in-Plesk-1.png'
+    'og:title': 'Setting up your default webmail client in Plesk | Layershift KB'
+    'og:description': 'We offer a choice between two great webmail clients, Roundcube and Horde in our Plesk Managed VPS Hosting services!'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/02.setting-up-your-default-webmail-client-in-plesk/Setting-up-your-default-webmail-client-in-Plesk-1.png'
     'og:image:type': image/png
     'og:image:width': 742
     'og:image:height': 713
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Setting up your default webmail client in Plesk |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/10.setting-up-your-default-webmail-client-in-plesk/Setting-up-your-default-webmail-client-in-Plesk-1.png'
-    'article:published_time': '2023-08-21T12:09:38+01:00'
-    'article:modified_time': '2023-08-21T12:09:38+01:00'
+    'article:published_time': '2024-03-01T16:35:50+00:00'
+    'article:modified_time': '2024-03-01T16:35:50+00:00'
     'article:author': Layershift
-    description: setting-up-your-default-webmail-client-in-plesk
 published: true
 aura:
-    metadata:
-        description: setting-up-your-default-webmail-client-in-plesk
     pagetype: website
+    description: 'We offer a choice between two great webmail clients, Roundcube and Horde in our Plesk Managed VPS Hosting services!'
 media_order: 'Setting-up-your-default-webmail-client-in-Plesk-1.png,Screenshot from 2023-08-21 14-06-42.png'
 taxonomy:
     category:
         - docs
+menu: 'Set default webmail'
 ---
 
 ## How do I change webmail client?

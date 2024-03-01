@@ -2,23 +2,19 @@
 title: 'How to configure Plesk mail in Android'
 media_order: 'Configure-Plesk-mail-in-Android-Step-1.png,Configure-Plesk-mail-in-Android-Step-2.png,Configure-Plesk-mail-in-Android-Step-3.png,Configure-Plesk-mail-in-Android-Step-4.png,Configure-Plesk-mail-in-Android-Step-5.png,Configure-Plesk-mail-in-Android-Step-6.png,Configure-Plesk-mail-in-Android-Step-7.png,Configure-Plesk-mail-in-Android-Step-9.png,Configure-Plesk-mail-in-Android-Step-8.png,Configure-Plesk-mail-in-Android-Step-9B.png,Configure-Plesk-mail-in-Android-Step-10.png'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/email/how-to-configure-plesk-mail-in-android'
+    description: 'Here is a step-by-step guide to help you configure Plesk mail in Android.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail-in-android'
     'og:type': website
-    'og:title': 'How to configure Plesk mail in Android |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/02.how-to-configure-plesk-mail-in-android/Configure-Plesk-mail-in-Android-Step-1.png'
+    'og:title': 'How to configure Plesk mail in Android | Layershift KB'
+    'og:description': 'Here is a step-by-step guide to help you configure Plesk mail in Android.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/03.how-to-configure-plesk-mail-in-android/Configure-Plesk-mail-in-Android-Step-1.png'
     'og:image:type': image/png
     'og:image:width': 400
     'og:image:height': 248
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to configure Plesk mail in Android |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/02.how-to-configure-plesk-mail-in-android/Configure-Plesk-mail-in-Android-Step-1.png'
-    'article:published_time': '2023-08-21T10:14:39+01:00'
-    'article:modified_time': '2023-08-21T10:14:39+01:00'
+    'article:published_time': '2024-02-08T15:53:37+00:00'
+    'article:modified_time': '2024-02-08T15:53:37+00:00'
     'article:author': Layershift
-    description: how-to-configure-plesk-mail-in-android
 content:
     items:
         - '@self.children'
@@ -29,12 +25,13 @@ content:
     pagination: true
     url_taxonomy_filters: true
 aura:
-    metadata:
-        description: how-to-configure-plesk-mail-in-android
     pagetype: website
+    description: 'Here is a step-by-step guide to help you configure Plesk mail in Android.'
+taxonomy:
+    category:
+        - docs
+menu: 'Plesk mail in Android'
 ---
-
-# How to configure Plesk mail in Android
 
 Here is a step-by-step guide to help you configure Plesk mail in Android.
 
@@ -42,7 +39,7 @@ Here is a step-by-step guide to help you configure Plesk mail in Android.
 
 Open the Gmail app, go to `Settings` and tap **Add account**:
 
-![Configure-Plesk-mail-in-Android-Step-1](Configure-Plesk-mail-in-Android-Step-1.png "Configure-Plesk-mail-in-Android-Step-1")4
+![Configure-Plesk-mail-in-Android-Step-1](Configure-Plesk-mail-in-Android-Step-1.png "Configure-Plesk-mail-in-Android-Step-1")
 
 ### Step 2
 

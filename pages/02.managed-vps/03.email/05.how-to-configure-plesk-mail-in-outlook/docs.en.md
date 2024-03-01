@@ -2,23 +2,19 @@
 title: 'How to configure Plesk mail in Outlook'
 media_order: '1_How-to-configure-Plesk-mail-in-Outlook-Step-1.png,2_How-to-configure-Plesk-mail-in-Outlook-Step-2.png,3_How-to-configure-Plesk-mail-in-Outlook-Step-3.png,4_How-to-configure-Plesk-mail-in-Outlook-Step-4.png,5_How-to-configure-Plesk-mail-in-Outlook-Step-5.png,6_How-to-configure-Plesk-mail-in-Outlook-Step-6.png,7_How-to-configure-Plesk-mail-in-Outlook-Step-7.png,8_How-to-configure-Plesk-mail-in-Outlook-Step-8.png'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/email/how-to-configure-plesk-mail-in-outlook'
+    description: 'Here is a step-by-step guide to help you configure Plesk mail in Outlook.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail-in-outlook'
     'og:type': website
-    'og:title': 'How to configure Plesk mail in Outlook |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/04.how-to-configure-plesk-mail-in-outlook/1_How-to-configure-Plesk-mail-in-Outlook-Step-1.png'
+    'og:title': 'How to configure Plesk mail in Outlook | Layershift KB'
+    'og:description': 'Here is a step-by-step guide to help you configure Plesk mail in Outlook.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/05.how-to-configure-plesk-mail-in-outlook/1_How-to-configure-Plesk-mail-in-Outlook-Step-1.png'
     'og:image:type': image/png
     'og:image:width': 222
     'og:image:height': 159
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to configure Plesk mail in Outlook |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/03.email/04.how-to-configure-plesk-mail-in-outlook/1_How-to-configure-Plesk-mail-in-Outlook-Step-1.png'
-    'article:published_time': '2023-08-21T10:23:32+01:00'
-    'article:modified_time': '2023-08-21T10:23:32+01:00'
+    'article:published_time': '2024-03-01T16:45:35+00:00'
+    'article:modified_time': '2024-03-01T16:45:35+00:00'
     'article:author': Layershift
-    description: how-to-configure-plesk-mail-in-outlook
 content:
     items:
         - '@self.children'
@@ -29,12 +25,13 @@ content:
     pagination: true
     url_taxonomy_filters: true
 aura:
-    metadata:
-        description: how-to-configure-plesk-mail-in-outlook
     pagetype: website
+    description: 'Here is a step-by-step guide to help you configure Plesk mail in Outlook.'
+taxonomy:
+    category:
+        - docs
+menu: 'Plesk mail in Outlook'
 ---
-
-# How to configure Plesk mail in Outlook
 
 Here is a step-by-step guide to help you configure Plesk mail in Outlook.
 
