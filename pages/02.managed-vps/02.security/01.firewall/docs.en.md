@@ -1,8 +1,26 @@
 ---
-title: 'Firewall'
+title: Firewall
 visible: true
 metadata:
-    description: 'Layershift Cloud VPS iptables and fail2ban firewall documentation'
+    description: 'Layershift Managed VPS iptables and fail2ban firewall documentation'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/security/firewall'
+    'og:type': website
+    'og:title': 'Firewall | Layershift KB'
+    'og:description': 'Layershift Managed VPS iptables and fail2ban firewall documentation'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
+    'og:author': Layershift
+    'article:published_time': '2024-02-29T15:43:55+00:00'
+    'article:modified_time': '2024-02-29T15:43:55+00:00'
+    'article:author': Layershift
+taxonomy:
+    category:
+        - docs
+aura:
+    pagetype: website
+    description: 'Layershift Managed VPS iptables and fail2ban firewall documentation'
 ---
 
 Your Cloud VPS incorporates two firewall systems to keep your server safe:

@@ -5,22 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Access Layershifts comprehensive Knowledge Base. Dive into expertly curated articles, guides, and FAQs designed to answer your question'
 metadata:
-    'og:url': 'https://kb.raul.uk.easy-server.com/'
+    description: 'Access Layershifts comprehensive Knowledge Base. Dive into expertly curated articles, guides, and FAQs designed to answer your question'
+    'og:url': 'https://www.layershift.com/kb/'
     'og:type': website
-    'og:title': 'Home |  Layershift KB'
-    'og:image': 'https://kb.raul.uk.easy-server.com/user/pages/01.home/Enscale.png'
-    'og:image:type': image/png
-    'og:image:width': 250
-    'og:image:height': 93
+    'og:title': 'Home | Layershift KB'
+    'og:description': 'Access Layershifts comprehensive Knowledge Base. Dive into expertly curated articles, guides, and FAQs designed to answer your question'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Home |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.raul.uk.easy-server.com/user/pages/01.home/Enscale.png'
-    'article:published_time': '2024-01-11T12:46:11+00:00'
-    'article:modified_time': '2024-01-11T12:52:47+00:00'
+    'article:published_time': '2024-02-29T16:12:17+00:00'
+    'article:modified_time': '2024-02-29T16:12:17+00:00'
     'article:author': Layershift
 visible: false
 page-toc:
@@ -28,7 +26,6 @@ page-toc:
     anchors:
         link: false
 menu: 'KB Home'
-media_order: 'Enscale.png,EhloMail.png,SSL.png,Domains.png,Servers.png'
 ---
 
 # Knowledge Base & Documentation

@@ -1,8 +1,29 @@
 ---
 title: 'Full filesystem backups'
 visible: true
+taxonomy:
+    category:
+        - docs
+aura:
+    pagetype: website
+    description: 'Backing up hosting data is vital, so we take full filesystem backups on our Cloud VPS services included for free. See all benefits to learn more.'
+metadata:
+    description: 'Backing up hosting data is vital, so we take full filesystem backups on our Cloud VPS services included for free. See all benefits to learn more.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/backups/full-filesystem-backups'
+    'og:type': website
+    'og:title': 'Full filesystem backups | Layershift KB'
+    'og:description': 'Backing up hosting data is vital, so we take full filesystem backups on our Cloud VPS services included for free. See all benefits to learn more.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
+    'og:author': Layershift
+    'article:published_time': '2024-03-01T10:47:30+00:00'
+    'article:modified_time': '2024-03-01T10:47:30+00:00'
+    'article:author': Layershift
 ---
-We take full filesystem backups of each Cloud VPS at least once every 6 hours.
+
+We take full filesystem backups of each Managed VPS at least once every 6 hours.
 
 These backups comprise of your entire server filesystem, including everything inside your VPS – all files and directories, databases, emails, DNS records, configuration files including Plesk, etc.  We take backups at block-level to ensure the fastest possible backup time and no noticeable impact to performance.
 
@@ -28,7 +49,7 @@ Full Backup Restore Points | 28 | 56 | 56 - 336
 Backup Retention | 7 days | 14 days | 14 days
 
 !!! * There are **no storage limits** or additional storage fees.
-!!! * All backups are covered by our robust [Managed Hosting SLA](http://www.layershift.com/legal/ManagedHostingServiceLevelAgreement.pdf)
+!!! * All backups are covered by our robust Managed Hosting SLA
 
 !!!! For your security, filesystem backups are stored on a secure, high-speed, private backup network.
 

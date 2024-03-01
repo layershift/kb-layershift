@@ -1,6 +1,26 @@
 ---
 title: 'Web Application Firewall (WAF)'
 visible: true
+taxonomy:
+    category:
+        - docs
+aura:
+    pagetype: website
+    description: 'Comparison of Atomic Basic ModSecurity (free) vs. Atomic Advanced ModSecurity Rules (Security Core Complete add-on) for Plesk Web Application Firewall'
+metadata:
+    description: 'Comparison of Atomic Basic ModSecurity (free) vs. Atomic Advanced ModSecurity Rules (Security Core Complete add-on) for Plesk Web Application Firewall'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/security/web-application-firewall'
+    'og:type': website
+    'og:title': 'Web Application Firewall (WAF) | Layershift KB'
+    'og:description': 'Comparison of Atomic Basic ModSecurity (free) vs. Atomic Advanced ModSecurity Rules (Security Core Complete add-on) for Plesk Web Application Firewall'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
+    'og:author': Layershift
+    'article:published_time': '2024-03-01T13:26:39+00:00'
+    'article:modified_time': '2024-03-01T13:26:39+00:00'
+    'article:author': Layershift
 ---
 
 In addition to [filtering traffic by IP address](../firewall), Plesk provides an integrated Web Application Firewall (WAF) feature via Apache mod_security. 
