@@ -21,3 +21,6 @@ taxonomy:
 title: Email
 ---
 
+#Email
+
+How to use Managed VPS email features and how to configure a variety of email clients
