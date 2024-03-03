@@ -1,8 +1,27 @@
 ---
 title: 'Plesk editions explained'
 metadata:
-    description: 'Plesk editions explained.'
+    description: 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/plesk-editions-explained'
+    'og:type': website
+    'og:title': 'Plesk editions explained | Layershift KB'
+    'og:description': 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
+    'og:author': Layershift
+    'article:published_time': '2024-02-08T15:46:22+00:00'
+    'article:modified_time': '2024-02-08T15:46:22+00:00'
+    'article:author': Layershift
 visible: true
+taxonomy:
+    category:
+        - docs
+aura:
+    metadata: {  }
+    pagetype: website
+    description: 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
 ---
 
 We offer three Plesk editions, each with a different domain limit and with some features (such as customer and reseller management) only offered on the higher editions

@@ -3,26 +3,25 @@ title: 'How to enable PHP functions in Plesk'
 media_order: 'How to enable PHP functions in Plesk-1.png,How to enable PHP functions in Plesk-2.png'
 aura:
     pagetype: website
+    description: 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/how-to-enable-php-functions-in-plesk'
+    description: 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-enable-php-functions-in-plesk'
     'og:type': website
-    'og:title': 'How to enable PHP functions in Plesk |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/05.how-to-enable-php-functions-in-plesk/How to enable PHP functions in Plesk-1.png'
+    'og:title': 'How to enable PHP functions in Plesk | Layershift KB'
+    'og:description': 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/04.plesk/05.how-to-enable-php-functions-in-plesk/How to enable PHP functions in Plesk-1.png'
     'og:image:type': image/png
     'og:image:width': 1461
     'og:image:height': 788
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to enable PHP functions in Plesk |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/05.how-to-enable-php-functions-in-plesk/How to enable PHP functions in Plesk-1.png'
-    'article:published_time': '2023-08-27T17:14:40+01:00'
-    'article:modified_time': '2023-08-27T17:17:32+01:00'
+    'article:published_time': '2024-03-03T00:53:57+00:00'
+    'article:modified_time': '2024-03-03T00:53:57+00:00'
     'article:author': Layershift
 taxonomy:
     category:
         - docs
+menu: 'Enable PHP functions'
 ---
 
 # How to enable PHP functions in Plesk

@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/ssh/connect-to-your-plesk-server-using-ssh-client'
+    description: 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/ssh/connect-to-your-plesk-server-using-ssh-client'
     'og:type': website
-    'og:title': 'Connect to your Plesk server using SSH client |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/05.ssh/02.connect-to-your-plesk-server-using-ssh-client/Connect to your Plesk server using SSH client-1.png'
-    'og:image:type': image/png
-    'og:image:width': 803
-    'og:image:height': 1131
+    'og:title': 'Connect to your Plesk server using SSH client | Layershift KB'
+    'og:description': 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Connect to your Plesk server using SSH client |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/05.ssh/02.connect-to-your-plesk-server-using-ssh-client/Connect to your Plesk server using SSH client-1.png'
-    'article:published_time': '2023-10-10T09:19:40+01:00'
-    'article:modified_time': '2023-10-10T09:22:35+01:00'
+    'article:published_time': '2024-03-03T01:50:33+00:00'
+    'article:modified_time': '2024-03-03T01:50:33+00:00'
     'article:author': Layershift
-media_order: 'Connect to your Plesk server using SSH client-1.png,Connect to your Plesk server using SSH client-3.png,Connect to your Plesk server using SSH client-2.png,Connect to your Plesk server using SSH client-5.png,Connect to your Plesk server using SSH client-6.png,Connect to your Plesk server using SSH client-7.png,Connect to your Plesk server using SSH client-4.png'
 ---
 
 In order to successfully connect to your server / website over SSH you’ll have to:

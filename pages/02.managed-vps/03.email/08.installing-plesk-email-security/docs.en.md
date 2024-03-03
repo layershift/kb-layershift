@@ -2,24 +2,21 @@
 title: 'Installing Plesk Email Security'
 aura:
     pagetype: website
+    description: 'Learn how you can enhance your mailbox SPAM and virus protection using Plesk Email security '
 metadata:
-    'og:url': 'https://kb.raul.uk.easy-server.com/cloud-vps/plesk/installing-plesk-email-security'
+    description: 'Learn how you can enhance your mailbox SPAM and virus protection using Plesk Email security '
+    'og:url': 'https://www.layershift.com/kb/managed-vps/email/installing-plesk-email-security'
     'og:type': website
-    'og:title': 'Installing Plesk Email Security |  Layershift KB'
-    'og:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.cloud-vps/04.plesk/07.installing-plesk-email-security/Installing Plesk Email Security-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1072
-    'og:image:height': 959
+    'og:title': 'Installing Plesk Email Security | Layershift KB'
+    'og:description': 'Learn how you can enhance your mailbox SPAM and virus protection using Plesk Email security '
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Installing Plesk Email Security |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.raul.uk.easy-server.com/user/pages/02.cloud-vps/04.plesk/07.installing-plesk-email-security/Installing Plesk Email Security-1.png'
-    'article:published_time': '2024-01-25T13:59:47+00:00'
-    'article:modified_time': '2024-01-25T13:59:47+00:00'
+    'article:published_time': '2024-03-03T01:54:22+00:00'
+    'article:modified_time': '2024-03-03T01:54:22+00:00'
     'article:author': Layershift
-media_order: 'Installing Plesk Email Security-1.png,Installing Plesk Email Security-2.png,Installing Plesk Email Security-4.png'
 taxonomy:
     category:
         - docs

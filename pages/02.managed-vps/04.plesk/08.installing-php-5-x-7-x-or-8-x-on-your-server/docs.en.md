@@ -1,23 +1,23 @@
 ---
-title: 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server'
+title: 'Installing PHP 5.x, 7.x or 8.x on your server'
 taxonomy:
     category:
         - docs
 aura:
     pagetype: website
+    description: 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/installing-php-5-4-5-5-5-6-or-7-on-your-server'
+    description: 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/installing-php-5-x-7-x-or-8-x-on-your-server'
     'og:type': website
-    'og:title': 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server |  Layershift KB'
+    'og:title': 'Installing PHP 5.x, 7.x or 8.x on your server | Layershift KB'
+    'og:description': 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-12-03T15:42:36+00:00'
-    'article:modified_time': '2023-12-03T15:42:36+00:00'
+    'article:published_time': '2024-03-03T01:25:30+00:00'
+    'article:modified_time': '2024-03-03T01:25:30+00:00'
     'article:author': Layershift
 media_order: 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server-1.png,Installing PHP 5.4, 5.5, 5.6 or 7 on your server-2.png'
+menu: 'Install new PHP versions'
 ---
 
 If you already have the new Plesk Panel, all the above PHP versions should already be installed on your server and you can just switch between them by following these simple steps:

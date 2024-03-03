@@ -1,28 +1,26 @@
 ---
 title: 'Website staging with Plesk Obsidian'
-media_order: 'Website-staging-with-Plesk-Obsidian-5.png,Website-staging-with-Plesk-Obsidian-15.png,Website-staging-with-Plesk-Obsidian-8.png,Website-staging-with-Plesk-Obsidian-10.png,Website-staging-with-Plesk-Obsidian-14.png,Website-staging-with-Plesk-Obsidian-9.png,Website-staging-with-Plesk-Obsidian-13.png,Website-staging-with-Plesk-Obsidian-2.png,Website-staging-with-Plesk-Obsidian-7.png,Website-staging-with-Plesk-Obsidian-12.png,Website-staging-with-Plesk-Obsidian-6.png,Website-staging-with-Plesk-Obsidian-4.png,Website-staging-with-Plesk-Obsidian-1.png,Website-staging-with-Plesk-Obsidian-3.png,Website-staging-with-Plesk-Obsidian-11.png'
 aura:
     pagetype: website
+    description: 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/website-staging-with-plesk-obsidian'
+    description: 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/website-staging-with-plesk-obsidian'
     'og:type': website
-    'og:title': 'Website staging with Plesk Obsidian |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/04.website-staging-with-plesk-obsidian/Website-staging-with-Plesk-Obsidian-5.png'
-    'og:image:type': image/png
-    'og:image:width': 515
-    'og:image:height': 669
+    'og:title': 'Website staging with Plesk Obsidian | Layershift KB'
+    'og:description': 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Website staging with Plesk Obsidian |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/04.website-staging-with-plesk-obsidian/Website-staging-with-Plesk-Obsidian-5.png'
-    'article:published_time': '2023-08-27T17:05:00+01:00'
-    'article:modified_time': '2023-08-27T17:05:00+01:00'
+    'article:published_time': '2024-03-02T23:33:35+00:00'
+    'article:modified_time': '2024-03-02T23:33:35+00:00'
     'article:author': Layershift
 taxonomy:
     category:
         - docs
+menu: 'Website staging'
 ---
 
 # Website staging with Plesk Obsidian  

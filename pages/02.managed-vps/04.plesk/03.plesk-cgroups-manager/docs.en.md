@@ -1,25 +1,22 @@
 ---
 title: 'Plesk CGroups Manager'
 published: true
-media_order: 'Plesk-CGroups-Manager-7.png,Plesk-CGroups-Manager-6.png,Plesk-CGroups-Manager-10.png,Plesk-CGroups-Manager-1.png,Plesk-CGroups-Manager-9.png,Plesk-CGroups-Manager-3.png,Plesk-CGroups-Manager-5.png,Plesk-CGroups-Manager-2.png,Plesk-CGroups-Manager-8.png,Plesk-CGroups-Manager-4.png,Plesk-CGroups-Manager-11.png'
 aura:
     pagetype: website
+    description: 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/plesk-cgroups-manager'
+    description: 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/plesk-cgroups-manager'
     'og:type': website
-    'og:title': 'Plesk CGroups Manager |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/03.plesk-cgroups-manager/Plesk-CGroups-Manager-7.png'
-    'og:image:type': image/png
-    'og:image:width': 1348
-    'og:image:height': 703
+    'og:title': 'Plesk CGroups Manager | Layershift KB'
+    'og:description': 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Plesk CGroups Manager |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/03.plesk-cgroups-manager/Plesk-CGroups-Manager-7.png'
-    'article:published_time': '2023-08-27T16:26:57+01:00'
-    'article:modified_time': '2023-08-27T16:26:57+01:00'
+    'article:published_time': '2024-03-02T23:21:43+00:00'
+    'article:modified_time': '2024-03-02T23:21:43+00:00'
     'article:author': Layershift
 taxonomy:
     category:

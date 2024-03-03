@@ -1,25 +1,26 @@
 ---
 title: 'How to change PHP interpreter in Plesk'
-media_order: 'How to change PHP version and PHP interpreter in Plesk-1.png,How to change PHP interpreter in Plesk-2.png'
 aura:
     pagetype: website
+    description: 'Find out how to change PHP version and PHP interpreter in Plesk. Step by step guide.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/how-to-change-php-version-and-php-interpreter-in-plesk'
+    description: 'Find out how to change PHP version and PHP interpreter in Plesk. Step by step guide.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-change-the-php-interpreter-in-plesk'
     'og:type': website
-    'og:title': 'How to change PHP interpreter in Plesk |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/06.how-to-change-php-version-and-php-interpreter-in-plesk/How to change PHP version and PHP interpreter in Plesk-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1463
-    'og:image:height': 553
+    'og:title': 'How to change PHP interpreter in Plesk | Layershift KB'
+    'og:description': 'Find out how to change PHP version and PHP interpreter in Plesk. Step by step guide.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to change PHP interpreter in Plesk |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/06.how-to-change-php-version-and-php-interpreter-in-plesk/How to change PHP version and PHP interpreter in Plesk-1.png'
-    'article:published_time': '2023-08-27T17:25:07+01:00'
-    'article:modified_time': '2023-08-27T17:25:07+01:00'
+    'article:published_time': '2024-03-03T00:14:50+00:00'
+    'article:modified_time': '2024-03-03T00:14:50+00:00'
     'article:author': Layershift
+taxonomy:
+    category:
+        - docs
+menu: 'Change PHP Version'
 ---
 
 # How to change PHP interpreter in Plesk

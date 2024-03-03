@@ -5,22 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/ssh/generating-ssh-keys-with-puttygen'
+    description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/ssh/generating-ssh-keys-with-puttygen'
     'og:type': website
-    'og:title': 'Generate SSH Key using PuTTYgen |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/05.ssh/01.generating-ssh-keys-with-puttygen/Generate SSH Key using PuTTYgen-1.png'
+    'og:title': 'Generate SSH Key using PuTTYgen | Layershift KB'
+    'og:description': 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/05.ssh/01.generating-ssh-keys-with-puttygen/Generate SSH Key using PuTTYgen-1.png'
     'og:image:type': image/png
     'og:image:width': 484
     'og:image:height': 472
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Generate SSH Key using PuTTYgen |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/05.ssh/01.generating-ssh-keys-with-puttygen/Generate SSH Key using PuTTYgen-1.png'
-    'article:published_time': '2023-10-08T21:26:27+01:00'
-    'article:modified_time': '2023-10-08T21:26:27+01:00'
+    'article:published_time': '2024-03-03T01:45:38+00:00'
+    'article:modified_time': '2024-03-03T01:45:38+00:00'
     'article:author': Layershift
 media_order: 'Generate SSH Key using PuTTYgen-1.png,Generate SSH Key using PuTTYgen-2.png,Generate SSH Key using PuTTYgen-4.png,Generate SSH Key using PuTTYgen-3.png,Generate SSH Key using PuTTYgen-6.png,Generate SSH Key using PuTTYgen-5.png'
 ---

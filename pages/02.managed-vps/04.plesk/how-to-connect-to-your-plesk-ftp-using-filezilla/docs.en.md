@@ -2,6 +2,27 @@
 title: 'How to connect to your Plesk FTP using Filezilla'
 visible: true
 media_order: 'How to connect to your Plesk FTP using Filezilla - base.png,How to connect to your Plesk FTP using Filezilla - Certificate.png,How to connect to your Plesk FTP using Filezilla - Sites Manager.png,How to connect to your Plesk FTP using Filezilla - base.xcf,How to connect to your Plesk FTP using Filezilla - Certificate.xcf,How to connect to your Plesk FTP using Filezilla - Sites Manager.xcf'
+taxonomy:
+    category:
+        - docs
+aura:
+    pagetype: website
+    description: 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
+metadata:
+    description: 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-connect-to-your-plesk-ftp-using-filezilla'
+    'og:type': website
+    'og:title': 'How to connect to your Plesk FTP using Filezilla | Layershift KB'
+    'og:description': 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
+    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/04.plesk/how-to-connect-to-your-plesk-ftp-using-filezilla/How to connect to your Plesk FTP using Filezilla - base.png'
+    'og:image:type': image/png
+    'og:image:width': 1617
+    'og:image:height': 746
+    'og:author': Layershift
+    'article:published_time': '2024-03-03T01:30:37+00:00'
+    'article:modified_time': '2024-03-03T01:30:37+00:00'
+    'article:author': Layershift
+menu: 'Connect to FTP server'
 ---
 
 To get started you need to identify the connection parameters first. FTP connection requires user, password and a host to connect to.

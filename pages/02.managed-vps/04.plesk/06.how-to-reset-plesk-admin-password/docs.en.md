@@ -5,24 +5,22 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Control Panel.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/cloud-vps/plesk/how-to-reset-plesk-admin-password'
+    description: 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Control Panel.'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-reset-plesk-admin-password'
     'og:type': website
-    'og:title': 'How to reset Plesk admin password |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/06.how-to-reset-plesk-admin-password/How to reset Plesk admin password-2.png'
-    'og:image:type': image/png
-    'og:image:width': 409
-    'og:image:height': 42
+    'og:title': 'How to reset Plesk admin password | Layershift KB'
+    'og:description': 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Control Panel.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to reset Plesk admin password |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/01.cloud-vps/04.plesk/06.how-to-reset-plesk-admin-password/How to reset Plesk admin password-2.png'
-    'article:published_time': '2023-10-15T14:54:20+01:00'
-    'article:modified_time': '2023-10-15T14:54:35+01:00'
+    'article:published_time': '2024-03-03T01:11:16+00:00'
+    'article:modified_time': '2024-03-03T01:11:16+00:00'
     'article:author': Layershift
-media_order: 'How to reset Plesk admin password-2.png,How to reset Plesk admin password-3.png,How to reset Plesk admin password-1.png'
+menu: 'Reset admin password'
 ---
 
 It’s possible to reset the password for your Plesk control panel at anytime via your Layershift account at [control.layershift.com](https://control.layershift.com/) .
