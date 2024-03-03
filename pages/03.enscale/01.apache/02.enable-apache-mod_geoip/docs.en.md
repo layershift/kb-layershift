@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_geoip. Learn how to add it to your Apache server.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/apache/enable-apache-mod_geoip'
+    description: 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_geoip. Learn how to add it to your Apache server.'
+    'og:url': 'https://www.layershift.com/kb/enscale/apache/enable-apache-mod_geoip'
     'og:type': website
-    'og:title': 'Enable Apache mod_geoip |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/01.apache/02.enable-apache-mod_geoip/Enable Apache mod_geoip-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1098
-    'og:image:height': 143
+    'og:title': 'Enable Apache mod_geoip | Layershift KB'
+    'og:description': 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_geoip. Learn how to add it to your Apache server.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enable Apache mod_geoip |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/01.apache/02.enable-apache-mod_geoip/Enable Apache mod_geoip-1.png'
-    'article:published_time': '2023-08-27T06:29:20+01:00'
-    'article:modified_time': '2023-08-27T06:29:20+01:00'
+    'article:published_time': '2024-03-03T03:28:03+00:00'
+    'article:modified_time': '2024-03-03T03:28:03+00:00'
     'article:author': Layershift
-media_order: 'Enable Apache mod_geoip-1.png,Enable Apache mod_geoip-2.png,Enable Apache mod_geoip-3.png'
 ---
 
 Mod_geoip can be used to perform redirection based on country location. Installing it will allow you to block or redirect traffic based on the geographical location of the client using their IP address. You can also read the geoIP result inside your PHP scripts (or output into JS) to perform application logic.
@@ -35,8 +32,6 @@ With Enscale, you can add this module to your Apache server. There is also the p
 ![Enable%20Apache%20mod_geoip-1](Enable%20Apache%20mod_geoip-1.png "Enable%20Apache%20mod_geoip-1")
 
 * Access the **conf.modules.d/** directory and search for `10-geoip.conf` and click on it:
-
-![Enable%20Apache%20mod_geoip-2](Enable%20Apache%20mod_geoip-2.png "Enable%20Apache%20mod_geoip-2")
 
 * Once there, activate **mod_geoip** by uncommenting the LoadModule line:
 

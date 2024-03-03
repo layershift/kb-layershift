@@ -6,21 +6,24 @@ taxonomy:
 visible: true
 aura:
     pagetype: website
+    description: 'Tools and documentation for creating reliable logical backups of your MySQL, MariaDB, PostgreSQL, MongoDB and CouchDB on Enscale PaaS'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/backups/logical-backups-for-enscale-cloud-servers'
+    description: 'Tools and documentation for creating reliable logical backups of your MySQL, MariaDB, PostgreSQL, MongoDB and CouchDB on Enscale PaaS'
+    'og:url': 'https://www.layershift.com/kb/enscale/backups/logical-backups-for-enscale-cloud-servers'
     'og:type': website
-    'og:title': 'Logical backups for Enscale Cloud Servers |  Layershift KB'
+    'og:title': 'Logical backups for Enscale Cloud Servers | Layershift KB'
+    'og:description': 'Tools and documentation for creating reliable logical backups of your MySQL, MariaDB, PostgreSQL, MongoDB and CouchDB on Enscale PaaS'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Logical backups for Enscale Cloud Servers |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-27T07:29:44+01:00'
-    'article:modified_time': '2023-08-27T07:29:44+01:00'
+    'article:published_time': '2023-10-19T13:08:27+01:00'
+    'article:modified_time': '2023-10-19T13:08:27+01:00'
     'article:author': Layershift
 ---
 
-We’ve explained the [difference between filesystem and logical backups](https://kb.layershift.com/jelastic-backups-overview) in a Enscale backups overview and now we will provide links to documentation, tools and hints & tips regarding creating reliable logical backups on our Enscale Platform-as-a-Service.
+We’ve explained the [difference between filesystem and logical backups](../overview-of-enscale-backups) in a Enscale backups overview and now we will provide links to documentation, tools and hints & tips regarding creating reliable logical backups on our Enscale Platform-as-a-Service.
 
 The following types of data do not **usually** need additional logical backups as they can be reliably restored from Layershift managed backups in most cases:
 

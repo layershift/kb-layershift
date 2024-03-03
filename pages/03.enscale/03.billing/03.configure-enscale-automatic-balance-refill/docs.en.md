@@ -5,27 +5,24 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Configure Jelastic automatic balance refill. Just like a PAYG mobile phone, when your balance reaches £0.00 your service will stop working, so it''s important to keep it topped up.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/billing/configure-enscale-automatic-balance-refill'
+    description: 'Configure Jelastic automatic balance refill. Just like a PAYG mobile phone, when your balance reaches £0.00 your service will stop working, so it''s important to keep it topped up.'
+    'og:url': 'https://www.layershift.com/kb/enscale/billing/configure-enscale-automatic-balance-refill'
     'og:type': website
-    'og:title': 'Configure Enscale automatic balance refill |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/03.billing/03.configure-enscale-automatic-balance-refill/Configure Jelastic automatic balance refill-1.png'
-    'og:image:type': image/png
-    'og:image:width': 157
-    'og:image:height': 262
+    'og:title': 'Configure Enscale automatic balance refill | Layershift KB'
+    'og:description': 'Configure Jelastic automatic balance refill. Just like a PAYG mobile phone, when your balance reaches £0.00 your service will stop working, so it''s important to keep it topped up.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Configure Enscale automatic balance refill |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/03.billing/03.configure-enscale-automatic-balance-refill/Configure Jelastic automatic balance refill-1.png'
-    'article:published_time': '2023-08-27T11:57:33+01:00'
-    'article:modified_time': '2023-08-27T11:57:33+01:00'
+    'article:published_time': '2024-03-03T03:53:21+00:00'
+    'article:modified_time': '2024-03-03T03:53:21+00:00'
     'article:author': Layershift
-media_order: 'Configure Jelastic automatic balance refill-1.png,Configure Jelastic automatic balance refill-2.png,Configure Jelastic automatic balance refill-4.png,Configure Jelastic automatic balance refill-3.png'
 ---
 
-Just like a PAYG mobile phone, when your balance reaches £0.00 your service will stop working, so it’s important to keep it topped up. It’s possible to do this automatically by [configuring the auto-refill options](https://kb.layershift.com/how-to-refill-your-balance-automatically) within Enscale, however, if you just want to submit a single payment read below.
+Just like a PAYG mobile phone, when your balance reaches £0.00 your service will stop working, so it’s important to keep it topped up. We’ve even taken the hassle out of this chore as well – just to make sure you can stay focussed on your applications and the important business activities they’re supporting.
 
 You can log into your Enscale account at https://app.enscale.cloud and follow the steps below to submit a payment:
 

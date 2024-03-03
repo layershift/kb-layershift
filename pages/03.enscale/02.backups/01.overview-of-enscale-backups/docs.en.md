@@ -5,17 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/backups/overview-of-enscale-backups'
+    description: 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
+    'og:url': 'https://www.layershift.com/kb/enscale/backups/overview-of-enscale-backups'
     'og:type': website
-    'og:title': 'Overview of Enscale backups |  Layershift KB'
+    'og:title': 'Overview of Enscale backups | Layershift KB'
+    'og:description': 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Overview of Enscale backups |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-27T07:23:15+01:00'
-    'article:modified_time': '2023-08-27T07:23:15+01:00'
+    'article:published_time': '2024-03-03T03:37:55+00:00'
+    'article:modified_time': '2024-03-03T03:37:55+00:00'
     'article:author': Layershift
 ---
 
@@ -46,7 +49,7 @@ Our standard managed backup service performs regular filesystem backups – this
 
 Restores of filesystem backups are available free of charge 24x7x365 via our support team who manage the process for you to ensure the fastest and most successful recovery. Unlike many of our competitors, we can restore individual files or directories, instead of overwriting your entire environment – this means restores are fast and flexible (e.g. you choose if we should overwrite existing files or restore to a separate location).
 
-If you need a restore, simply open a [support ticket](https://www.layershift.com/support/) and let us know which files need to be restored and approximately which recovery point (from the last 2 weeks) and our support team will begin right away.
+If you need a restore, simply open a [support ticket](../../../support) and let us know which files need to be restored and approximately which recovery point (from the last 2 weeks) and our support team will begin right away.
 
 ### Logical backups using native tools (managed by you)
 
@@ -68,7 +71,7 @@ As an example, ‘mysqldump’ is a popular tool used to create logical backups 
   * **Complexity**: Before performing a logical backup it is important to decide on the most appropriate type of tool to use and how to use it. For example, when backing up InnoDB tables in MySQL / MariaDB a full table scan is performed which can fill your buffer pool with the entire contents of all of your tables and so it’s important to consider your server configuration to ensure this does not occur or is handled in a controlled manner.
 
 
-To help you identify a suitable logical backup tool, please see our related article “[Logical backups for Enscale Cloud](https://kb.layershift.com/logical-backups-jelastic)“.
+To help you identify a suitable logical backup tool, please see our related article “[Logical backups for Enscale Cloud](../logical-backups-for-enscale-cloud-servers)“.
 
 ### Where to store logical backups
 
@@ -86,4 +89,4 @@ You take a weekly logical backup of your MariaDB database using ‘mysqldump’ 
 
 **Additional Note:** Filesystem backups in combination with periodic logical backups offer a very high success rate for restoring any data.
 
-Don’t forget to read our related article, “[Logical backups for Enscale Cloud Servers](https://kb.layershift.com/logical-backups-jelastic)“ for some suggested logical backup tools and some hints & tips.
+Don’t forget to read our related article, “[Logical backups for Enscale Cloud Servers](../logical-backups-for-enscale-cloud-servers)“ for some suggested logical backup tools and some hints & tips.
