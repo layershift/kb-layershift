@@ -5,18 +5,22 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Quick transfer steps: how to unlock gTLDs and receive EPP code for outbound transfers or change the IPS tag for your uk domains.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/transfers/how-to-transfer-your-domain-to-a-different-registrar'
+    description: 'Quick transfer steps: how to unlock gTLDs and receive EPP code for outbound transfers or change the IPS tag for your uk domains.'
+    'og:url': 'https://www.layershift.com/kb/domains/transfers/how-to-transfer-your-domain-to-a-different-registrar'
     'og:type': website
-    'og:title': 'How to transfer your domain to a different registrar |  Layershift KB'
+    'og:title': 'How to transfer your domain to a different registrar | Layershift KB'
+    'og:description': 'Quick transfer steps: how to unlock gTLDs and receive EPP code for outbound transfers or change the IPS tag for your uk domains.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to transfer your domain to a different registrar |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-22T20:38:26+01:00'
-    'article:modified_time': '2023-08-22T20:38:26+01:00'
+    'article:published_time': '2024-03-03T02:48:34+00:00'
+    'article:modified_time': '2024-03-03T02:48:34+00:00'
     'article:author': Layershift
+menu: 'To a different registrar'
 ---
 
 ### Generic domains

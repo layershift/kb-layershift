@@ -2,24 +2,24 @@
 title: 'SSL Certificate options on Enscale'
 aura:
     pagetype: website
+    description: 'The SSL feature can be quick and easy enabled in Enscale: choose between shared or private SSL certificates.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/ssl/ssl-certificate-options-on-enscale'
+    description: 'The SSL feature can be quick and easy enabled in Enscale: choose between shared or private SSL certificates.'
+    'og:url': 'https://www.layershift.com/kb/ssl/ssl-certificate-options-on-enscale'
     'og:type': website
-    'og:title': 'SSL Certificate options on Enscale |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/09.ssl/02.ssl-certificate-options-on-enscale/SSL certificate options on Enscale-7.png'
-    'og:image:type': image/png
-    'og:image:width': 1919
-    'og:image:height': 335
+    'og:title': 'SSL Certificate options on Enscale | Layershift KB'
+    'og:description': 'The SSL feature can be quick and easy enabled in Enscale: choose between shared or private SSL certificates.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'SSL Certificate options on Enscale |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/09.ssl/02.ssl-certificate-options-on-enscale/SSL certificate options on Enscale-7.png'
-    'article:published_time': '2023-08-26T17:53:59+01:00'
-    'article:modified_time': '2023-08-26T17:53:59+01:00'
+    'article:published_time': '2024-03-03T03:12:55+00:00'
+    'article:modified_time': '2024-03-03T03:12:55+00:00'
     'article:author': Layershift
-media_order: 'SSL certificate options on Enscale-7.png,SSL certificate options on Enscale-6.png,SSL certificate options on Enscale-5 .png,SSL certificate options on Enscale-4.png,SSL certificate options on Enscale-3.png,SSL certificate options on Enscale-2.png,SSL certificate options on Enscale-1.png'
+taxonomy:
+    category:
+        - docs
 ---
 
 As the number of hackers, identity thieves and phishing attacks is constantly increasing, it’s very important to keep the information path between you and your customers’ computers safe and private. With Enscale you can make sure you’ve got this covered by enabling the SSL feature. You can choose between the Shared (free) Enscale SSL or a private SSL certificate. 

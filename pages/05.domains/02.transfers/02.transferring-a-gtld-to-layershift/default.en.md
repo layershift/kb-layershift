@@ -2,24 +2,22 @@
 title: 'Transferring a gTLD to Layershift'
 aura:
     pagetype: website
+    description: 'Transferring a gTLD to Layershift.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/transfers/transferring-a-gtld-to-layershift'
+    description: 'Transferring a gTLD to Layershift.'
+    'og:url': 'https://www.layershift.com/kb/domains/transfers/transferring-a-gtld-to-layershift'
     'og:type': website
-    'og:title': 'Transferring a gTLD to Layershift |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/02.transferring-a-gtld-to-layershift/Transferring a gTLD to Layershift-1.png'
-    'og:image:type': image/png
-    'og:image:width': 490
-    'og:image:height': 207
+    'og:title': 'Transferring a gTLD to Layershift | Layershift KB'
+    'og:description': 'Transferring a gTLD to Layershift.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Transferring a gTLD to Layershift |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/02.transferring-a-gtld-to-layershift/Transferring a gTLD to Layershift-1.png'
-    'article:published_time': '2023-08-26T13:24:22+01:00'
-    'article:modified_time': '2023-08-26T13:24:22+01:00'
+    'article:published_time': '2024-03-03T02:50:09+00:00'
+    'article:modified_time': '2024-03-03T02:50:09+00:00'
     'article:author': Layershift
-media_order: 'Transferring a gTLD to Layershift-1.png,Transferring a gTLD to Layershift-2.png'
+menu: 'gTLD to Layershift'
 ---
 
 Layershift currently support the registration or transfer of the following domain names:

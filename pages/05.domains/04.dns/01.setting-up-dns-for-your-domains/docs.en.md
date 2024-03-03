@@ -5,17 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Setting up DNS for your domains.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/dns/setting-up-dns-for-your-domains'
+    description: 'Setting up DNS for your domains.'
+    'og:url': 'https://www.layershift.com/kb/domains/dns/setting-up-dns-for-your-domains'
     'og:type': website
-    'og:title': 'Setting up DNS for your domains |  Layershift KB'
+    'og:title': 'Setting up DNS for your domains | Layershift KB'
+    'og:description': 'Setting up DNS for your domains.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Setting up DNS for your domains |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-22T16:02:28+01:00'
-    'article:modified_time': '2023-08-22T16:02:28+01:00'
+    'article:published_time': '2024-03-03T03:05:07+00:00'
+    'article:modified_time': '2024-03-03T03:05:07+00:00'
     'article:author': Layershift
 ---
 

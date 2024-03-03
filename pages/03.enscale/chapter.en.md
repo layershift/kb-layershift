@@ -4,17 +4,20 @@ taxonomy:
     category: docs
 aura:
     pagetype: website
+    description: 'Enscale PaaS is a scalable cloud hosting platform that enables DevOps to quickly deploy optimised server configurations in minutes.'
 metadata:
-    'og:url': 'https://kb.raul.uk.easy-server.com/enscale'
+    description: 'Enscale PaaS is a scalable cloud hosting platform that enables DevOps to quickly deploy optimised server configurations in minutes.'
+    'og:url': 'https://www.layershift.com/kb/enscale'
     'og:type': website
-    'og:title': 'Enscale |  Layershift KB'
+    'og:title': 'Enscale | Layershift KB'
+    'og:description': 'Enscale PaaS is a scalable cloud hosting platform that enables DevOps to quickly deploy optimised server configurations in minutes.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enscale |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2024-02-08T12:40:35+00:00'
-    'article:modified_time': '2024-02-08T12:40:35+00:00'
+    'article:published_time': '2024-02-08T15:53:37+00:00'
+    'article:modified_time': '2024-02-08T15:53:37+00:00'
     'article:author': Layershift
 ---
 

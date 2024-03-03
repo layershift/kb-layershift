@@ -2,44 +2,41 @@
 title: 'Using Whois privacy for a domain'
 aura:
     pagetype: website
+    description: 'Find out how to use WHOIS privacy details for your domain name, how much does it cost and what you can do if you want to hide these details.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/whois/using-whois-privacy-for-a-domain'
+    description: 'Find out how to use WHOIS privacy details for your domain name, how much does it cost and what you can do if you want to hide these details.'
+    'og:url': 'https://www.layershift.com/kb/domains/whois/using-whois-privacy-for-a-domain'
     'og:type': website
-    'og:title': 'Using Whois privacy for a domain |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/whois/01.using-whois-privacy-for-a-domain/Using Whois privacy for a domain-2.png'
-    'og:image:type': image/png
-    'og:image:width': 293
-    'og:image:height': 443
+    'og:title': 'Using Whois privacy for a domain | Layershift KB'
+    'og:description': 'Find out how to use WHOIS privacy details for your domain name, how much does it cost and what you can do if you want to hide these details.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Using Whois privacy for a domain |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/whois/01.using-whois-privacy-for-a-domain/Using Whois privacy for a domain-2.png'
-    'article:published_time': '2023-08-26T15:18:41+01:00'
-    'article:modified_time': '2023-08-26T15:35:24+01:00'
+    'article:published_time': '2024-03-03T02:58:58+00:00'
+    'article:modified_time': '2024-03-03T02:58:58+00:00'
     'article:author': Layershift
-media_order: 'Using Whois privacy for a domain-2.png,Using Whois privacy for a domain-1.png'
 taxonomy:
     category:
         - docs
 ---
 
-### What is Whois privacy
+## What is Whois privacy
 
 When a domain name is registered, the registrar requires your full name, address, phone number and email address to be provided. This information is then entered into the Whois database and was traditionally made publicly available to anyone on the internet to search for and utilise in any which way they wish. With Whois Privacy, these details would be masked, so access to this information is restricted from public consumption. Some of the main benefits of masking your data are reducing spam, reducing Identity theft and concealing your physical  location.
 
-### Whois before GDPR
+## Whois before GDPR
 
-##### .uk domains
+### .uk domains
 
 Before the introduction of GDPR, if you registered a .UK domain via Nominet then all registrant details would be published by default. Non-trading individuals could opt out of having their address listed publicly via the Whois privacy service, free of charge, but the rest of their personal data would still be available.
 
-##### Other TLDs
+### Other TLDs
 
 Similarly, if you held a .com domain name or similar TLD such as .org, .net, .info, .biz, .eu, .in, .io, etc then your details would also be shared as standard, but you would have the option to mask your personal data entirely using the Whois Privacy service, available at an additional  fee.
 
-### Current regulations
+## Current regulations
 
 As of May 25th 2018, the new GDPR guidelines have come into place meaning that as standard, all domains will now have the below information hidden from public consumption:
 
@@ -50,7 +47,7 @@ As of May 25th 2018, the new GDPR guidelines have come into place meaning that a
 
 ![Using%20Whois%20privacy%20for%20a%20domain-2](Using%20Whois%20privacy%20for%20a%20domain-2.png "Using%20Whois%20privacy%20for%20a%20domain-2")
 
-### So, is there still a need for Whois ID Protect?
+## So, is there still a need for Whois ID Protect?
 
 The answer to this would definitely be Yes. Although the data is now no longer publicly accessible, it’s still available via the ‘gated whois’ service which can be accessed by accredited 3rd parties such as Law Enforcement Authorities, Commercial Litigators & Security Community Members. With the Whois ID Protect activated they will only have access to the users contact data and should they require any further information on the domain registrant they would need to seek a relevant court order before the data would be released by the relevant compliance team.
 
@@ -64,15 +61,15 @@ The graphic below shows the details which are now included as standard on the Wh
 
 With Whois privacy you get a unique email address @whoisprivacyprotect.com which catches all mail and forwards it to your real email account. The emails are forwarded to the registrant contacts email address only and the ID Protect email is changed regularly to prevent spam.
 
-### Hiding Whois privacy details for an existing domain
+## Hiding Whois privacy details for an existing domain
 
 If you have already registered a domain name with us, and later decide you wish to hide your Whois details, please send us a request to enable Whois privacy for your domain to domains@layershift.com
 
-### Hiding Whois details for a new domain
+## Hiding Whois details for a new domain
 
 When you place the domain registration order your can enable the Whois privacy service by ticking the checkbox below:
 
-For more details on how to register a new domain, please see our article about [domain registration](https://kb.layershift.com/how-to-register-domain-name).
+For more details on how to register a new domain, please see our article about [domain registration](../../registration/how-to-register-a-new-domain-name).
 
 
 

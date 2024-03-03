@@ -5,27 +5,25 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Find out what Traceroute and MTR are and how to use these network diagnostic tools for your convenience. Read more.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/troubleshooting/network-diagnostics-with-traceroute-and-mtr'
+    description: 'Find out what Traceroute and MTR are and how to use these network diagnostic tools for your convenience. Read more.'
+    'og:url': 'https://www.layershift.com/kb/troubleshooting/network-diagnostics-with-traceroute-and-mtr'
     'og:type': website
-    'og:title': 'Network diagnostics with traceroute and MTR |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/06.troubleshooting/network-diagnostics-with-traceroute-and-mtr/Network diagnostics with traceroute and MTR-8.png'
-    'og:image:type': image/png
-    'og:image:width': 590
-    'og:image:height': 373
+    'og:title': 'Network diagnostics with traceroute and MTR | Layershift KB'
+    'og:description': 'Find out what Traceroute and MTR are and how to use these network diagnostic tools for your convenience. Read more.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Network diagnostics with traceroute and MTR |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/06.troubleshooting/network-diagnostics-with-traceroute-and-mtr/Network diagnostics with traceroute and MTR-8.png'
-    'article:published_time': '2023-10-15T14:58:14+01:00'
-    'article:modified_time': '2023-10-15T14:58:14+01:00'
+    'article:published_time': '2024-03-03T03:16:16+00:00'
+    'article:modified_time': '2024-03-03T03:16:16+00:00'
     'article:author': Layershift
-media_order: 'Network diagnostics with traceroute and MTR-8.png,Network diagnostics with traceroute and MTR-10.png,Network diagnostics with traceroute and MTR-11.png,Network diagnostics with traceroute and MTR-9.png,Network diagnostics with traceroute and MTR-1.png,Network diagnostics with traceroute and MTR-2.jpeg,Network diagnostics with traceroute and MTR-3.png,Network diagnostics with traceroute and MTR-4.png,Network diagnostics with traceroute and MTR-5.png,Network diagnostics with traceroute and MTR-7.png,Network diagnostics with traceroute and MTR-6.png'
+menu: 'Network diagnostics'
 ---
 
-### What is Traceroute?
+## What is Traceroute?
 
 Traceroute is a simple tool that helps you determine network issues between your location and your website server. It outputs a list of all `hops` a packet of information goes through between your computer and the specified location (i.e. your website).
 
@@ -71,7 +69,7 @@ An alternative method is by launching **Network Utility** (you can quickly acces
 
 ![Network%20diagnostics%20with%20traceroute%20and%20MTR-6](Network%20diagnostics%20with%20traceroute%20and%20MTR-6.png "Network%20diagnostics%20with%20traceroute%20and%20MTR-6")
 
-### What is MTR?
+## What is MTR?
 
 MTR is software used for network diagnostics, that combines the functions of ping and traceroute.
 

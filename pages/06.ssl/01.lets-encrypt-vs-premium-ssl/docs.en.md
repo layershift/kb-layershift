@@ -2,18 +2,24 @@
 title: 'Let’s Encrypt vs Premium SSL'
 aura:
     pagetype: website
+    description: 'Let''s Encrypt issue free SSL certificates but are they really the best option for your business? Here are the main differences between a free and a paid SSL.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/ssl/lets-encrypt-vs-premium-ssl'
+    description: 'Let''s Encrypt issue free SSL certificates but are they really the best option for your business? Here are the main differences between a free and a paid SSL.'
+    'og:url': 'https://www.layershift.com/kb/ssl/lets-encrypt-vs-premium-ssl'
     'og:type': website
-    'og:title': 'Let’s Encrypt vs Premium SSL |  Layershift KB'
+    'og:title': 'Let’s Encrypt vs Premium SSL | Layershift KB'
+    'og:description': 'Let''s Encrypt issue free SSL certificates but are they really the best option for your business? Here are the main differences between a free and a paid SSL.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Let’s Encrypt vs Premium SSL |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-08-26T16:33:37+01:00'
-    'article:modified_time': '2023-08-26T16:33:37+01:00'
+    'article:published_time': '2023-10-19T13:08:26+01:00'
+    'article:modified_time': '2023-10-19T13:08:26+01:00'
     'article:author': Layershift
+taxonomy:
+    category:
+        - docs
 ---
 
 Back in 2014, Google’s [announcement](https://security.googleblog.com/2014/08/https-as-ranking-signal_6.html) that websites served from https will get better SEO rankings, along with their call for “https everywhere”, raised a lot of controversy amongst developers and site owners. Some were quite happy with this initiative as they bought into the idea that generalised https use will make the internet safer, while others mainly saw it as an unnecessary, complicated and expensive decision that not only meant they needed to [re-code](https://developer.chrome.com/blog/avoid-not-secure-warn/) their websites to use https but also spend more money on SSL certificates they didn’t otherwise need.
