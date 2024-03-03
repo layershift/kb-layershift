@@ -20,7 +20,7 @@ media_order: 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server-1.png,Installing 
 menu: 'Install new PHP versions'
 ---
 
-If you already have the new Plesk Panel, all the above PHP versions should already be installed on your server and you can just switch between them by following these simple steps:
+All the above PHP versions should already be installed on your server and you can just switch between them by following these simple steps:
 
 * Select **Domains** from the left-hand pane
 * Access the **PHP** option from the domain's tab:

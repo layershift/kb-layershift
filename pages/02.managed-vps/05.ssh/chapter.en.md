@@ -21,3 +21,6 @@ taxonomy:
     category: docs
 ---
 
+#SSH
+
+Plesk SSH access and connection options

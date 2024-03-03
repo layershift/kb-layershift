@@ -24,8 +24,6 @@ taxonomy:
 menu: 'Enable PHP functions'
 ---
 
-# How to enable PHP functions in Plesk
-
 As a security best practice, we disable several core PHP functions by default on our servers that are often used for malicious purposes and rarely required by legitimate code.
 
 As part of our layered security model we try to take every possible precaution to prevent your server from being attacked. The advanced network-level attack mitigation policies we have in place at various levels of our infrastructure mitigate many types of attacks before they reach your server. We perform regular security updates for the OS and pre-installed software. We also offer non-stop kernel updates with patches implemented within hours to ensure your service is protected. Furthermore, we closely monitor all our services to try to stop attacks and ensure that we can pro-actively resolve any issues without any service disruption. In addition to this, we preventively block or disable high risk features/services which might lead to security issues.
@@ -45,7 +43,7 @@ We recognise that some PHP based CLI tools for certain frameworks may legitimate
 
 We strongly recommend to only enable functions from this high risk list strictly for the type of scripts that require them (CLI or HTTP). This will minimise the security risk to your server.
 
-### Enable PHP functions for CLI scripts
+## Enable PHP functions for CLI scripts
 
 The most flexible and recommended option is to override the disable_functions setting when calling the PHP CLI. For example:
 
@@ -57,7 +55,7 @@ If for some reason you need to make that the default behaviour for CLI scripts, 
 
 By only enabling these potentially harmful functions for CLI, you retain protection against malicious scripts that an attacker may try to execute via HTTP (e.g. after uploading them to your site disguised as an image or a similar common application vulnerability).
 
-### Enable PHP functions for HTTP scripts
+## Enable PHP functions for HTTP scripts
 
 If you have HTTP scripts that require certain functions, you can enable these from your Plesk Control Panel on a per site basis by following the steps below:
 

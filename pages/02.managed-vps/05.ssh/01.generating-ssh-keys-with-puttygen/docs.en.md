@@ -25,11 +25,11 @@ media_order: 'Generate SSH Key using PuTTYgen-1.png,Generate SSH Key using PuTTY
 
 With PuTTYgen you can generate SSH key pairs (public and private key) that are used by PuTTY to connect to your server from a Windows client. The private key will be stored on your local machine, while the public key has to be uploaded in your dashboard. When connecting with PuTTY, your session loaded with your private key will generate a signature which will be authenticated by the server using the matching public key.
 
-### Download PuTTYgen
+## Download PuTTYgen
 
 Simply download and save the PuTTYgen executable (.exe) file from this [link](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). Since it’s a standalone application, you will not need to perform any installation steps for it.
 
-### Generate SSH Key
+## Generate SSH Key
 
 * Open PuTTYgen.
 * Select these parameters:
@@ -53,17 +53,17 @@ Simply download and save the PuTTYgen executable (.exe) file from this [link](ht
 
 You can copy and paste this key directly to your Enscale dashboard. To see how to add your public key to Enscale, please see: [How to connect to Enscale using PuTTY](/how-to-connect-to-jelastic-using-putty)
 
-#### Your Key Fingerprint
+## Your Key Fingerprint
 
 In this field you should enter something to help you remember what you will use this key for. For example if you are going to use this key pair to connect to your Enscale environments, you could enter `Enscale` here.
 
-#### Key passphrase
+## Key passphrase
 
 Here you can set a password you can use to encrypt your Private Key. While this is not mandatory, it is strongly recommended to ensure that nobody from your workstation will be able to connect to your server without knowing the passphrase.
 
 ! If you are using SSH for scripts, you will need to leave the Key passphrase field empty.
 
-### Save your SSH key
+## Save your SSH key
 
 You can either copy and paste your public key into the Enscale dashboard, or you can click the `Save public key` button to save the file on your computer. You can open it with a simple text editor, like Notepad.
 
@@ -71,7 +71,7 @@ You should save the private key on your computer as a .ppk (PuTTY Private Key) f
 
 ![Generate%20SSH%20Key%20using%20PuTTYgen-4](Generate%20SSH%20Key%20using%20PuTTYgen-4.png "Generate%20SSH%20Key%20using%20PuTTYgen-4")
 
-### Load a previous SSH key
+## Load a previous SSH key
 
 If you would like to change the comment or passphrase for an existing SSH key, or you would simply like to view the fingerprint or maybe save another copy of the public key, you can always load your SSH key in PuTTYgen.
 

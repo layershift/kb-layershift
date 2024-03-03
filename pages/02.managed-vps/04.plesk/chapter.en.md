@@ -21,3 +21,6 @@ metadata:
     'article:author': Layershift
 ---
 
+#Plesk
+
+Plesk options for your Managed VPS

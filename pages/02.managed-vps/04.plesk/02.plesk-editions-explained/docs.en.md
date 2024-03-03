@@ -48,8 +48,6 @@ Includes everything in Web Admin edition, plus:
 * PostgreSQL database server support
 * WordPress Toolkit: manage multiple WordPress installations simultaneously, and much more, with this useful tool.
 
-**Plesk Web Pro edition is just a £6.99 or $9.99 per month upgrade.**
-
 ## Web Host edition 
 
 We offer Web Host edition for customers wanting more than 30 domains, or requiring advanced reseller management.
@@ -58,8 +56,6 @@ Includes everything in Web Admin and Web Pro editions, plus:
 
 * Host unlimited domains
 * Powerful reseller support: sell your own reseller hosting services with full reseller account, subscription and hosting plan management
-
-**Plesk Web Host edition is just a £14.99 or $19.99 per month upgrade (£19.99 / $29.99 per month on Cloud VPS 1GB).**
 
 # Plesk Editions Comparison
 
@@ -74,21 +70,18 @@ Includes everything in Web Admin and Web Pro editions, plus:
 |  Customers Management  |       -       |      X      |         X         |
 |  Resellers Management  |       -       |      X      |         X         |
 |      Plesk License     |   10 domains  |  30 domains | Unlimited domains |
-|          Price         |      FREE     | £6.99 / $9.99 |   £14.99 / $19.99 *  |
 
 
 ! % – WordPress Toolkit Special Edition, which is a lite version of WordPress Toolkit and only includes basic features. For full access to more advanced functionalities you will need to upgrade to a higher license level
-
-!!! *Web Host Edition is £19.99 / $29.99 per month on our Cloud VPS 1GB plan only.
 
 !!!! Still not sure which license is ideal for you? Contact our [sales team](mailto:sales@layershift.com) to help you get started! 
 
 # Add additional features to your Plesk subscription
 
-* Kaspersky Antivirus for unlimited mailboxes £4.99 / $7.99 per mo 
-* Plesk Email Security Pro £7.49 / $8.99
-* Security Core Complete by Atomicorp £9.99 / $14.99 per mo
-* ImmunifyAV – Antivirus and malware scanner £4.99 / $5.99
-* Backup To Cloud Pro £3.50 / $4.00
+* Kaspersky Antivirus for unlimited mailboxes
+* Plesk Email Security Pro
+* Security Core Complete by Atomicorp
+* ImmunifyAV – Antivirus and malware scanner
+* Backup To Cloud Pro
 
 Upgrades are fast and easy, all you need to do is login to your [customer control panel](https://control.layershift.com) and click on Upgrade Licenses.

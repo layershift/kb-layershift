@@ -25,7 +25,7 @@ menu: 'Reset admin password'
 
 It’s possible to reset the password for your Plesk control panel at anytime via your Layershift account at [control.layershift.com](https://control.layershift.com/) .
 
-### Here are the steps to reset Plesk admin password
+## Here are the steps to reset Plesk admin password
 
 * Make sure your correct subscription is selected in the top right-hand drop-down menu.
 

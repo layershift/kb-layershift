@@ -23,19 +23,17 @@ taxonomy:
 menu: 'Website staging'
 ---
 
-# Website staging with Plesk Obsidian  
+All good developers know it's important to test your code before publishing it to live, and the easiest way to do this is using a website staging environment. This allows you to ensure your code is stable and tested, to prevent unwanted outages due to glitches which can affect your users and cost your business money.  Plesk Panel allows you to setup a website staging environment to check that everything runs smoothly before pushing your code into production.  
 
-All good developers know it’s important to test your code before publishing it to live, and the easiest way to do this is using a website staging environment. This allows you to ensure your code is stable and tested, to prevent unwanted outages due to glitches which can affect your users and cost your business money.  Plesk Panel allows you to setup a website staging environment to check that everything runs smoothly before pushing your code into production.  
-
-### The action plan  
+# The action plan  
 
 Before proceeding with this you should decide where you want to host the staging environment. You have three options: use the same webspace, create a new one or upload it to an FTP account on another server.  
 
-#### 1. Host it in your current webspace  
+## 1. Host it in your current webspace  
 
 If you decide to host the staging website in the same webspace you will need to first create a new domain or a subdomain. We will quickly guide you through these steps.  
 
-##### Creating a new domain  
+### Creating a new domain  
 
 To add a new domain to your existing webspace simply go to `Websites & Domains` and select `Add Domain`:  
 
@@ -45,7 +43,7 @@ Next, as a way of creating the website, click on `Blank website` and then select
 
 ![Website-staging-with-Plesk-Obsidian-2](Website-staging-with-Plesk-Obsidian-2.png "Website-staging-with-Plesk-Obsidian-2")
 
-##### Creating a subdomain
+### Creating a subdomain
 
 If you already possess a domain, it's a straightforward process to add a new subdomain to it and employ it for testing purposes (e.g., staging.yourdomainname.com or something similar). To create this new subdomain, access the Websites & Domains section and choose the option to Add Subdomain.
 
@@ -53,7 +51,7 @@ If you already possess a domain, it's a straightforward process to add a new sub
 
 Once arrived at this step, make sure that the **Parent domain** filed is set on the desired domain and set the desired subdomain name.
 
-#### 2. Use a separate webspace on the same server
+## 2. Use a separate webspace on the same server
 
 Go to `Websites & Domains` and select `Add Domain`:
 
@@ -63,11 +61,11 @@ Enter the name of your domain and opt for creating a new webspace. You may choos
 
 ![Website-staging-with-Plesk-Obsidian-5](Website-staging-with-Plesk-Obsidian-5.png "Website-staging-with-Plesk-Obsidian-5")
 
-### Copy the website
+## Copy the website
 
 Now that you’ve decided on the location of your staging environment and configured it, the next step involves copying everything from the production environment to the staging environment. This can be achieved by following the subsequent steps:
 
-#### How to copy your website's files?
+### How to copy your website's files?
 
 1. Go to the **Websites & Domains**, find the website you want to copy, then select **Website Copying**.
 
@@ -89,7 +87,7 @@ Now that you’ve decided on the location of your staging environment and config
 		
    Use the Active mode option in the FTP connection method field. If you can’t manage to connect to the external FTP account, try again with the Passive mode enabled.
 
-#### Don't forget about your databases!
+### Don't forget about your databases!
 
 If your website relies on a database, it's necessary to copy it to the staging environment. To accomplish this, please follow the provided instructions:
 
@@ -119,7 +117,7 @@ If your website relies on a database, it's necessary to copy it to the staging e
 
 * Once the copy has completed, you should modify your site’s scripts in the website staging environment so they connect to the copied database, such as by modifying connection strings to connect to a new database name, username and password.
 
-### From website staging to production
+## From website staging to production
 
 When the site copy in the staging environment is updated and ready to go live, you can publish it:
 
@@ -132,6 +130,3 @@ When the site copy in the staging environment is updated and ready to go live, y
 ![Website-staging-with-Plesk-Obsidian-15](Website-staging-with-Plesk-Obsidian-15.png "Website-staging-with-Plesk-Obsidian-15")
 
 All the modifications you have implemented on the site are now accessible and visible to external users.
-
-
- 

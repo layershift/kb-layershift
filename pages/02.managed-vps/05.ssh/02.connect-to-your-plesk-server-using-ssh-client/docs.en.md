@@ -31,8 +31,7 @@ In order to successfully connect to your server / website over SSH you’ll have
 
 Log in to your **Plesk Dashboard**, go to `Websites & Domains`, then go to `Web Hosting Access` for your domains that you want to connect to. Choose **/bin/bash** shell and save it:
 
-[Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1](Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1.png "Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1")
-
+![Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1](Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1.png "Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1")
 ### Connect using password
 
 You have to find out the user to be used to establish the connection. For this go to **Web Hosting Access** for domain that you want to connect to.
@@ -43,7 +42,7 @@ Open the **Putty** client. In the PuTTY configuration window, into the `Host Nam
 
 ### Connect using SSH key pair
 
-Using SSH keys is more convenient and secure than traditional password authentication, therefore we are going to show you how to use SSH key pair for authentication. You’ll have to generate your own key pair, for this follow this guide to [Generate your key pair](/generate-ssh-key-using-puttygen-2).
+Using SSH keys is more convenient and secure than traditional password authentication, therefore we are going to show you how to use SSH key pair for authentication. You’ll have to generate your own key pair, for this follow this guide to [Generate your key pair](../generating-ssh-keys-with-puttygen).
 
 #### Install the SSH Keys Manager extension
 
