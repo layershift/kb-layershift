@@ -1,0 +1,22 @@
+---
+aura:
+    pagetype: website
+metadata:
+    'og:url': 'https://www.layershift.com/kb/ssl'
+    'og:type': website
+    'og:title': 'Ssl | Layershift KB'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
+    'og:author': Layershift
+    'article:published_time': '2023-10-19T13:08:26+01:00'
+    'article:modified_time': '2023-10-19T13:08:26+01:00'
+    'article:author': Layershift
+taxonomy:
+    category: docs
+menu: SSL
+title: Ssl
+---
+
+#SSL
