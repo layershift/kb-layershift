@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:08:58+00:00'
-    'article:modified_time': '2024-03-04T10:08:58+00:00'
+    'article:published_time': '2024-03-04T10:09:10+00:00'
+    'article:modified_time': '2024-03-04T14:33:37+00:00'
     'article:author': Layershift
 published: true
 ---
@@ -29,13 +29,13 @@ To create a new environment with a manual installation of WordPress you will hav
 
 * Create a new environment with the desired resources:
 
-![Enscale%20WordPress%20Installation-1](Jelastic%20WordPress%20Installation-1.png "Enscale%20WordPress%20Installation-1")
+![Enscale%20WordPress%20Installation-1](Enscale%20WordPress%20Installation-1.png)
 
 * The environment you create should have at least one application server (Apache,Nginx) and a database server (Mysql/Mariadb)
 
-![Enscale%20WordPress%20Installation-3](Jelastic%20WordPress%20Installation-3.png "Enscale%20WordPress%20Installation-3")
+![Enscale%20WordPress%20Installation-3](Enscale%20WordPress%20Installation-3.png)
 
-![Enscale%20WordPress%20Installation-4](Jelastic%20WordPress%20Installation-4.png "Enscale%20WordPress%20Installation-4")
+![Enscale%20WordPress%20Installation-4](Enscale%20WordPress%20Installation-4.png)
 
 * After the environment was created, you will receive an email with login credentials for the database server. Keep those at hand, as we will need them soon.
 
@@ -49,11 +49,11 @@ To create a new environment with a manual installation of WordPress you will hav
 
 * From here, check the WordPress-master.zip archive, and click **Upload** as shown in the following images:
 
-![Enscale%20WordPress%20Installation-5](Jelastic%20WordPress%20Installation-5.png "Enscale%20WordPress%20Installation-5")
+![Enscale%20WordPress%20Installation-5](Enscale%20WordPress%20Installation-5.png)
 
 * After the archive was deployed successfully, in the top right corner you will be prompted with the following message. Please click the **Open in Browser** button.
 
-![Enscale%20WordPress%20Installation-6](Jelastic%20WordPress%20Installation-6.png "Enscale%20WordPress%20Installation-6")
+![Enscale%20WordPress%20Installation-6](Enscale%20WordPress%20Installation-6.png)
 
 ## Configure WordPress
 
@@ -61,13 +61,13 @@ To create a new environment with a manual installation of WordPress you will hav
 
 * From the email you received, please select the one regarding the database server. It will contain a link to the database server, the user name (root) and the user password. Using these, please connect to the database server. From here, select the **Databases** tab on the top side, set the database name, and click **Create** as shown here:
 
-![Enscale%20WordPress%20Installation-7](Jelastic%20WordPress%20Installation-7.png "Enscale%20WordPress%20Installation-7")
+![Enscale%20WordPress%20Installation-7](Enscale%20WordPress%20Installation-7.png)
 
 * After the database was created, we will proceed to create a database user.
 
 * To do so, we will have to click the database we created, and go to the privileges tab on the top bar. From here, click **Add User account** on the bottom left, and proceed to create the user. We strongly recommend you to use a unique username and a strong password (should contain uppercase letter, lowercase letters, numbers, special character).
 
-![Enscale%20WordPress%20Installation-8](Jelastic%20WordPress%20Installation-8.png "Enscale%20WordPress%20Installation-8")
+![Enscale%20WordPress%20Installation-8](Enscale%20WordPress%20Installation-8.png)
 
 * Now switch back to the WordPress installation page and connect the new database to the server using the following settings:
 
@@ -76,11 +76,11 @@ To create a new environment with a manual installation of WordPress you will hav
 **Password:** password created for the mysql user
 **Database host:** server name from email (node####-XXX.j.layershift.co.uk)
 
-![Enscale%20WordPress%20Installation](Jelastic%20WordPress%20Installation-9.png "Enscale%20WordPress%20Installation-9")
+![Enscale%20WordPress%20Installation](Enscale%20WordPress%20Installation-9.png)
 
 * Create the administrator username, and password. We strongly recommend you to use a unique username and a strong password (should contain uppercase letter, lowercase letters, numbers, special character)
 
-![Enscale%20WordPress%20Installation-10](Jelastic%20WordPress%20Installation-10.png "Enscale%20WordPress%20Installation-10")
+![Enscale%20WordPress%20Installation-10](Enscale%20WordPress%20Installation-10.png)
 
 Congratulations! You have successfully installed WordPress on your new Enscale Environment.
 

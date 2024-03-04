@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:06:36+00:00'
-    'article:modified_time': '2024-03-04T09:06:36+00:00'
+    'article:published_time': '2024-03-04T14:53:59+00:00'
+    'article:modified_time': '2024-03-04T14:53:59+00:00'
     'article:author': Layershift
 ---
 
@@ -54,7 +54,7 @@ The commercial versions of LiteSpeed Web Server and LiteSpeed ADC (Load Balancer
 
 ### LiteSpeed Web Server
 
-Normally, LiteSpeed Web Server licenses are leased on a monthly (or yearly) basis and you have to pay a fixed fee in advance. The main advantage of using Jelastic is that you pay-per-use, so when your environments are stopped, your LiteSpeed Web Server costs are zero. No commitments here!
+Normally, LiteSpeed Web Server licenses are leased on a monthly (or yearly) basis and you have to pay a fixed fee in advance. The main advantage of using Enscale is that you pay-per-use, so when your environments are stopped, your LiteSpeed Web Server costs are zero. No commitments here!
 
 Cloudlet usage | Domain Limit | Workers | Price per hour
 -------------------- | ------------------ | ----------- | ------------------ 
@@ -72,15 +72,15 @@ LiteSpeed as Load Balancer (price per node) |
 
 !!! If traffic levels are zero, you will still be charged a minimum of 1p/hour.
 
-## How to configure LiteSpeed Web Server on Jelastic PaaS
+## How to configure LiteSpeed Web Server on Enscale PaaS
 
 Create a new environment and pick the LiteSpeed Web Server for the Application Nodes:
 
-![LiteSpeed%20Web%20Server%20on%20Enscale-3](LiteSpeed%20Web%20Server%20on%20Enscale-3.png "LiteSpeed%20Web%20Server%20on%20Enscale-3")
+![LiteSpeed%20Web%20Server%20on%20Enscale-3](LiteSpeed%20Web%20Server%20on%20Enscale-3.png)
 
 If you want to scale up with more than one Application Node, add a Load Balancer Node:
 
-Adjust the scaling setting as desired. The default Scaling limit for a LiteSpeed Web Server node is 6 cloudlets, but you can increase this up to a total of 16 Cloudlets, without being charged any LiteSpeed licensing fees. Since Jelastic only bills for the cloudlets that are actually used (not just allocated), it’s actually recommended to allow some room for your server to scale up during busy times.
+Adjust the scaling setting as desired. The default Scaling limit for a LiteSpeed Web Server node is 6 cloudlets, but you can increase this up to a total of 16 Cloudlets, without being charged any LiteSpeed licensing fees. Since Enscale only bills for the cloudlets that are actually used (not just allocated), it’s actually recommended to allow some room for your server to scale up during busy times.
 
 ![LiteSpeed%20Web%20Server%20on%20Enscale-4](LiteSpeed%20Web%20Server%20on%20Enscale-4.png "LiteSpeed%20Web%20Server%20on%20Enscale-4")
 

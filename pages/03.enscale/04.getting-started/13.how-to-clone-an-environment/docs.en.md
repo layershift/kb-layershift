@@ -4,12 +4,10 @@ media_order: 'How-to-Clone-an-Environment-2.png,How-to-Clone-an-Environment-1.pn
 published: true
 visible: true
 aura:
-    metadata:
-        description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
     pagetype: website
     description: 'Easily validate changes on a stage environment before deploying them live using an exact clone of your Enscale environment'
 metadata:
-    description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
+    description: 'Easily validate changes on a stage environment before deploying them live using an exact clone of your Enscale environment'
     'og:url': 'https://www.layershift.com/kb/enscale/getting-started/how-to-clone-an-environment'
     'og:type': website
     'og:title': 'How to Clone an Environment | Layershift KB'
@@ -19,8 +17,8 @@ metadata:
     'og:image:width': 716
     'og:image:height': 320
     'og:author': Layershift
-    'article:published_time': '2024-03-04T13:06:35+00:00'
-    'article:modified_time': '2024-03-04T13:06:35+00:00'
+    'article:published_time': '2024-03-04T13:07:26+00:00'
+    'article:modified_time': '2024-03-04T13:07:26+00:00'
     'article:author': Layershift
 taxonomy:
     category:

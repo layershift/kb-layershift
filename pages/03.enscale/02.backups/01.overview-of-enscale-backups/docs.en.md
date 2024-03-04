@@ -5,20 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
-    description: 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
+    description: 'Ensure your data can be reliably backed up using a combination of automated Enscale backups and periodic logical backups.'
 metadata:
-    description: 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
+    description: 'Ensure your data can be reliably backed up using a combination of automated Enscale backups and periodic logical backups.'
     'og:url': 'https://www.layershift.com/kb/enscale/backups/overview-of-enscale-backups'
     'og:type': website
     'og:title': 'Overview of Enscale backups | Layershift KB'
-    'og:description': 'Ensure your data can be reliably backed up using a combination of automated Jelastic backups and periodic logical backups.'
+    'og:description': 'Ensure your data can be reliably backed up using a combination of automated Enscale backups and periodic logical backups.'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T03:37:55+00:00'
-    'article:modified_time': '2024-03-03T03:37:55+00:00'
+    'article:published_time': '2024-03-03T03:38:51+00:00'
+    'article:modified_time': '2024-03-03T03:38:51+00:00'
     'article:author': Layershift
 ---
 

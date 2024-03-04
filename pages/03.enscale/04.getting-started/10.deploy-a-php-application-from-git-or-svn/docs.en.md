@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:24:31+00:00'
-    'article:modified_time': '2024-03-04T10:24:31+00:00'
+    'article:published_time': '2024-03-04T10:24:42+00:00'
+    'article:modified_time': '2024-03-04T10:24:42+00:00'
     'article:author': Layershift
 ---
 
@@ -64,7 +64,7 @@ Finally you need to specify the path that you want to deploy to. The default `RO
 
 ![Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-5](Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-5.png "Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-5")
 
-When everything is perfect, click ‘Deploy’ to complete the process, and watch Jelastic do the work for you!
+When everything is perfect, click `Deploy` to complete the process, and watch Enscale do the work for you!
 
 ![Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-7](Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-7.png "Deploy%20a%20PHP%20application%20from%20git%20or%20SVN-7")
 

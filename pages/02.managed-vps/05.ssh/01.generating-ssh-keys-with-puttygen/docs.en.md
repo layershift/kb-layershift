@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 484
     'og:image:height': 472
     'og:author': Layershift
-    'article:published_time': '2024-03-03T01:45:38+00:00'
-    'article:modified_time': '2024-03-03T01:45:38+00:00'
+    'article:published_time': '2024-03-04T14:01:07+00:00'
+    'article:modified_time': '2024-03-04T14:01:07+00:00'
     'article:author': Layershift
 media_order: 'Generate SSH Key using PuTTYgen-1.png,Generate SSH Key using PuTTYgen-2.png,Generate SSH Key using PuTTYgen-4.png,Generate SSH Key using PuTTYgen-3.png,Generate SSH Key using PuTTYgen-6.png,Generate SSH Key using PuTTYgen-5.png'
 ---
@@ -51,13 +51,17 @@ Simply download and save the PuTTYgen executable (.exe) file from this [link](ht
 
 #### Your Public Key
 
-You can copy and paste this key directly to your Enscale dashboard. To see how to add your public key to Enscale, please see: [How to connect to Enscale using PuTTY](/how-to-connect-to-jelastic-using-putty)
+You can copy and paste this key directly to SSH Keys Manager in Plesk. To see how to add your public key to your website system user in Plesk, please see: [Connect to your Plesk server using SSH client](../connect-to-your-plesk-server-using-ssh-client)
 
-## Your Key Fingerprint
+### Your Key Fingerprint
 
-In this field you should enter something to help you remember what you will use this key for. For example if you are going to use this key pair to connect to your Enscale environments, you could enter `Enscale` here.
+It's a short sequence of bytes used to identify the public key, if a comment is not set or displayed. The key fingerprint is a hexadecimal encoded string and will be displayed in the Fingerprint column of the SSH Keys Manager public keys list.
 
-## Key passphrase
+### Your Key Comment
+
+In this field you should enter something to help you remember what you will use this key for. For example if you are going to use this key pair to connect to your Plesk server, this value will be displayed in the Title column of the SSH Keys Manager public keys list.
+
+### Key passphrase
 
 Here you can set a password you can use to encrypt your Private Key. While this is not mandatory, it is strongly recommended to ensure that nobody from your workstation will be able to connect to your server without knowing the passphrase.
 

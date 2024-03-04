@@ -18,8 +18,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2023-10-19T13:08:27+01:00'
-    'article:modified_time': '2023-10-19T13:08:27+01:00'
+    'article:published_time': '2024-03-03T03:40:18+00:00'
+    'article:modified_time': '2024-03-03T03:40:18+00:00'
     'article:author': Layershift
 ---
 
@@ -76,8 +76,8 @@ Backups of CouchDB should work just fine using our filesystem backups:
 ### Tips and recommendations
 
 * **Create logical backups as infrequently as possible** as they can use a lot of server resources (CPU / RAM / Disk I/O) which can increase your cloudlet usage and negatively impact your application’s performance.
-* **Store logical backups locally** in your Jelastic environment wherever possible as our filesystem backups will reliably take a copy of these (within a maximum of 6 hours of the backup file appearing, retained for 14 more days after you delete the backup file).
-* **Rotate your logical backups** to minimise the amount of diskspace consumed by your Jelastic servers and keep your costs low.
+* **Store logical backups locally** in your Enscale environment wherever possible as our filesystem backups will reliably take a copy of these (within a maximum of 6 hours of the backup file appearing, retained for 14 more days after you delete the backup file).
+* **Rotate your logical backups** to minimise the amount of diskspace consumed by your Enscale environment and keep your costs low.
 * Identify the **most appropriate backup method** for each aspect of your application rather than just the easiest to implement – it will save you time over the longer term.
 * Consider the **difference between ‘hot’** backup methods (e.g. taking a backup while the database server is running) **and ‘cold’ backup methods** (e.g. taking a backup while the DB server is stopped) as the optimal method can vary depending on the type of database server used, how it’s configured and your business needs.
 * **Only create logical backups of business critical data** (reduced resource consumption, faster backups).
