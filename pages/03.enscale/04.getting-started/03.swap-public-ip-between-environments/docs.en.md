@@ -5,20 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
-    description: 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
+    description: 'Introduction Many applications call for a background script to be kept running in order to perform certain important housekeeping tasks. As developers we like to write these scripts using the language we find convenient for the task at hand, which means it''s common for them to be in PHP or node.js. Neither are particularly good ..'
 metadata:
-    description: 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
+    description: 'Introduction Many applications call for a background script to be kept running in order to perform certain important housekeeping tasks. As developers we like to write these scripts using the language we find convenient for the task at hand, which means it''s common for them to be in PHP or node.js. Neither are particularly good ..'
     'og:url': 'https://www.layershift.com/kb/enscale/getting-started/swap-public-ip-between-environments'
     'og:type': website
     'og:title': 'Swap public IP between environments | Layershift KB'
-    'og:description': 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
+    'og:description': 'Introduction Many applications call for a background script to be kept running in order to perform certain important housekeeping tasks. As developers we like to write these scripts using the language we find convenient for the task at hand, which means it''s common for them to be in PHP or node.js. Neither are particularly good ..'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:14:09+00:00'
-    'article:modified_time': '2024-03-04T10:14:09+00:00'
+    'article:published_time': '2024-03-04T14:30:02+00:00'
+    'article:modified_time': '2024-03-04T14:30:02+00:00'
     'article:author': Layershift
 ---
 
@@ -114,13 +114,13 @@ Run the image:
     docker run -it --rm \
      -e "J_LOGIN=you@domain.com" \
      -e "J_PASSWORD=password" \
-     -e "J_PLATFORM=hoster.url" layershift/enscale-cli
+     -e "J_PLATFORM=hoster.url" layershift/jelastic-cli
 
 You will enter bash shell where you will be able to use the CLI commands.
 
 !!! NOTE: This Docker image is intended to be run locally (not deployed onto Enscale).
 
-## Jelastic API
+## API
 
 **Skills: God mode**
 

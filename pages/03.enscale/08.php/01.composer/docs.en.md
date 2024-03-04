@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:37:35+00:00'
-    'article:modified_time': '2024-03-04T09:37:35+00:00'
+    'article:published_time': '2024-03-04T09:39:21+00:00'
+    'article:modified_time': '2024-03-04T09:39:21+00:00'
     'article:author': Layershift
 ---
 
@@ -26,7 +26,7 @@ Composer is a popular dependency manager for PHP, borrowing from the ideas of **
 
 ## How to Install Composer on your Enscale Server
 
-Connect to your **Apache PHP** or **Nginx PHP** server in one of your Jelastic environments using the [Enscale SSH gateway](../..//ssh/enscale-ssh-access). Change your working directory to a suitable one of your choice, such as **/var/www/webroot**:
+Connect to your **Apache PHP** or **Nginx PHP** node from one of your Enscale environments using the [Enscale SSH gateway](../..//ssh/enscale-ssh-access). Change your working directory to a suitable one of your choice, such as **/var/www/webroot**:
 
 	-bash-4.1$ cd /var/www
 

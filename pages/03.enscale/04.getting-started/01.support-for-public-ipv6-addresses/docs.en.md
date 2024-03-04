@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:04:53+00:00'
-    'article:modified_time': '2024-03-04T10:04:53+00:00'
+    'article:published_time': '2024-03-04T10:05:52+00:00'
+    'article:modified_time': '2024-03-04T10:05:52+00:00'
     'article:author': Layershift
 ---
 
@@ -83,9 +83,9 @@ For Cloud VPS customers, IPv6 addresses can be enabled in the [Customer Control 
 
 ![Support%20for%20Public%20IPv6%20Addresses-1](Support%20for%20Public%20IPv6%20Addresses-1.png "Support%20for%20Public%20IPv6%20Addresses-1")
 
-If you are a Enscale user, you can easily enable IPv6 addresses via the environment topology wizard in your [Dashboard](https://app.enscale.cloud) or via [API](https://docs.jelastic.com/multiple-public-ip/#api-reference-on-multiple-public-ips).
+If you are a Enscale user, you can easily enable IPv6 addresses via the environment topology wizard in your [Dashboard](https://app.enscale.cloud) or via [API](https://www.virtuozzo.com/application-platform-docs/multiple-public-ip/#api-reference-on-multiple-public-ips).
 
-![Support%20for%20Public%20IPv6%20Addresses-2](Support%20for%20Public%20IPv6%20Addresses-2.png "Support%20for%20Public%20IPv6%20Addresses-2")
+![Support%20for%20Public%20IPv6%20Addresses-2](Support%20for%20Public%20IPv6%20Addresses-2.png)
 
 ## Configuration tips
 

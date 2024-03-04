@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T08:54:53+00:00'
-    'article:modified_time': '2024-03-04T08:54:53+00:00'
+    'article:published_time': '2024-03-04T08:56:28+00:00'
+    'article:modified_time': '2024-03-04T08:56:28+00:00'
     'article:author': Layershift
 ---
 
@@ -59,7 +59,7 @@ We recommend for higher deliverability that you enable a public IP on your web s
 
 ## Option 3: Install your own mailserver on an Elastic VPS
 
-You also have the option to install your own mail server on a VPS and configure it any way you wish. The VPS feature on Jelastic is called Elastic VPS and provides a plain unmanaged CentOS 7.2 or Ubuntu 16.04 server, with full root access. You are responsible for installing and maintaining any software you require on this node.
+You also have the option to install your own mail server on a VPS and configure it any way you wish. The VPS feature on Enscale is called Elastic VPS and provides a plain unmanaged CentOS 7.2 or Ubuntu 16.04 server, with full root access. You are responsible for installing and maintaining any software you require on this node.
 
 !!! The Elastic VPS node type is not available for trial accounts.
 

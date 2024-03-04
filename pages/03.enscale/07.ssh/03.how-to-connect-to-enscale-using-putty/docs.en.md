@@ -5,20 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
-    description: 'Here you will find a step-by-step guide for how to connect to your Jelastic gateway or a specific node in your environment using PuTTY.'
+    description: 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
 metadata:
-    description: 'Here you will find a step-by-step guide for how to connect to your Jelastic gateway or a specific node in your environment using PuTTY.'
+    description: 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
     'og:url': 'https://www.layershift.com/kb/enscale/ssh/how-to-connect-to-enscale-using-putty'
     'og:type': website
     'og:title': 'How to connect to Enscale using PuTTY | Layershift KB'
-    'og:description': 'Here you will find a step-by-step guide for how to connect to your Jelastic gateway or a specific node in your environment using PuTTY.'
+    'og:description': 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:25:34+00:00'
-    'article:modified_time': '2024-03-04T09:25:34+00:00'
+    'article:published_time': '2024-03-04T09:25:48+00:00'
+    'article:modified_time': '2024-03-04T09:25:48+00:00'
     'article:author': Layershift
 ---
 

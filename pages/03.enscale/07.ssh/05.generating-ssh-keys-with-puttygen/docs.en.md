@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:31:08+00:00'
-    'article:modified_time': '2024-03-04T09:31:08+00:00'
+    'article:published_time': '2024-03-04T14:45:34+00:00'
+    'article:modified_time': '2024-03-04T14:45:34+00:00'
     'article:author': Layershift
 ---
 
@@ -50,9 +50,13 @@ Simply download and save the PuTTYgen executable (.exe) file from this [link](ht
 
 ### Your Public Key
 
-You can copy and paste this key directly to your Enscale dashboard. To see how to add your public key to Enscale, please see: [How to connect to Enscale using PuTTY](/how-to-connect-to-jelastic-using-putty)
+You can copy and paste this key directly to your Enscale dashboard. To see how to add your public key to Enscale, please see: [How to connect to Enscale using PuTTY](../how-to-connect-to-enscale-using-putty)
 
 ### Your Key Fingerprint
+
+It's a short sequence of bytes used to identify the public key, if a comment is not set or displayed. The key fingerprint is a hexadecimal encoded string and will be displayed in the Public Key list of the user settings.
+
+### Your Key Comment
 
 In this field you should enter something to help you remember what you will use this key for. For example if you are going to use this key pair to connect to your Enscale environments, you could enter `Enscale` here.
 

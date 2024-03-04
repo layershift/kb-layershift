@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:19:39+00:00'
-    'article:modified_time': '2024-03-04T10:19:39+00:00'
+    'article:published_time': '2024-03-04T10:20:18+00:00'
+    'article:modified_time': '2024-03-04T10:20:18+00:00'
     'article:author': Layershift
 ---
 
@@ -38,7 +38,7 @@ This feature is also perfect for digital agencies and freelancers. It allows you
 
 You can only transfer the environment to an existing user with a **paid** account; you will receive a warning if the person you wish to transfer it to does not have an account, or their account is not in the correct status (e.g. a trial or expired account).
 
-! If you want to transfer to a user without a Jelastic account, add them as a collaborator on your account first, and then simply ask them to upgrade to a paid account.
+! If you want to transfer to a user without an Enscale account, add them as a collaborator on your account first, and then simply ask them to upgrade to a paid account.
 
 * An approval email is sent to the new owner, since they will become responsible for all future usage charges for this environment as soon as the transfer completes. They must click a link in the email to complete the transfer. The link expires after 7 days.
 

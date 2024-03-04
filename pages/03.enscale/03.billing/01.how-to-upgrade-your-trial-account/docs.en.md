@@ -17,13 +17,13 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T03:44:50+00:00'
-    'article:modified_time': '2024-03-03T03:44:50+00:00'
+    'article:published_time': '2024-03-03T03:45:38+00:00'
+    'article:modified_time': '2024-03-03T03:45:38+00:00'
     'article:author': Layershift
 menu: 'Upgrade your trial account'
 ---
 
-Once your 14 day free trial has expired, you need to upgrade your account in order to access the full version of Jelastic. The full version of Jelastic includes extra features which aren’t available in the trial such as the ability to add public IP addresses to your servers and configure your own custom SSL certificates.
+Once your 14 day free trial has expired, you need to upgrade your account in order to access the full version of Enscale. The full version of Enscale includes extra features which aren’t available in the trial such as the ability to add public IP addresses to your servers and configure your own custom SSL certificates.
 
 The upgrade process is extremely simple and won’t cause any disruption to any environments that were created during the trial. To upgrade your account, you can follow the steps below:
 

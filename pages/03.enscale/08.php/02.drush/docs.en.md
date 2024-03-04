@@ -17,14 +17,14 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:41:01+00:00'
-    'article:modified_time': '2024-03-04T09:41:01+00:00'
+    'article:published_time': '2024-03-04T09:41:13+00:00'
+    'article:modified_time': '2024-03-04T09:41:13+00:00'
     'article:author': Layershift
 ---
 
-The Drush Project Manager is an invaluable CLI tool for Drupal, enabling experienced Drupal administrators to perform various admin tasks via CLI that would otherwise require many clicks in the UI. In other words, just like Jelastic, it’s a massive time saver!
+The Drush Project Manager is an invaluable CLI tool for Drupal, enabling experienced Drupal administrators to perform various admin tasks via CLI that would otherwise require many clicks in the UI. In other words, just like Enscale, it’s a massive time saver!
 
-## How to install Drush on your Jelastic Server
+## How to install Drush on your Enscale application node
 
 The recommended way to install Drush is now using Composer (the Pear channel still exists, but will likely become deprecated in future – as has already happened with many other projects). Composer is really easy to use and offers a lot of benefits over pear; not least the flexibility to have different versions of the same software co-existing on one server (pear works globally).
 

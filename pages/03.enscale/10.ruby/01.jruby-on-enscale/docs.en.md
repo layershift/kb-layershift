@@ -5,20 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
-    description: 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
+    description: 'How to run JRuby application on Layershift Enscale PaaS to run high performance Ruby applications.'
 metadata:
-    description: 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
+    description: 'How to run JRuby application on Layershift Enscale PaaS to run high performance Ruby applications.'
     'og:url': 'https://www.layershift.com/kb/enscale/ruby/jruby-on-enscale'
     'og:type': website
     'og:title': 'JRuby on Enscale | Layershift KB'
-    'og:description': 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
+    'og:description': 'How to run JRuby application on Layershift Enscale PaaS to run high performance Ruby applications.'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:55:29+00:00'
-    'article:modified_time': '2024-03-04T09:55:29+00:00'
+    'article:published_time': '2024-03-04T09:58:23+00:00'
+    'article:modified_time': '2024-03-04T09:58:23+00:00'
     'article:author': Layershift
 ---
 

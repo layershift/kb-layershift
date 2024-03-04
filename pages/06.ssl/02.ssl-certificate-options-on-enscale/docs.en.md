@@ -14,8 +14,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T03:12:55+00:00'
-    'article:modified_time': '2024-03-03T03:12:55+00:00'
+    'article:published_time': '2024-03-03T03:13:05+00:00'
+    'article:modified_time': '2024-03-03T03:13:05+00:00'
     'article:author': Layershift
 taxonomy:
     category:
@@ -41,17 +41,17 @@ Enscale Shared SSL is intended to be used for start-up projects, staging / devel
 
 ![SSL%20certificate%20options%20on%20Enscale-1](SSL%20certificate%20options%20on%20Enscale-1.png "SSL%20certificate%20options%20on%20Enscale-1") 
 
-* Click on the **SSL icon** to turn on the Jelastic SSL. 
+* Click on the **SSL icon** to turn on the Enscale SSL. 
 
 ![SSL%20certificate%20options%20on%20Enscale-2](SSL%20certificate%20options%20on%20Enscale-2.png "SSL%20certificate%20options%20on%20Enscale-2")
 
 * Enable `Built-In SSL` option and click `Apply`: 
 
 ![SSL%20certificate%20options%20on%20Enscale-3](SSL%20certificate%20options%20on%20Enscale-3.png "SSL%20certificate%20options%20on%20Enscale-3") 
-Please note that if you switch IPv4 **ON** for any node in your environment, the Jelastic shared SSL will be automatically disabled. 
+Please note that if you switch IPv4 **ON** for any node in your environment, the Enscale shared SSL will be automatically disabled. 
 ### Using your own Custom SSL certificate (recommended) 
 
-**Jelastic’s Custom SSL feature is designed for all production websites** where you can install a certificate issued specifically for your domain name. To be able to install your own custom SSL certificate you will need to add a public IP to your application server or Nginx load-balancer. 
+**Enscale's Custom SSL feature is designed for all production websites** where you can install a certificate issued specifically for your domain name. To be able to install your own custom SSL certificate you will need to add a public IP to your application server or Nginx load-balancer. 
 
 This category of SSL certificates is very popular as it allows you to secure your own branded URL. There are multiple certificate types, depending on the validation process, the number of domains they cover or the level of assurance. We have a [blog article](https://blog.layershift.com/ssl-certificates-explained/) explaining each certificate type in detail so please take a look.
 

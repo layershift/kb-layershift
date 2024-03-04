@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T01:50:33+00:00'
-    'article:modified_time': '2024-03-03T01:50:33+00:00'
+    'article:published_time': '2024-03-04T13:59:22+00:00'
+    'article:modified_time': '2024-03-04T13:59:22+00:00'
     'article:author': Layershift
 ---
 
@@ -27,12 +27,12 @@ In order to successfully connect to your server / website over SSH you’ll have
 * Allow SSH access for your domain
 * Configure your SSH client
 
-### Allow SSH access for your domain
+## Allow SSH access for your domain
 
 Log in to your **Plesk Dashboard**, go to `Websites & Domains`, then go to `Web Hosting Access` for your domains that you want to connect to. Choose **/bin/bash** shell and save it:
 
 ![Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1](Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1.png "Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-1")
-### Connect using password
+## Connect using password
 
 You have to find out the user to be used to establish the connection. For this go to **Web Hosting Access** for domain that you want to connect to.
 
@@ -40,11 +40,11 @@ Open the **Putty** client. In the PuTTY configuration window, into the `Host Nam
 
 ![Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-2](Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-2.png "Connect%20to%20your%20Plesk%20server%20using%20SSH%20client-2")
 
-### Connect using SSH key pair
+## Connect using SSH key pair
 
 Using SSH keys is more convenient and secure than traditional password authentication, therefore we are going to show you how to use SSH key pair for authentication. You’ll have to generate your own key pair, for this follow this guide to [Generate your key pair](../generating-ssh-keys-with-puttygen).
 
-#### Install the SSH Keys Manager extension
+### SSH Keys Manager extension
 
 Go to **Extensions**, search for `SSH Keys Manager` and click `Get it Free` to install it.
 
@@ -52,7 +52,7 @@ Go to **Extensions**, search for `SSH Keys Manager` and click `Get it Free` to i
 
 Go to particular subscription to manage SSH keys for access to that subscription via SSH. At right hand side click `SSH Keys`, then click `Add key` to add your public key.
 
-#### Configure the SSH client
+### Configure the SSH client
 
 We are using PuTTY, a free SSH client for Windows and UNIX platforms. [Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) it to your machine and run it.
 
