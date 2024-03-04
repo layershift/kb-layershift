@@ -7,24 +7,21 @@ aura:
     metadata:
         description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
     pagetype: website
+    description: 'Easily validate changes on a stage environment before deploying them live using an exact clone of your Enscale environment'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/getting%20started/how-to-clone-an-environment'
+    description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
+    'og:url': 'https://www.layershift.com/kb/enscale/getting-started/how-to-clone-an-environment'
     'og:type': website
-    'og:title': 'How to Clone an Environment |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/13.how-to-clone-an-environment/How-to-Clone-an-Environment-2.png'
+    'og:title': 'How to Clone an Environment | Layershift KB'
+    'og:description': 'Easily validate changes on a stage environment before deploying them live using an exact clone of your Enscale environment'
+    'og:image': 'https://www.layershift.com/user/pages/03.enscale/04.getting-started/13.how-to-clone-an-environment/How-to-Clone-an-Environment-2.png'
     'og:image:type': image/png
     'og:image:width': 716
     'og:image:height': 320
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to Clone an Environment |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/13.how-to-clone-an-environment/How-to-Clone-an-Environment-2.png'
-    'article:published_time': '2023-10-08T18:15:54+01:00'
-    'article:modified_time': '2023-10-08T18:15:54+01:00'
+    'article:published_time': '2024-03-04T13:06:35+00:00'
+    'article:modified_time': '2024-03-04T13:06:35+00:00'
     'article:author': Layershift
-    description: 'Easily clone Jelastic environments for safe testing. No more excuses for skipping vital validation steps before deploying changes.'
 taxonomy:
     category:
         - docs
@@ -33,8 +30,6 @@ taxonomy:
 # Clone Environment
 
 It’s good practice to validate all of your changes on a stage environment before deploying them to your live site or application. That way you find any last minute problems before they impact your users. Doing this is usually a lot of extra work, so this vital step is often skipped in favour of time saving, but with Enscale we’ve made it easy – there’s no more excuses!
-
-===
 
 ## How to create a clone of your Enscale environment
 

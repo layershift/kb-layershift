@@ -17,12 +17,12 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:29:10+00:00'
-    'article:modified_time': '2024-03-04T09:29:10+00:00'
+    'article:published_time': '2024-03-04T13:03:36+00:00'
+    'article:modified_time': '2024-03-04T13:03:36+00:00'
     'article:author': Layershift
 ---
 
-The [Enscale SSH gateway](https://kb.luca.uk.easy-server.com/enscale/ssh/enscale-ssh-access) provides convenient SSH access from outside the platform – via an interactive menu, or [directly to a specific node](https://kb.luca.uk.easy-server.com/enscale/ssh/enscale-ssh-access).
+The [Enscale SSH gateway](../enscale-ssh-access) provides convenient SSH access from outside the platform – via an interactive menu, or [directly to a specific node](../enscale-ssh-access#enscale-ssh-access-for-sc).
 
 However, sometimes you need an SSH connection between nodes inside the platform. Perhaps to rsync or scp some files. The SSH gateway is not an option for this scenario, but all it takes is an SSH key and a little firewall tweak.
 

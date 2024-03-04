@@ -2,27 +2,22 @@
 title: 'Transferring a gTLD to Layershift'
 aura:
     pagetype: website
+    description: 'Transferring a gTLD to Layershift.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/transfers/transferring-a-gtld-to-layershift'
+    description: 'Transferring a gTLD to Layershift.'
+    'og:url': 'https://www.layershift.com/kb/domains/transfers/transferring-a-gtld-to-layershift'
     'og:type': website
-    'og:title': 'Transferring a gTLD to Layershift |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/02.transferring-a-gtld-to-layershift/Transferring a gTLD to Layershift-1.png'
-    'og:image:type': image/png
-    'og:image:width': 490
-    'og:image:height': 207
+    'og:title': 'Transferring a gTLD to Layershift | Layershift KB'
+    'og:description': 'Transferring a gTLD to Layershift.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Transferring a gTLD to Layershift |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/02.transferring-a-gtld-to-layershift/Transferring a gTLD to Layershift-1.png'
-    'article:published_time': '2023-08-26T14:54:31+01:00'
-    'article:modified_time': '2023-08-26T14:54:31+01:00'
+    'article:published_time': '2023-10-19T13:08:26+01:00'
+    'article:modified_time': '2024-03-04T13:08:48+00:00'
     'article:author': Layershift
-media_order: 'Transferring a gTLD to Layershift-1.png,Transferring a gTLD to Layershift-2.png'
-taxonomy:
-    category:
-        - docs
+menu: 'gTLD to Layershift'
 ---
 
 Layershift currently support the registration or transfer of the following domain names:
@@ -108,48 +103,4 @@ Your domain name will be using the nameservers you entered during the transfer o
 Additional Note:** _Repeat from step 3 if you have multiple domains._
 
 Our systems will immediately send a request to the domain name registry to update your nameservers, and this is usually completed within 5 minutes. You may need to wait for your ISP or your computer to expire their DNS cache (this occurs automatically) before you can see your domain name pointing at our servers, but usually this does not take more than a few hours.
-
-##### Layershift DNS cluster:
-
-In this case you have to choose the first option – `Manage DNS via My Layershift’s default name servers`:
-
-* DNS1.TRANSNEXIS.NET
-* DNS2.TRANSNEXIS.NET
-* DNS3.TRANSNEXIS.NET
-
-![Transferring%20a%20gTLD%20to%20Layershift-1](Transferring%20a%20gTLD%20to%20Layershift-1.png "Transferring%20a%20gTLD%20to%20Layershift-1")
-
-##### Custom nameservers
-
-If you wish to keep your existing DNS records or add other custom ones, select the `Enter custom name servers` option and fill in the NS records manually.
-
-![Transferring%20a%20gTLD%20to%20Layershift-2](Transferring%20a%20gTLD%20to%20Layershift-2.png "Transferring%20a%20gTLD%20to%20Layershift-2")
-
-**Additional Note:** You can check the nameservers using an online whois check tool (e.g.this Whois Lookup), but please note that it may include cached information.
-
-4.After placing the order, a transfer request is submitted to your existing registrar which they need to respond to that request (i.e. either releasing the domain or rejecting it) within 5 days.
-
-The whole transfer process for a domain transfer can take anything from a few hours to around 5 days. This varies depending on the (losing) registrar involved.
-
-There is no downtime for your domains during this process, because nameservers settings should remain unchanged throughout.
-
-##### Check your domain nameservers are accurate
-
-Your domain name will be using the nameservers you entered during the transfer order. If you wish to update these details you can do this via our Layershift control panel:
-
-1. Login to [Layershift Customer Control Panel](https://control.layershift.com/) .
-2. Use the drop-down `Subscription` on the right corner of the screen and select `All My Domains`.
-3. Open `All My Domains` tab.
-4. Click on the domain name you have just transferred (or any other domain you want to change nameservers on).
-5. Open the `Name Servers` tab.
-6. Click `Edit` and enter the nameservers required. You have three choices:
-	* Custom **Nameservers** (recommended for Cloud VPS and Dedicated customers)
-	* Our redundant **DNS cluster** (recommended for shared hosting)
-	* External **DNS servers** (not recommended).
-    For a full explanation on the nameservers options, please check our related article: [Setting up DNS for your domains](https://kb.layershift.com/setting-up-dns-for-your-domains)
-    **
-Additional Note:** _Repeat from step 3 if you have multiple domains._
-
-Our systems will immediately send a request to the domain name registry to update your nameservers, and this is usually completed within 5 minutes. You may need to wait for your ISP or your computer to expire their DNS cache (this occurs automatically) before you can see your domain name pointing at our servers, but usually this does not take more than a few hours.
-
 
