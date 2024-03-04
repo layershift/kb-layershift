@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'BitNinja is an optional paid add-on that provides full-stack server protection for your Enscale environment nodes.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/security/bitninja-on-enscale'
+    description: 'BitNinja is an optional paid add-on that provides full-stack server protection for your Enscale environment nodes.'
+    'og:url': 'https://www.layershift.com/kb/enscale/security/bitninja-on-enscale'
     'og:type': website
-    'og:title': 'BitNinja on Enscale |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/10.security/bitninja-on-enscale/BitNinja on Enscale-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1094
-    'og:image:height': 134
+    'og:title': 'BitNinja on Enscale | Layershift KB'
+    'og:description': 'BitNinja is an optional paid add-on that provides full-stack server protection for your Enscale environment nodes.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'BitNinja on Enscale |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/10.security/bitninja-on-enscale/BitNinja on Enscale-1.png'
-    'article:published_time': '2023-09-30T11:11:33+01:00'
-    'article:modified_time': '2023-09-30T11:11:33+01:00'
+    'article:published_time': '2024-03-04T10:01:56+00:00'
+    'article:modified_time': '2024-03-04T10:01:56+00:00'
     'article:author': Layershift
-media_order: 'BitNinja on Enscale-1.png,BitNinja on Enscale-2.png,BitNinja on Enscale-3.png,BitNinja on Enscale-4.png,BitNinja on Enscale-5.png'
 ---
 
 BitNinja is an optional paid add-on that provides full-stack server protection for your Enscale environment. It’s a good option if you need to secure your nodes against all kinds of cyber threats such as SQL injections, malware, and DoS attacks.

@@ -5,23 +5,26 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ruby/jruby-on-enscale'
+    description: 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
+    'og:url': 'https://www.layershift.com/kb/enscale/ruby/jruby-on-enscale'
     'og:type': website
-    'og:title': 'JRuby on Enscale |  Layershift KB'
+    'og:title': 'JRuby on Enscale | Layershift KB'
+    'og:description': 'How to run JRuby application on Layershift Jelastic PaaS to run high performance Ruby applications.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'JRuby on Enscale |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-30T09:18:47+01:00'
-    'article:modified_time': '2023-09-30T09:18:47+01:00'
+    'article:published_time': '2024-03-04T09:55:29+00:00'
+    'article:modified_time': '2024-03-04T09:55:29+00:00'
     'article:author': Layershift
 ---
 
 ### Why JRuby
 
-[JRuby](http://jruby.org/) is a JVM implementation of Ruby, and therefore offers various performance and scalability benefits against [MRI based Ruby]() applications.
+[JRuby](http://jruby.org/) is a JVM implementation of Ruby, and therefore offers various performance and scalability benefits against [MRI based Ruby](../getting-started-with-ruby) applications.
 
 Using JRuby you can access any Java library meaning that you can benefit from a very mature and vast Java ecosystem – many immature Ruby libraries already have well established Java equivalents which can offer you more performance, stability, features, or just an alternative option.
 
@@ -37,4 +40,4 @@ When you’re ready to deploy, install the [warbler gem](https://rubygems.org/ge
 
 !!! This process should work for any Rails, Merb, or Rack-based application. Please refer to the [Warbler docs](http://rubydoc.info/gems/warbler/1.4.3/frames) for more details.
 
-Once you have your WAR file, it can be deployed to any Java application server on Jelastic by [upload to the deployment manager](https://kb.layershift.com/deploy-a-simple-application-from-a-zip-war-or-ear-archive-2) in the dashboard.
+Once you have your WAR file, it can be deployed to any Java application server on Enscale by [upload to the deployment manager](../../getting-started/deploy-a-simple-application-from-a-zip-war-or-ear-archive) in the dashboard.

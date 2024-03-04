@@ -5,27 +5,24 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Enscale certified containers vs. Docker(R) containers'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/getting%20started/enscale-certified-containers-vs-docker-r-containers'
+    description: 'Enscale certified containers vs. Docker(R) containers'
+    'og:url': 'https://www.layershift.com/kb/enscale/getting-started/enscale-certified-containers-vs-docker-r-containers'
     'og:type': website
-    'og:title': 'Enscale certified containers vs. Docker® containers |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/05.enscale-certified-containers-vs-docker-r-containers/Enscale certified containers vs. Docker® containers-1.png'
-    'og:image:type': image/png
-    'og:image:width': 464
-    'og:image:height': 39
+    'og:title': 'Enscale certified containers vs. Docker® containers | Layershift KB'
+    'og:description': 'Enscale certified containers vs. Docker(R) containers'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enscale certified containers vs. Docker® containers |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/05.enscale-certified-containers-vs-docker-r-containers/Enscale certified containers vs. Docker® containers-1.png'
-    'article:published_time': '2023-10-01T15:33:11+01:00'
-    'article:modified_time': '2023-10-01T15:33:11+01:00'
+    'article:published_time': '2024-03-04T10:18:32+00:00'
+    'article:modified_time': '2024-03-04T10:18:32+00:00'
     'article:author': Layershift
-media_order: 'Enscale certified containers vs. Docker® containers-1.png'
 ---
 
-### What are Enscale certified containers?
+## What are Enscale certified containers?
 
 When creating an environment in Enscale, you can choose between a variety of certified containers based on the programming language your application uses.
 
@@ -37,7 +34,7 @@ All of these nodes are thoroughly tested and proven to work optimally on Enscale
 
 When you select to install an application from the Marketplace, we can assure you that the created environment is also using certified containers which are optimised to the needs of the application itself.
 
-#### Elastic VPS
+### Elastic VPS
 
 The Elastic VPS is the only option within the language-specific tabs that is not a certified container. It provides a pure CentOS container without any additional software installed.
 
@@ -45,7 +42,7 @@ Root access is provided to Elastic VPS containers. You install, configure, and m
 
 Since all configuration is done by you, our technical team are only able to assist with issues related to platform and network maintenance.
 
-### What are Docker containers and how do they work on Enscale?
+## What are Docker containers and how do they work on Enscale?
 
 When you create a Enscale environment using Docker, you deploy a Docker image which might not use an official version of the programming language (e.g. may be a nightly snapshot, other pre-release, or customised version). You can choose from a huge variety of Docker images available via the Docker Hub Registry, or any other compatible and accessible (public or private) registry image.
 
@@ -55,7 +52,7 @@ After you create the container, you will need to perform custom configurations e
 
 Docker-based applications deployed from our Marketplace are already preconfigured for you; additional steps are not usually required.
 
-### What’s the difference?
+## What’s the difference?
 
 Although there are many third party Docker images, to take full advantage of Docker requires knowledge of the underlying OS packages. You have to do some low-level work to build, or modify, your server environment to fit your needs – and then additional work to maintain that (security patches, bugs etc.).
 
@@ -82,7 +79,7 @@ Root access is not available on certified containers, to ensure safe and reliabl
 
 When using a Docker image, you have root access to apply any modifications for yourself – but pay attention that they should be incorporated back to the registry image or your next re-deploy could revert all of your hard work!
 
-### Which should I use?
+## Which should I use?
 
 The main benefit of Docker containers is portability. You define your application’s server environment on your laptop and can consistently and repeatedly deploy that same server environment to all stages of the application lifecycle (development, staging, production).
 

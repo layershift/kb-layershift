@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Enscale SSH Access. Why is SSH access useful, how to connect, connection settings, how to add SSH keys, how to connect directly to an environment node.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ssh/enscale-ssh-access'
+    description: 'Enscale SSH Access. Why is SSH access useful, how to connect, connection settings, how to add SSH keys, how to connect directly to an environment node.'
+    'og:url': 'https://www.layershift.com/kb/enscale/ssh/enscale-ssh-access'
     'og:type': website
-    'og:title': 'Enscale SSH Access |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/01.enscale-ssh-access/Enscale SSH Access-1.png'
-    'og:image:type': image/png
-    'og:image:width': 513
-    'og:image:height': 143
+    'og:title': 'Enscale SSH Access | Layershift KB'
+    'og:description': 'Enscale SSH Access. Why is SSH access useful, how to connect, connection settings, how to add SSH keys, how to connect directly to an environment node.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enscale SSH Access |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/01.enscale-ssh-access/Enscale SSH Access-1.png'
-    'article:published_time': '2023-09-22T16:55:23+01:00'
-    'article:modified_time': '2023-09-22T16:55:23+01:00'
+    'article:published_time': '2024-03-04T09:16:04+00:00'
+    'article:modified_time': '2024-03-04T09:16:04+00:00'
     'article:author': Layershift
-media_order: 'Enscale SSH Access-1.png,Enscale SSH Access-2.png,Enscale SSH Access-3.png,Enscale SSH Access-4.png,Enscale SSH Access-5.png,Enscale SSH Access-6.png'
 ---
 
 ### Why is SSH access useful?

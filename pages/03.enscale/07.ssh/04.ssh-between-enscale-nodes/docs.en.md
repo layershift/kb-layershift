@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'The Enscale SSH gateway provides convenient SSH access from outside the platform via an interactive menu, or directly to a specific node. However, sometimes you need an SSH connection between nodes inside the platform. Perhaps to rsync or scp some files. The SSH gateway is not an option for this scenario, but all it takes...'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ssh/ssh-between-enscale-nodes'
+    description: 'The Enscale SSH gateway provides convenient SSH access from outside the platform via an interactive menu, or directly to a specific node. However, sometimes you need an SSH connection between nodes inside the platform. Perhaps to rsync or scp some files. The SSH gateway is not an option for this scenario, but all it takes...'
+    'og:url': 'https://www.layershift.com/kb/enscale/ssh/ssh-between-enscale-nodes'
     'og:type': website
-    'og:title': 'SSH between Enscale nodes |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/04.ssh-between-enscale-nodes/SSH between Enscale nodes-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1106
-    'og:image:height': 200
+    'og:title': 'SSH between Enscale nodes | Layershift KB'
+    'og:description': 'The Enscale SSH gateway provides convenient SSH access from outside the platform via an interactive menu, or directly to a specific node. However, sometimes you need an SSH connection between nodes inside the platform. Perhaps to rsync or scp some files. The SSH gateway is not an option for this scenario, but all it takes...'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'SSH between Enscale nodes |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/04.ssh-between-enscale-nodes/SSH between Enscale nodes-1.png'
-    'article:published_time': '2023-10-08T17:15:45+01:00'
-    'article:modified_time': '2023-10-08T17:15:45+01:00'
+    'article:published_time': '2024-03-04T09:29:10+00:00'
+    'article:modified_time': '2024-03-04T09:29:10+00:00'
     'article:author': Layershift
-media_order: 'SSH between Enscale nodes-1.png'
 ---
 
 The [Enscale SSH gateway](https://kb.luca.uk.easy-server.com/enscale/ssh/enscale-ssh-access) provides convenient SSH access from outside the platform – via an interactive menu, or [directly to a specific node](https://kb.luca.uk.easy-server.com/enscale/ssh/enscale-ssh-access).

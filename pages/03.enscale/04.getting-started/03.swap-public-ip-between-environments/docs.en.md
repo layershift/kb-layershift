@@ -5,39 +5,36 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/getting%20started/swap-public-ip-between-environments'
+    description: 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
+    'og:url': 'https://www.layershift.com/kb/enscale/getting-started/swap-public-ip-between-environments'
     'og:type': website
-    'og:title': 'Swap public IP between environments |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/03.swap-public-ip-between-environments/Swap public IP between environments-2.png'
-    'og:image:type': image/png
-    'og:image:width': 1495
-    'og:image:height': 251
+    'og:title': 'Swap public IP between environments | Layershift KB'
+    'og:description': 'Shifting workloads between different environments (e.g. blue-green deployment) can be a painful process if you lack the right tools for the job. Thankfully Jelastic makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds. This feature ..'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Swap public IP between environments |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/03.swap-public-ip-between-environments/Swap public IP between environments-2.png'
-    'article:published_time': '2023-10-01T11:30:36+01:00'
-    'article:modified_time': '2023-10-01T13:01:39+01:00'
+    'article:published_time': '2024-03-04T10:14:09+00:00'
+    'article:modified_time': '2024-03-04T10:14:09+00:00'
     'article:author': Layershift
-media_order: 'Swap public IP between environments-2.png,Swap public IP between environments-4.png,Swap public IP between environments-3.png'
 ---
 
 Shifting workloads between different environments – e.g. blue-green deployment – can be a painful process if you lack the right tools for the job. Thankfully Enscale makes it easy for you to migrate a public IP, completely eliminating any DNS propagation effects and reducing downtime for this process to just a few seconds.
 
 This feature is intended to be used by advanced users, such as within a CI/CD workflow. Therefore it is currently only available via the CLI tool or API commands:
 
-### Enscale CLI
+## Enscale CLI
+
+**Skills required: Java-jitsu**
 
 Enscale provides a CLI tool to simplify interacting with your account and environments.
 
 The tool is relatively easy to use and you can install it on your local machine.
 
-#### Prepare your machine
-
-**Skills required: Java-jitsu**           
+### Prepare your machine
 
 Before installing the CLI tool, you need to ensure a few things are present on your system.         
 
@@ -100,9 +97,9 @@ Once you have the details of the nodes you want to move public IP(s) between, yo
 
 You may verify the IP swap was successful by reviewing the response output, or checking the public IP assignments for each node as shown within the Enscale dashboard.
 
-### Docker container
+## Docker container
 
-##### Skills required: Inception
+**Skills required: Inception**
 
 If you would rather not install Java on your local machine but still wish to use the Jelastic CLI tool, you can make use of [Docker](https://www.docker.com/). Our engineers at Layershift have prepared a [lightweight docker image](https://hub.docker.com/r/layershift/jelastic-cli/) that has java and the CLI tool pre-installed. All you have to do is to pass some variables to the image and you can use the CLI tool straight away.
 
@@ -123,9 +120,9 @@ You will enter bash shell where you will be able to use the CLI commands.
 
 !!! NOTE: This Docker image is intended to be run locally (not deployed onto Enscale).
 
-### Jelastic API
+## Jelastic API
 
-#### Skills: God mode
+**Skills: God mode**
 
 If you are brave enough not to install Java or don’t have a way or feel the need to install Docker, you may still swap IPs using a curl command, or in fact a few API commands issued from any programming language of your choice.
 

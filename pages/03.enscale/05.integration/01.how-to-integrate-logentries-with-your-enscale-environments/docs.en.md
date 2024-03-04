@@ -5,18 +5,22 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'On Enscale, you can stream your logs into a Logentries account to benefit from log visualisation, search, etc. Read this article to find out how!'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/integration/how-to-integrate-logentries-with-your-enscale-environments'
+    description: 'On Enscale, you can stream your logs into a Logentries account to benefit from log visualisation, search, etc. Read this article to find out how!'
+    'og:url': 'https://www.layershift.com/kb/enscale/integration/how-to-integrate-logentries-with-your-enscale-environments'
     'og:type': website
-    'og:title': 'How to integrate Logentries with your Enscale environments |  Layershift KB'
+    'og:title': 'How to integrate Logentries with your Enscale environments | Layershift KB'
+    'og:description': 'On Enscale, you can stream your logs into a Logentries account to benefit from log visualisation, search, etc. Read this article to find out how!'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to integrate Logentries with your Enscale environments |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-09T11:45:38+01:00'
-    'article:modified_time': '2023-09-09T11:45:38+01:00'
+    'article:published_time': '2024-03-04T08:51:16+00:00'
+    'article:modified_time': '2024-03-04T08:51:16+00:00'
     'article:author': Layershift
+menu: Logentries
 ---
 
 The Enscale UI always gave you access to your different component log files, however now you can stream these logs into a Logentries account which will give you the opportunity to benefit from log visualisation, search, alerts, etc. so you can easily identify application errors, warnings or exceptions.
@@ -37,7 +41,7 @@ For your PHP environment, you may use the [standard PHP Logentries logging mecha
 
 Alternatively, you can implement your own local logging and parse it asynchronously to send those log events to logentries.
 
-We’ve got you covered If you prefer to use the [Logentries agent](https://logentries.com/doc/agent/) too! As our Enscale platform is fully managed, and the agent needs to be installed at OS level, we will perform the install for you – just open a [support ticket](https://www.layershift.com/support/?form=technical) and one of our engineers will be more than happy to assist.
+We’ve got you covered If you prefer to use the [Logentries agent](https://logentries.com/doc/agent/) too! As our Enscale platform is fully managed, and the agent needs to be installed at OS level, we will perform the install for you – just open a [support ticket](../../../support) and one of our engineers will be more than happy to assist.
 
 Don’t forget to mention which server/s and within which environment/s you want the agent to be installed on, and the desired log files / filename patterns you wish to be logged!
 
@@ -47,4 +51,4 @@ The Logentries setup in your Enscale environment is really a piece of cake and i
 
 Have you already tried Logentries with Enscale? What are your experiences? What else would you like to see integrated with the Enscale platform?
 
-Tweet us (@Layershift) or [email your feedback to our team](email your feedback to our team).
+[Email your feedback to our team](mailto:support@layershift.com).

@@ -5,27 +5,24 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'What is a cloudlet? We measure RAM & CPU usage in this special combined resource unit on our Enscale PaaS to help simplify the billing model. One Cloudlet is roughly equivalent to 128MiB RAM and 400MHz CPU. Using this scale, a Cloudlet is the maximum of: RAM: the maximum RAM usage over the hour CPU: the average CPU usage ..'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/getting%20started/introducing-cloudlets'
+    description: 'What is a cloudlet? We measure RAM & CPU usage in this special combined resource unit on our Enscale PaaS to help simplify the billing model. One Cloudlet is roughly equivalent to 128MiB RAM and 400MHz CPU. Using this scale, a Cloudlet is the maximum of: RAM: the maximum RAM usage over the hour CPU: the average CPU usage ..'
+    'og:url': 'https://www.layershift.com/kb/enscale/getting-started/introducing-cloudlets'
     'og:type': website
-    'og:title': 'Introducing Cloudlets |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/12.introducing-cloudlets/Introducing Cloudlets-1.png'
-    'og:image:type': image/png
-    'og:image:width': 288
-    'og:image:height': 104
+    'og:title': 'Introducing Cloudlets | Layershift KB'
+    'og:description': 'What is a cloudlet? We measure RAM & CPU usage in this special combined resource unit on our Enscale PaaS to help simplify the billing model. One Cloudlet is roughly equivalent to 128MiB RAM and 400MHz CPU. Using this scale, a Cloudlet is the maximum of: RAM: the maximum RAM usage over the hour CPU: the average CPU usage ..'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Introducing Cloudlets |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/12.introducing-cloudlets/Introducing Cloudlets-1.png'
-    'article:published_time': '2023-10-08T16:47:02+01:00'
-    'article:modified_time': '2023-10-08T16:47:02+01:00'
+    'article:published_time': '2024-03-04T10:37:51+00:00'
+    'article:modified_time': '2024-03-04T10:37:51+00:00'
     'article:author': Layershift
-media_order: 'Introducing Cloudlets-1.png,Introducing Cloudlets-2.png,Introducing Cloudlets-4.png,Introducing Cloudlets-3.png'
 ---
 
-### What is a cloudlet
+## What is a cloudlet
 
 We measure RAM & CPU usage in this special combined resource unit on our Enscale PaaS to help simplify the billing model.
 
@@ -40,7 +37,7 @@ For example, if you use 512MiB (peak) during an hour, you can use an average of 
 
 All Enscale PaaS resources are billed on an hourly basis, so if your usage is variable from one hour to the next Enscale saves you a lot of money vs. other solutions.
 
-### Dynamic Cloudlets
+## Dynamic Cloudlets
 
 One of the many unique benefits of the Enscale PaaS is its ability to dynamically scale server resources for you automatically – based entirely on application demand.
 
@@ -51,7 +48,7 @@ Thanks to the hourly billing, you only pay for those additional resources for th
 ! Keep complete control over the maximum amount of Dynamic Cloudlets that can be added to each of your servers by setting the Scaling Limit.
 Simply set the Scaling Limit slider to the desired setting when you create (or edit) your environment in the topology wizard.
 
-### Reserved Cloudlets
+## Reserved Cloudlets
 
 You can now configure **Reserved Cloudlets** for your servers to “pre-book” resource usage in advance. **You always pay for Reserved Cloudlets (even if your actual resource usage is lower)** – but in exchange you get up to 30% discount compared to Dynamic Cloudlets.
 
@@ -61,19 +58,19 @@ If you prefer the certainty of fixed pricing, simply set all of your servers to 
 
 ![Introducing%20Cloudlets-1](Introducing%20Cloudlets-1.png "Introducing%20Cloudlets-1")
 
-### Automatic Discounts
+## Automatic Discounts
 
 Everyone loves a discount, and with Layershift’s Enscale PaaS you earn discounts automatically!
 
 **The more cloudlets (Reserved, Dynamic – or both) that you use, the bigger the discounts are:**
 
-#### Dynamic Cloudlet Discounts
+### Dynamic Cloudlet Discounts
 
 ![Introducing%20Cloudlets-2](Introducing%20Cloudlets-2.png "Introducing%20Cloudlets-2")
 
 Discounts for **Dynamic Cloudlets** are applied automatically based on your usage each hour. So if you use a total of 8 Dynamic Cloudlets (across all servers in your environment), you automatically receive a 10% discount. Then if the next hour your usage increases to **16 Dynamic Cloudlets**, your discount level also increases to 20%!
 
-#### Reserved Cloudlet Discounts
+### Reserved Cloudlet Discounts
 
 ![Introducing%20Cloudlets-3](Introducing%20Cloudlets-3.png "Introducing%20Cloudlets-3")
 

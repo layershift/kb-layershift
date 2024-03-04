@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'How to install NodeJS and npm together to your PHP application node in just a few clicks using Layershift''s Enscale PaaS'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/php/steps-to-install-node-js-and-npm-for-php'
+    description: 'How to install NodeJS and npm together to your PHP application node in just a few clicks using Layershift''s Enscale PaaS'
+    'og:url': 'https://www.layershift.com/kb/enscale/php/steps-to-install-node-js-and-npm-for-php'
     'og:type': website
-    'og:title': 'Steps to install Node.js and npm for PHP |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/08.php/steps-to-install-node-js-and-npm-for-php/Steps to install Node.js and npm for PHP-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1094
-    'og:image:height': 134
+    'og:title': 'Steps to install Node.js and npm for PHP | Layershift KB'
+    'og:description': 'How to install NodeJS and npm together to your PHP application node in just a few clicks using Layershift''s Enscale PaaS'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Steps to install Node.js and npm for PHP |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/08.php/steps-to-install-node-js-and-npm-for-php/Steps to install Node.js and npm for PHP-1.png'
-    'article:published_time': '2023-09-30T11:52:16+01:00'
-    'article:modified_time': '2023-09-30T11:52:16+01:00'
+    'article:published_time': '2024-03-04T09:43:10+00:00'
+    'article:modified_time': '2024-03-04T09:43:10+00:00'
     'article:author': Layershift
-media_order: 'Steps to install Node.js and npm for PHP-1.png,Steps to install Node.js and npm for PHP-2.png,Steps to install Node.js and npm for PHP-3.png'
 ---
 
 This helpful add-on allows you to install **Node.js** and **npm** together to your PHP application node with a few clicks.

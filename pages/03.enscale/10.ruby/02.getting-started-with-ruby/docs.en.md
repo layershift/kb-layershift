@@ -5,17 +5,20 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Getting started guide for hosting Ruby applications on the Layershift Enscale PaaS, offering a choice of Passenger, Unicorn, or Puma.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ruby/getting-started-with-ruby'
+    description: 'Getting started guide for hosting Ruby applications on the Layershift Enscale PaaS, offering a choice of Passenger, Unicorn, or Puma.'
+    'og:url': 'https://www.layershift.com/kb/enscale/ruby/getting-started-with-ruby'
     'og:type': website
-    'og:title': 'Getting started with Ruby |  Layershift KB'
+    'og:title': 'Getting started with Ruby | Layershift KB'
+    'og:description': 'Getting started guide for hosting Ruby applications on the Layershift Enscale PaaS, offering a choice of Passenger, Unicorn, or Puma.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Getting started with Ruby |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-30T10:09:52+01:00'
-    'article:modified_time': '2023-09-30T10:09:52+01:00'
+    'article:published_time': '2024-03-04T09:58:43+00:00'
+    'article:modified_time': '2024-03-04T09:58:43+00:00'
     'article:author': Layershift
 ---
 

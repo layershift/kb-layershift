@@ -5,30 +5,27 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'To create a new environment with a manual installation of WordPress you will have to take the following steps: Deploy new environment Create a new environment with the desired resources: 2. The environment you create should have at least one application server (Apache,Nginx) and a database server (Mysql/Mariadb) 3. After the environment was created, you ...'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/getting%20started/enscale-wordpress-installation'
+    description: 'To create a new environment with a manual installation of WordPress you will have to take the following steps: Deploy new environment Create a new environment with the desired resources: 2. The environment you create should have at least one application server (Apache,Nginx) and a database server (Mysql/Mariadb) 3. After the environment was created, you ...'
+    'og:url': 'https://www.layershift.com/kb/enscale/getting-started/enscale-wordpress-installation'
     'og:type': website
-    'og:title': 'Enscale WordPress Installation |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/02.Enscale-wordpress-installation/Jelastic WordPress Installation-9.png'
-    'og:image:type': image/png
-    'og:image:width': 598
-    'og:image:height': 419
+    'og:title': 'Enscale WordPress Installation | Layershift KB'
+    'og:description': 'To create a new environment with a manual installation of WordPress you will have to take the following steps: Deploy new environment Create a new environment with the desired resources: 2. The environment you create should have at least one application server (Apache,Nginx) and a database server (Mysql/Mariadb) 3. After the environment was created, you ...'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enscale WordPress Installation |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/04.getting started/02.Enscale-wordpress-installation/Jelastic WordPress Installation-9.png'
-    'article:published_time': '2023-08-31T13:33:55+01:00'
-    'article:modified_time': '2023-08-31T13:33:55+01:00'
+    'article:published_time': '2024-03-04T10:08:58+00:00'
+    'article:modified_time': '2024-03-04T10:08:58+00:00'
     'article:author': Layershift
-media_order: 'Jelastic WordPress Installation-9.png,Jelastic WordPress Installation-8.png,Jelastic WordPress Installation-10.png,Jelastic WordPress Installation-1.png,Jelastic WordPress Installation-2.png,Jelastic WordPress Installation-3.png,Jelastic WordPress Installation-7.png,Jelastic WordPress Installation-5.png,Jelastic WordPress Installation-6.png,Jelastic WordPress Installation-4.png'
 published: true
 ---
 
 To create a new environment with a manual installation of WordPress you will have to take the following steps:
 
-### Deploy new environment
+## Deploy new environment
 
 * Create a new environment with the desired resources:
 
@@ -42,7 +39,7 @@ To create a new environment with a manual installation of WordPress you will hav
 
 * After the environment was created, you will receive an email with login credentials for the database server. Keep those at hand, as we will need them soon.
 
-### Upload and deploy the WordPress archive
+## Upload and deploy the WordPress archive
 
 * Next, we will proceed to upload the WordPress archive to the server. You can download the default WordPress installer from [here](https://wordpress.org/latest.zip).
 
@@ -58,7 +55,7 @@ To create a new environment with a manual installation of WordPress you will hav
 
 ![Enscale%20WordPress%20Installation-6](Jelastic%20WordPress%20Installation-6.png "Enscale%20WordPress%20Installation-6")
 
-### Configure WordPress
+## Configure WordPress
 
 * Now we will proceed to create the database that will be used for the new **WordPress installation**.
 
