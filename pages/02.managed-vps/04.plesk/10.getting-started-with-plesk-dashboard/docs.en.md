@@ -5,19 +5,22 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
 metadata:
+    description: 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
     'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/getting-started-with-plesk-dashboard'
     'og:type': website
     'og:title': 'Getting Started with Plesk Dashboard | Layershift KB'
-    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/04.plesk/10.getting-started-with-plesk-dashboard/Getting Started with Plesk Dashboard-1.png'
-    'og:image:type': image/png
-    'og:image:width': 382
-    'og:image:height': 422
+    'og:description': 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-05T14:41:44+00:00'
-    'article:modified_time': '2024-03-05T14:41:44+00:00'
+    'article:published_time': '2024-03-05T15:07:06+00:00'
+    'article:modified_time': '2024-03-05T15:07:06+00:00'
     'article:author': Layershift
-media_order: 'Getting Started with Plesk Dashboard-1.png'
+menu: 'Getting started with Plesk'
 ---
 
 Plesk Control Panel is powerful, but easy-to-use server automation software which we pre-install on our entire range of Managed VPS products. We offer this to you in order to give you complete control over all aspects of your service, such as creating new domains, FTP accounts, email accounts, MySQL (and PostgreSQL if you have purchased the Web Pro or Web Host edition) databases, and much more.
