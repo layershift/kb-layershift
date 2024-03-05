@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T09:16:04+00:00'
-    'article:modified_time': '2024-03-04T09:16:04+00:00'
+    'article:published_time': '2024-03-05T14:31:17+00:00'
+    'article:modified_time': '2024-03-05T14:31:17+00:00'
     'article:author': Layershift
 ---
 
@@ -56,7 +56,7 @@ Located in the dashboard, SSH Access settings (see below) | SSH key | sshgateway
 
 ### How to add your SSH key
 
-!!! Need help generating your SSH key? Check out [how to generate your SSH key using PuTTYgen](https://kb.layershift.com/en/admin/pages/enscale/ssh/generating-enscale-ssh-keys-with-puttygen) blog post for a quick walkthrough or look up the `ssh-keygen` command available for Windows Powershell, Linux, and Mac OS.
+!!! Need help generating your SSH key? Check out [how to generate your SSH key using PuTTYgen](../generating-enscale-ssh-keys-with-puttygen) blog post for a quick walkthrough or look up the `ssh-keygen` command available for Windows Powershell, Linux, and Mac OS.
 
 * Log in to your [Enscale dashboard](https://app.enscale.cloud/)
 * Select the desired environment and press **Settings**:

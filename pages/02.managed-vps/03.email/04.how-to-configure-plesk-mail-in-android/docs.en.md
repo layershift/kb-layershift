@@ -1,19 +1,18 @@
 ---
 title: 'How to configure Plesk mail in Android'
-media_order: 'Configure-Plesk-mail-in-Android-Step-1.png,Configure-Plesk-mail-in-Android-Step-2.png,Configure-Plesk-mail-in-Android-Step-3.png,Configure-Plesk-mail-in-Android-Step-4.png,Configure-Plesk-mail-in-Android-Step-5.png,Configure-Plesk-mail-in-Android-Step-6.png,Configure-Plesk-mail-in-Android-Step-7.png,Configure-Plesk-mail-in-Android-Step-9.png,Configure-Plesk-mail-in-Android-Step-8.png,Configure-Plesk-mail-in-Android-Step-9B.png,Configure-Plesk-mail-in-Android-Step-10.png'
 metadata:
     description: 'Here is a step-by-step guide to help you configure Plesk mail in Android.'
     'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail-in-android'
     'og:type': website
     'og:title': 'How to configure Plesk mail in Android | Layershift KB'
     'og:description': 'Here is a step-by-step guide to help you configure Plesk mail in Android.'
-    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/03.how-to-configure-plesk-mail-in-android/Configure-Plesk-mail-in-Android-Step-1.png'
-    'og:image:type': image/png
-    'og:image:width': 400
-    'og:image:height': 248
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-02-08T15:53:37+00:00'
-    'article:modified_time': '2024-02-08T15:53:37+00:00'
+    'article:published_time': '2024-03-05T18:35:28+00:00'
+    'article:modified_time': '2024-03-05T18:35:28+00:00'
     'article:author': Layershift
 content:
     items:
@@ -55,7 +54,7 @@ Insert email address and select `Manual setup`:
 
 ### Step 4
 
-Select **Personal (IMAP)** or **Personal (POP3)** according to your preference. To learn more about the difference, please see our article about [setting up mail accounts](https://kb.layershift.com/configure-plesk-mail.#Incoming).
+Select **Personal (IMAP)** or **Personal (POP3)** according to your preference. To learn more about the difference, please see our article about [setting up mail accounts](../how-to-configure-plesk-mail#incoming-mail-settings).
 
 ![Configure-Plesk-mail-in-Android-Step-4](Configure-Plesk-mail-in-Android-Step-4.png "Configure-Plesk-mail-in-Android-Step-4")
 

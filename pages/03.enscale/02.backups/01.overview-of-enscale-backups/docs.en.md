@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T03:38:51+00:00'
-    'article:modified_time': '2024-03-03T03:38:51+00:00'
+    'article:published_time': '2024-03-05T14:31:17+00:00'
+    'article:modified_time': '2024-03-05T14:31:17+00:00'
     'article:author': Layershift
 ---
 
@@ -43,7 +43,7 @@ Our standard managed backup service performs regular filesystem backups – this
    **Additional Note:** Simply locking tables and flushing connections may not be enough in some cases, for example, [PostgreSQL manual recommends fully stopping the database server before taking a filesystem backup](https://www.postgresql.org/docs/9.3/backup-file.html))
   * **Non-portability:** These backups can only typically be restored onto the same platform and software stack versions.
 
-**Layershift** take filesystem backups **4 times per day** and keep them for **14 days**, offering **56 individual restore points**. These backups are included free of charge, without any storage limits and are also covered by our robust [Enscale PaaS SLA](https://www.layershift.com/legal/EnscaleServiceLevelAgreement.pdf). For your security, we store all filesystem backups on a secure, high-speed private backup network which is completely isolated from the rest of the platform.
+**Layershift** take filesystem backups **4 times per day** and keep them for **14 days**, offering **56 individual restore points**. These backups are included free of charge, without any storage limits and are also covered by our robust [Enscale PaaS SLA](https://www.layershift.com/legal/). For your security, we store all filesystem backups on a secure, high-speed private backup network which is completely isolated from the rest of the platform.
 
 #### How do I request a restore of Layershift backups?
 

@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-04T10:05:52+00:00'
-    'article:modified_time': '2024-03-04T10:05:52+00:00'
+    'article:published_time': '2024-03-05T14:31:17+00:00'
+    'article:modified_time': '2024-03-05T14:31:17+00:00'
     'article:author': Layershift
 ---
 
@@ -75,7 +75,7 @@ You’ll notice some mild differences that you need to take into account when fi
 
 IPv6 addresses are free of charge but limited to 10 per Enscale node or 50 per Cloud VPS containers. 
 
-**Note:** Public IP’s (IPv4 and IPv6) are not available for trial accounts, due to high abuse risk, but they can be enabled by request. Let our friendly [sales team](sales@layershift.com) know if you want to test this feature.
+**Note:** Public IP’s (IPv4 and IPv6) are not available for trial accounts, due to high abuse risk, but they can be enabled by request. Let our friendly [sales team](mailto:sales@layershift.com) know if you want to test this feature.
 
 ## How to enable
 

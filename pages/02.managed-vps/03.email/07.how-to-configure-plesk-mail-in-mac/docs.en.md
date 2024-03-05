@@ -1,19 +1,18 @@
 ---
 title: 'How to configure Plesk mail in Mac'
-media_order: '1_Configure-Plesk-mail-in-Mac-Step-1A.png,3_Configure-Plesk-mail-in-Mac-Step-2.png,2_Configure-Plesk-mail-in-Mac-Step-1B.png,4_Configure-Plesk-mail-in-Mac-Step-3.png,9_Configure-Plesk-mail-in-Mac-Step-8.png,8_Configure-Plesk-mail-in-Mac-Step-7.png,7_Configure-Plesk-mail-in-Mac-Step-6.png,5_Configure-Plesk-mail-in-Mac-Step-4.png,6_Configure-Plesk-mail-in-Mac-Step-5.png,10_Configure-Plesk-mail-in-Mac-Step-10.png,11_Configure-Plesk-mail-in-Mac-Step-11.png,12_Configure-Plesk-mail-in-Mac-Step-11.png'
 metadata:
     description: 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
     'og:url': 'https://www.layershift.com/kb/managed-vps/email/how-to-configure-plesk-mail-in-mac'
     'og:type': website
     'og:title': 'How to configure Plesk mail in Mac | Layershift KB'
     'og:description': 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
-    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/03.email/06.how-to-configure-plesk-mail-in-mac/1_Configure-Plesk-mail-in-Mac-Step-1A.png'
-    'og:image:type': image/png
-    'og:image:width': 600
-    'og:image:height': 96
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-01T16:48:56+00:00'
-    'article:modified_time': '2024-03-01T16:48:56+00:00'
+    'article:published_time': '2024-03-05T18:48:16+00:00'
+    'article:modified_time': '2024-03-05T18:48:16+00:00'
     'article:author': Layershift
 content:
     items:
@@ -28,6 +27,9 @@ menu: 'Plesk mail in Mac'
 aura:
     pagetype: website
     description: 'Here is a step-by-step guide on how to configure Plesk mail in Mac.'
+taxonomy:
+    category:
+        - docs
 ---
 
 Here is a step-by-step guide to help you configure Plesk mail in Mac.
@@ -73,7 +75,7 @@ To discover incoming and outgoing mail server settings for you account, please v
 ### Step 7
 
 Select the account type (**POP** or **IMAP**) and enter the incoming and outgoing mail server names.
-If you have doubts on whether POP3 or IMAP suits you best, see our article about [general settings](/cloud-vps/email/how-to-configure-plesk-mail#incoming-mail-settings).
+If you have doubts on whether POP3 or IMAP suits you best, see our article about [general settings](../how-to-configure-plesk-mail#incoming-mail-settings).
 
 ![7_Configure-Plesk-mail-in-Mac-Step-6](7_Configure-Plesk-mail-in-Mac-Step-6.png "7_Configure-Plesk-mail-in-Mac-Step-6")
 
