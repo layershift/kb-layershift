@@ -17,8 +17,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-06T12:19:49+00:00'
-    'article:modified_time': '2024-03-06T12:19:49+00:00'
+    'article:published_time': '2024-03-06T12:28:45+00:00'
+    'article:modified_time': '2024-03-06T12:28:45+00:00'
     'article:author': Layershift
 ---
 
@@ -30,7 +30,7 @@ What might I use to supervise my applications? Well, most processes that are ins
 
 Managing system-wide monitor mechanisms might, however, be a difficult task and you, as a developer, would not want to stain your hands with init scripts for each of your programs; all in all, you are the one who has a web application to maintain, not the system! A simpler solution to monitor your own scripts in an easy way would be much preferred. Here’s where Supervisor enters the game.
 
-[Supervisor](https://supervisord.org/) is a process manager that makes managing a number of long-running programs a very easy task. It provides you with a consistent interface through which you can control and monitor your processes.
+[Supervisor](http://supervisord.org/) is a process manager that makes managing a number of long-running programs a very easy task. It provides you with a consistent interface through which you can control and monitor your processes.
 
 This tutorial will show you how to install Supervisor inside your PHP application environment and give you basics on how to manage this tool.
 
@@ -148,7 +148,7 @@ The final two lines define locations for error and output log files:
 stderr_logfile=/var/www/long.err.log
 stdout_logfile=/var/www/long.out.log
 ```
-The above configuration is a minimum for a program to run under Supervisor. The [official documentation](https://supervisord.org/configuration.html#program-x-section-settings) enlists more options that are available to fine tune program execution.
+The above configuration is a minimum for a program to run under Supervisor. The [official documentation](http://supervisord.org/configuration.html#program-x-section-settings) enlists more options that are available to fine tune program execution.
 
 ### Supervising our first script
 
@@ -178,7 +178,7 @@ As well as checking process list.
 
 ## Controlling Programs
 
-Once our scripts are running, there will definitely be a time when we want to stop, restart or check status of those scripts. The [supervisorctl](https://supervisord.org/running.html#running-supervisorctl) tool that we’ve already used in the above example, has an interactive mode thanks to which you can control your programs.
+Once our scripts are running, there will definitely be a time when we want to stop, restart or check status of those scripts. The [supervisorctl](http://supervisord.org/running.html#running-supervisorctl) tool that we’ve already used in the above example, has an interactive mode thanks to which you can control your programs.
 
 To enter the interactive mode, type supervisorctl without any arguments:
 ```
