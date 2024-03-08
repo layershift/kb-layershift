@@ -2,24 +2,21 @@
 title: 'Enable Apache mod_security'
 aura:
     pagetype: website
+    description: 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_security2. Learn how to add it to your Apache server.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/apache/enable-apache-mod_security'
+    description: 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_security2. Learn how to add it to your Apache server.'
+    'og:url': 'https://www.layershift.com/kb/enscale/apache/enable-apache-mod_security'
     'og:type': website
-    'og:title': 'Enable Apache mod_security |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/01.apache/01.enable-apache-mod_security/Enable Apache mod_security-1.png'
-    'og:image:type': image/png
-    'og:image:width': 1098
-    'og:image:height': 143
+    'og:title': 'Enable Apache mod_security | Layershift KB'
+    'og:description': 'On Enscale PaaS, you can benefit from custom Apache modules, including mod_security2. Learn how to add it to your Apache server.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Enable Apache mod_security |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/01.apache/01.enable-apache-mod_security/Enable Apache mod_security-1.png'
-    'article:published_time': '2023-08-27T06:41:33+01:00'
-    'article:modified_time': '2023-08-27T06:41:33+01:00'
+    'article:published_time': '2024-03-03T03:24:09+00:00'
+    'article:modified_time': '2024-03-03T03:24:09+00:00'
     'article:author': Layershift
-media_order: 'Enable Apache mod_security-1.png,Enable Apache mod_security-2.png,Enable Apache mod_security-3.png,Enable Apache mod_security-4.png'
 taxonomy:
     category:
         - docs

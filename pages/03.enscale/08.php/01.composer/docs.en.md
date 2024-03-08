@@ -5,25 +5,28 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'This guide shows how quick and easy it is to install Composer on Layershift''s Enscale PaaS to effortlessly manage your PHP dependencies.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/php/composer'
+    description: 'This guide shows how quick and easy it is to install Composer on Layershift''s Enscale PaaS to effortlessly manage your PHP dependencies.'
+    'og:url': 'https://www.layershift.com/kb/enscale/php/composer'
     'og:type': website
-    'og:title': 'Composer |  Layershift KB'
+    'og:title': 'Composer | Layershift KB'
+    'og:description': 'This guide shows how quick and easy it is to install Composer on Layershift''s Enscale PaaS to effortlessly manage your PHP dependencies.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Composer |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'article:published_time': '2023-09-30T08:59:23+01:00'
-    'article:modified_time': '2023-09-30T11:52:24+01:00'
+    'article:published_time': '2024-03-04T09:39:21+00:00'
+    'article:modified_time': '2024-03-04T09:39:21+00:00'
     'article:author': Layershift
 ---
 
 Composer is a popular dependency manager for PHP, borrowing from the ideas of **npm** (node) and **bundler** (ruby). It’s super easy to install and use **Composer** on the Enscale PaaS.
 
-### How to Install Composer on your Enscale Server
+## How to Install Composer on your Enscale Server
 
-Connect to your **Apache PHP** or **Nginx PHP** server in one of your Jelastic environments using the [Enscale SSH gateway](https://kb2.layershift.com/enscale/ssh/jelastic-ssh-access). Change your working directory to a suitable one of your choice, such as **/var/www/webroot**:
+Connect to your **Apache PHP** or **Nginx PHP** node from one of your Enscale environments using the [Enscale SSH gateway](../..//ssh/enscale-ssh-access). Change your working directory to a suitable one of your choice, such as **/var/www/webroot**:
 
 	-bash-4.1$ cd /var/www
 
@@ -40,23 +43,23 @@ This does 2 things at once:
 	* Renames composer.phar to composer, to save your fingers some work in future
     * Moves composer to a private bin directory which is helpful for the next step
 
-### Add Composer to your PATH
+## Add Composer to your PATH
 
 This step allows you to effortlessly execute **composer** from any working directory on the server, without having to write out its full path; otherwise you’d need to write **/var/www/bin/composer** (or **/var/lib/nginx/bin/composer**) each time you want to call it!
 
-#### Apache
+### Apache
 
 	-bash-4.1$ export PATH=$PATH:/var/www/bin	
 	-bash-4.1$ echo 'export PATH=$PATH:/var/www/bin' >> ~/.bash_profile
 
-#### Nginx
+### Nginx
 
 	-bash-4.1$ export PATH=$PATH:/var/lib/nginx/bin
 	-bash-4.1$ echo 'export PATH=$PATH:/var/lib/nginx/bin' >> ~/.bash_profile
 
 !!! Bash offers various startup files. For our purposes, `~/.bash_profile` is fine because every SSH login via the gateway is invoked as an interactive login shell; you could equally use `~/.bashrc` providing that you also call it from your `~/.bash_profile`.
 
-### Using Composer
+## Using Composer
 
 To confirm that the above steps have worked:
 

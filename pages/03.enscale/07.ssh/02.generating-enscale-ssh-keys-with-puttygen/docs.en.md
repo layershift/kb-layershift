@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ssh/generating-enscale-ssh-keys-with-puttygen'
+    description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
+    'og:url': 'https://www.layershift.com/kb/enscale/ssh/generating-enscale-ssh-keys-with-puttygen'
     'og:type': website
-    'og:title': 'Generating Enscale SSH keys with PuTTYgen |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/02.generating-enscale-ssh-keys-with-puttygen/Generating Enscale SSH keys with PuTTYgen-1.png'
-    'og:image:type': image/png
-    'og:image:width': 357
-    'og:image:height': 350
+    'og:title': 'Generating Enscale SSH keys with PuTTYgen | Layershift KB'
+    'og:description': 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'Generating Enscale SSH keys with PuTTYgen |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/02.generating-enscale-ssh-keys-with-puttygen/Generating Enscale SSH keys with PuTTYgen-1.png'
-    'article:published_time': '2023-10-07T11:36:01+01:00'
-    'article:modified_time': '2023-10-07T11:40:48+01:00'
+    'article:published_time': '2024-03-04T09:19:38+00:00'
+    'article:modified_time': '2024-03-04T09:19:38+00:00'
     'article:author': Layershift
-media_order: 'Generating Enscale SSH keys with PuTTYgen-1.png,Generating Enscale SSH keys with PuTTYgen-2.png,Generating Enscale SSH keys with PuTTYgen-3.png,Generating Enscale SSH keys with PuTTYgen-4.jpg'
 ---
 
 We’ve just added key-based SSH access to our Enscale PaaS, and with many of our Windows users using PuTTY as their preferred SSH client it seems a good moment to give a brief PuTTYgen walkthrough. Here’s how to generate SSH keys using PuTTY.
@@ -32,17 +29,17 @@ We’ve just added key-based SSH access to our Enscale PaaS, and with many of ou
 
 Type of key | Number of bits
 --------------- | -----------------------------------
-SSH-2 RSA ir SSH-2 DSA | 2048
+SSH-2 RSA or SSH-2 DSA | 2048
 
 * Note the OpenSSH compatible output at the top of the window. This is what you’ll need to copy/paste into the Enscale dashboard. You can always access this again later using the ‘Load an existing  private key file’ option.
 
 ![Generating%20Enscale%20SSH%20keys%20with%20PuTTYgen-1](Generating%20Enscale%20SSH%20keys%20with%20PuTTYgen-1.png "Generating%20Enscale%20SSH%20keys%20with%20PuTTYgen-1")
 
-* Enter a **Key comment** to help you to identify this key later. For example something describing where you use this key. We’re just using rsa-key-enscale since we’ll use this key with our Enscale PaaS
+1. Enter a **Key comment** to help you to identify this key later. For example something describing where you use this key. We’re just using rsa-key-enscale since we’ll use this key with our Enscale PaaS
 
-* Your key is saved encrypted on disk, and the **key passphrase** will be used to unlock it when you want to use it. In other words, this protects your key from malicious use, so treat it like any other password – use something long and strong!
+1. Your key is saved encrypted on disk, and the **key passphrase** will be used to unlock it when you want to use it. In other words, this protects your key from malicious use, so treat it like any other password – use something long and strong!
 
-* Save the private key part to your computer before exiting PuTTYgen (note: you can save the public key file too if you wish, but it’s not saved in OpenSSH format so it’s not useful here).
+1. Save the private key part to your computer before exiting PuTTYgen (note: you can save the public key file too if you wish, but it’s not saved in OpenSSH format so it’s not useful here).
 
 Don’t forget to copy/paste the public key (in OpenSSH format) from step #3 into your Enscale dashboard. See our Enscale SSH Access KB article for more details.
 

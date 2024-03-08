@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Find out how to easily register your domain name with Layershift - you''re just one step away from having your own domain name. Read more here.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/registration/how-to-register-a-new-domain-name'
+    description: 'Find out how to easily register your domain name with Layershift - you''re just one step away from having your own domain name. Read more here.'
+    'og:url': 'https://www.layershift.com/kb/domains/registration/how-to-register-a-new-domain-name'
     'og:type': website
-    'og:title': 'How to register a new domain name |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/registration/01.how-to-register-a-new-domain-name/How to register a new domain name-2.png'
-    'og:image:type': image/png
-    'og:image:width': 790
-    'og:image:height': 721
+    'og:title': 'How to register a new domain name | Layershift KB'
+    'og:description': 'Find out how to easily register your domain name with Layershift - you''re just one step away from having your own domain name. Read more here.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to register a new domain name |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/registration/01.how-to-register-a-new-domain-name/How to register a new domain name-2.png'
-    'article:published_time': '2023-08-22T19:37:02+01:00'
-    'article:modified_time': '2023-08-22T19:37:02+01:00'
+    'article:published_time': '2024-03-03T02:19:32+00:00'
+    'article:modified_time': '2024-03-03T02:19:32+00:00'
     'article:author': Layershift
-media_order: 'How to register a new domain name-2.png,How to register a new domain name-1.png,How to register a new domain name-3.png'
 ---
 
 In order to register a domain name, all you need to do is follow these simple steps:
@@ -49,7 +46,7 @@ In order to register a domain name, all you need to do is follow these simple st
 	* Define the domain name servers – you can select between our default **dns1/2/3.transnexis.net** DNS cluster or custom name servers.
 
 		**Additional Note:** If you’re uncertain what DNS records to use for your domain, you might want to take a look at our KB article explaining 
-        the main differences between the various DNS options: [Setting up DNS for your domains](https://kb.layershift.com/setting-up-dns-for-your-domains).
+        the main differences between the various DNS options: [Setting up DNS for your domains](../../dns/setting-up-dns-for-your-domains).
 
 * Click **Continue to Next Step** to verify the order.
 

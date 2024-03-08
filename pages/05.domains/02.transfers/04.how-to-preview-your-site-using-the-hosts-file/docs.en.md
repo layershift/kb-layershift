@@ -2,27 +2,25 @@
 title: 'How to preview your site using the ‘Hosts’ file'
 aura:
     pagetype: website
+    description: 'What is a hosts file? How can you use it to preview your sites without affecting your live sites? Find the answers and much more in this article!'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/domains/transfers/how-to-preview-your-site-using-the-hosts-file'
+    description: 'What is a hosts file? How can you use it to preview your sites without affecting your live sites? Find the answers and much more in this article!'
+    'og:url': 'https://www.layershift.com/kb/domains/transfers/how-to-preview-your-site-using-the-hosts-file'
     'og:type': website
-    'og:title': 'How to preview your site using the ‘Hosts’ file |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/04.how-to-preview-your-site-using-the-hosts-file/How to preview your site using the ‘Hosts’ file-1.png'
-    'og:image:type': image/png
-    'og:image:width': 531
-    'og:image:height': 292
+    'og:title': 'How to preview your site using the ‘Hosts’ file | Layershift KB'
+    'og:description': 'What is a hosts file? How can you use it to preview your sites without affecting your live sites? Find the answers and much more in this article!'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to preview your site using the ‘Hosts’ file |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/02.domains/transfers/04.how-to-preview-your-site-using-the-hosts-file/How to preview your site using the ‘Hosts’ file-1.png'
-    'article:published_time': '2023-08-26T14:53:56+01:00'
-    'article:modified_time': '2023-08-26T14:53:56+01:00'
+    'article:published_time': '2024-03-03T02:54:21+00:00'
+    'article:modified_time': '2024-03-03T02:54:21+00:00'
     'article:author': Layershift
-media_order: 'How to preview your site using the ‘Hosts’ file-1.png,How to preview your site using the ‘Hosts’ file-2.png,How to preview your site using the ‘Hosts’ file-3.png'
 taxonomy:
     category:
         - docs
+menu: 'Website preview'
 ---
 
 ### What is a hosts file?

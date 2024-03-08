@@ -5,24 +5,21 @@ taxonomy:
         - docs
 aura:
     pagetype: website
+    description: 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
 metadata:
-    'og:url': 'https://kb.luca.uk.easy-server.com/enscale/ssh/how-to-connect-to-enscale-using-putty'
+    description: 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
+    'og:url': 'https://www.layershift.com/kb/enscale/ssh/how-to-connect-to-enscale-using-putty'
     'og:type': website
-    'og:title': 'How to connect to Enscale using PuTTY |  Layershift KB'
-    'og:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/03.how-to-connect-to-enscale-using-putty/How to connect to Enscale using PuTTY-8.png'
-    'og:image:type': image/png
-    'og:image:width': 416
-    'og:image:height': 401
+    'og:title': 'How to connect to Enscale using PuTTY | Layershift KB'
+    'og:description': 'Here you will find a step-by-step guide for how to connect to your Enscale SSH gateway or a specific node in your environment using PuTTY.'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'twitter:card': summary_large_image
-    'twitter:title': 'How to connect to Enscale using PuTTY |  Layershift KB'
-    'twitter:site': '@layershift'
-    'twitter:creator': '@layershift'
-    'twitter:image': 'https://kb.luca.uk.easy-server.com/user/pages/04.enscale/07.ssh/03.how-to-connect-to-enscale-using-putty/How to connect to Enscale using PuTTY-8.png'
-    'article:published_time': '2023-09-23T06:29:12+01:00'
-    'article:modified_time': '2023-09-23T06:29:12+01:00'
+    'article:published_time': '2024-03-04T09:25:48+00:00'
+    'article:modified_time': '2024-03-04T09:25:48+00:00'
     'article:author': Layershift
-media_order: 'How to connect to Enscale using PuTTY-8.png,How to connect to Enscale using PuTTY-9.png,How to connect to Enscale using PuTTY-11.png,How to connect to Enscale using PuTTY-10.png,How to connect to Enscale using PuTTY-12.png,How to connect to Enscale using PuTTY-1.png,How to connect to Enscale using PuTTY-2.png,How to connect to Enscale using PuTTY-4.png,How to connect to Enscale using PuTTY-5.png,How to connect to Enscale using PuTTY-6.png,How to connect to Enscale using PuTTY-7.png,How to connect to Enscale using PuTTY-3.png'
 ---
 
 Connecting to the SSH gateway or to your specific node is really easy, all you need to do make some basic configurations in your SSH client and you’re ready to go.
