@@ -14,13 +14,13 @@ metadata:
     'og:type': website
     'og:title': 'How to connect to your Plesk FTP using Filezilla | Layershift KB'
     'og:description': 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
-    'og:image': 'https://www.layershift.com/user/pages/02.managed-vps/04.plesk/how-to-connect-to-your-plesk-ftp-using-filezilla/How to connect to your Plesk FTP using Filezilla - base.png'
-    'og:image:type': image/png
-    'og:image:width': 1617
-    'og:image:height': 746
+    'og:image': 'https://www.layershift.com/kb/kb/user/images/ls-kb.jpg'
+    'og:image:type': image/jpeg
+    'og:image:width': 1200
+    'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T01:30:37+00:00'
-    'article:modified_time': '2024-03-03T01:30:37+00:00'
+    'article:published_time': '2024-03-20T11:17:30+00:00'
+    'article:modified_time': '2024-03-20T11:17:30+00:00'
     'article:author': Layershift
 menu: 'Connect to FTP server'
 ---
@@ -55,5 +55,3 @@ Once you hit the Connect ,  Trust On First Use kicks in and you will have to acc
 * Time-out problems. The VPS has several firewalls, active and passive firewall, you router capability may be limited, in either case please contact support. They will be able to determine the cause and adapt the FTP/firewall for your needs. When submitting the ticket it is ideal to include the Filezilla log.
 
 * Upload corruption. This is rarely the case, but you can play around with binary/ascii setups in Filezilla > Transfer > Transfer Type. If you contact support they can establish from the logs which type you have to use specifically.
-
-
