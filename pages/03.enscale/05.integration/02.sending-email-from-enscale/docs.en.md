@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-03-04T08:56:28+00:00'
-    'article:modified_time': '2024-03-04T08:56:28+00:00'
+    'article:modified_time': '2024-04-26T14:28:28+00:00'
     'article:author': Layershift
 ---
 
@@ -32,6 +32,7 @@ These services cater for transactional email sent from your website/application,
 
 Existing Enscale customers are using the following services:
 
+* Postmark
 * Mailjet
 * Mailgun
 * Sendgrid
