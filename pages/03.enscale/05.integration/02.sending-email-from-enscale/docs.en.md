@@ -32,6 +32,7 @@ These services cater for transactional email sent from your website/application,
 
 Existing Enscale customers are using the following services:
 
+* Postmark
 * Mailjet
 * Mailgun
 * Sendgrid
