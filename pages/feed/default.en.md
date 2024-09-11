@@ -14,8 +14,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-09-11T13:49:26+01:00'
-    'article:modified_time': '2024-09-11T13:49:26+01:00'
+    'article:published_time': '2024-09-11T13:50:07+01:00'
+    'article:modified_time': '2024-09-11T13:50:07+01:00'
     'article:author': Layershift
 content:
     items:
@@ -26,4 +26,3 @@ content:
 ---
 
 Non-visible page for RSS feed page collection. RSS feed URL is [../feed.rss](../feed.rss)
-..
