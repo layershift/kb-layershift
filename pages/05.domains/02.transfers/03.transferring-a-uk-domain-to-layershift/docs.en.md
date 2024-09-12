@@ -9,13 +9,13 @@ metadata:
     'og:type': website
     'og:title': 'Transferring a .uk domain to Layershift | Layershift KB'
     'og:description': 'Transferring a .uk domain to Layershift.'
-    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
+    'og:image': 'https://www.layershift.com/kb/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T02:52:14+00:00'
-    'article:modified_time': '2024-03-03T02:52:14+00:00'
+    'article:published_time': '2024-09-12T13:21:04+01:00'
+    'article:modified_time': '2024-09-12T13:21:04+01:00'
     'article:author': Layershift
 taxonomy:
     category:
@@ -32,7 +32,7 @@ Layershift are Nominet members and currently support the registration or transfe
 * .ltd.uk (only available to Private Limited Companies in the UK)
 * .plc.uk (only available to Public Limited Companies in the UK)
 
-Any of these domains can be transferred to your account with Layershift free-of-charge until your domain expiration date. Once you reach this date you can renew the domain name with us at our current pricing for a further 2 years.
+Any of these domains can be transferred to your account with Layershift free-of-charge until your domain expiration date. Once you reach this date you can renew the domain name with us at our then current pricing.
 
 To transfer non-.uk domains please see the related article: [Transferring a gTLD to Layershift](https://kb.layershift.com/transferring-a-tld-to-layershift)
 
