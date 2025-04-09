@@ -6,7 +6,7 @@ metadata:
     'og:type': website
     'og:title': 'Setting up your default webmail client in Plesk | Layershift KB'
     'og:description': 'We offer a choice between two great webmail clients, Roundcube and Horde in our Plesk Managed VPS Hosting services!'
-    'og:image': 'https://www.layershift.com/kb/kb/user/images/ls-kb.jpg'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
