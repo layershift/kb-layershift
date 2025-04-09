@@ -11,15 +11,14 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-02-08T15:46:22+00:00'
-    'article:modified_time': '2024-02-08T15:46:22+00:00'
+    'article:published_time': '2025-04-09T14:42:28+01:00'
+    'article:modified_time': '2025-04-09T14:42:28+01:00'
     'article:author': Layershift
 visible: true
 taxonomy:
     category:
         - docs
 aura:
-    metadata: {  }
     pagetype: website
     description: 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
 ---
@@ -68,7 +67,7 @@ Includes everything in Web Admin and Web Pro editions, plus:
 |       PostgreSQL       |       -       |      X      |         X         |
 |    WordPress Toolkit   |       %       |      X      |         X         |
 |  Customers Management  |       -       |      X      |         X         |
-|  Resellers Management  |       -       |      X      |         X         |
+|  Resellers Management  |       -       |      -      |         X         |
 |      Plesk License     |   10 domains  |  30 domains | Unlimited domains |
 
 
@@ -81,7 +80,7 @@ Includes everything in Web Admin and Web Pro editions, plus:
 * Kaspersky Antivirus for unlimited mailboxes
 * Plesk Email Security Pro
 * Security Core Complete by Atomicorp
-* ImmunifyAV – Antivirus and malware scanner
+* ImunifyAV – Antivirus and malware scanner
 * Backup To Cloud Pro
 
-Upgrades are fast and easy, all you need to do is login to your [customer control panel](https://control.layershift.com) and click on Upgrade Licenses.
+Upgrades are fast and easy, all you need to do is contact our accounts department via [the helpdesk](https://help.layershift.com).
