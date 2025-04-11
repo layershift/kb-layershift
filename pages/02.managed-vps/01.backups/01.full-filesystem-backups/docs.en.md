@@ -18,8 +18,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2025-04-11T16:23:31+01:00'
-    'article:modified_time': '2025-04-11T16:23:31+01:00'
+    'article:published_time': '2025-04-11T16:32:12+01:00'
+    'article:modified_time': '2025-04-11T16:32:12+01:00'
     'article:author': Layershift
 ---
 
@@ -48,7 +48,7 @@ Backup Retention | 10 days | 14 days | 3 months (tiered retention)
 !!! * All backups are covered by our robust Managed Hosting SLA
 
 !!!! * For your security, filesystem backups are stored on a secure, high-speed, private backup network.
-!!!! * For added redundancy, a second copy is made on an off-site immutable (write-only) storage.
+!!!! * For added redundancy, a second copy is made on an off-site immutable (cannot be altered or deleted) storage.
 
 # Restoring from backups
 
