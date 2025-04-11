@@ -18,12 +18,12 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-01T10:47:30+00:00'
-    'article:modified_time': '2024-03-01T10:47:30+00:00'
+    'article:published_time': '2025-04-11T16:23:31+01:00'
+    'article:modified_time': '2025-04-11T16:23:31+01:00'
     'article:author': Layershift
 ---
 
-We take full filesystem backups of each Managed VPS at least once every 6 hours.
+We take full filesystem backups of each Managed VPS based on the backup package.
 
 These backups comprise of your entire server filesystem, including everything inside your VPS – all files and directories, databases, emails, DNS records, configuration files including Plesk, etc.  We take backups at block-level to ensure the fastest possible backup time and no noticeable impact to performance.
 
@@ -36,22 +36,19 @@ These backups comprise of your entire server filesystem, including everything in
 * **Restore at any time**: Restores can be performed at any time, including while new backups are being taken.
 * **Reliable database backups**: We have proven many times our ability to restore MySQL/MariaDB databases using these backups without any loss of data.
 
-!!!! Layershift full filesystem backups are included free of charge in accordance with your chosen Care Pack:
-!!!! * Essential is included free on the Cloud VPS range
-!!!! * Enhanced is included free on Cloud VPS Extreme range
-
 # Retention Period and Frequency
 
-Care Pack | Essential | Enhanced | Enterprise
+Backup Package | Silver | Gold | Titanium
 --------- | --------- | -------- | ----------
-Backup Frequency | Every 6 hours | Every 6 hours | Up to hourly
-Full Backup Restore Points | 28 | 56 | 56 - 336
-Backup Retention | 7 days | 14 days | 14 days
+Backup Frequency | Weekly | Daily | Every 4 hours
+Backup Restore Points | 1-2 | 14 | 89 (tiered retention)
+Backup Retention | 10 days | 14 days | 3 months (tiered retention)
 
 !!! * There are **no storage limits** or additional storage fees.
 !!! * All backups are covered by our robust Managed Hosting SLA
 
-!!!! For your security, filesystem backups are stored on a secure, high-speed, private backup network.
+!!!! * For your security, filesystem backups are stored on a secure, high-speed, private backup network.
+!!!! * For added redundancy, a second copy is made on an off-site immutable (write-only) storage.
 
 # Restoring from backups
 
