@@ -14,14 +14,14 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2025-06-26T15:30:14+01:00'
-    'article:modified_time': '2025-06-26T15:30:14+01:00'
+    'article:published_time': '2025-06-26T16:40:04+01:00'
+    'article:modified_time': '2025-06-26T16:41:11+01:00'
     'article:author': Layershift
 taxonomy:
     category:
         - docs
 menu: 'Change PHP Version'
-media_order: 'plesk-dashboard-php.png,change php handler.png'
+media_order: 'plesk-dashboard-php.png,change php handler.png,change php version.png'
 ---
 
 In Plesk, you have the flexibility to easily modify PHP handler without experiencing any server or domain downtime. This feature can be particularly advantageous for enhancing website performance or switching to your preferred PHP handler, if you have one in mind! When PHP operates, it creates new files and writes to existing ones using the user it runs as.
@@ -29,7 +29,7 @@ In Plesk, you have the flexibility to easily modify PHP handler without experien
 ## Available handlers
 
 * 	FPM (FastCGI Process Manager) - Best performance, recommended for most sites.
-* 	FastCGI - Most commonly used, reliable, and generally good performance.
+* 	FastCGI - Most commonly used, reliable, and generally good performance. (required when using LiteSpeed)
 * 	CGI -Older method, slower, only use if required.
 
 Below are step-by-step instructions guiding you on how to change the PHP handler directly from within the Plesk Dashboard:
@@ -59,3 +59,6 @@ Below are step-by-step instructions guiding you on how to change the PHP handler
 !!!! By default, both FastCGI and FPM handlers are available and enabled on your Plesk server.
 
 
+## How to change the PHP Version
+
+![change%20php%20version](change%20php%20version.png "change%20php%20version")
