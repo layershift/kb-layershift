@@ -13,12 +13,13 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-03T01:44:13+00:00'
-    'article:modified_time': '2024-03-03T01:44:13+00:00'
+    'article:published_time': '2025-07-24T16:14:56+01:00'
+    'article:modified_time': '2025-07-24T16:14:56+01:00'
     'article:author': Layershift
-title: Ssh
+title: SSH
 taxonomy:
     category: docs
+menu: SSH
 ---
 
 #SSH
