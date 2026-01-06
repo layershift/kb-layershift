@@ -9,7 +9,7 @@ metadata:
     'og:type': website
     'og:title': 'How to change PHP handler in Plesk | Layershift KB'
     'og:description': 'Find out how to change PHP version and PHP handler in Plesk. Step by step guide.'
-    'og:image': 'https://www.layershift.com/kb/kb/user/images/ls-kb.jpg'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
