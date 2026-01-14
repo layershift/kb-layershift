@@ -14,10 +14,13 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2023-10-19T13:08:26+01:00'
-    'article:modified_time': '2024-03-04T13:08:48+00:00'
+    'article:published_time': '2025-07-24T16:14:56+01:00'
+    'article:modified_time': '2025-07-24T16:14:56+01:00'
     'article:author': Layershift
 menu: 'gTLD to Layershift'
+taxonomy:
+    category:
+        - docs
 ---
 
 Layershift currently support the registration or transfer of the following domain names:
@@ -98,7 +101,7 @@ Your domain name will be using the nameservers you entered during the transfer o
 	* Custom **Nameservers** (recommended for Cloud VPS and Dedicated customers)
 	* Our redundant **DNS cluster** (recommended for shared hosting)
 	* External **DNS servers** (not recommended).
-    For a full explanation on the nameservers options, please check our related article: [Setting up DNS for your domains](https://kb.layershift.com/setting-up-dns-for-your-domains)
+    For a full explanation on the nameservers options, please check our related article: [Setting up DNS for your domains](../../dns/setting-up-dns-for-your-domains)
     **
 Additional Note:** _Repeat from step 3 if you have multiple domains._
 
