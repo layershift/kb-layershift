@@ -18,8 +18,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2024-03-05T14:31:17+00:00'
-    'article:modified_time': '2024-03-05T14:31:17+00:00'
+    'article:published_time': '2026-02-18T11:54:51+00:00'
+    'article:modified_time': '2026-02-18T11:54:51+00:00'
     'article:author': Layershift
 ---
 
@@ -36,7 +36,7 @@ If you are unsure if your data can be reliably backed up using filesystem backup
 
 **Additional Note:** **In most cases we can restore your data reliably from our free filesystem backups** but in some cases you should consider whether it’s worthwhile creating your own logical backups too.
 
-## Suggested logical backup tools and documentation:
+## Suggested logical backup tools and documentation
 
 ### MySQL / MariaDB backups
 
@@ -50,14 +50,13 @@ If you choose to take logical backups, be aware that most logical backup tools d
 
 In general, most data can be re-imported into any same version of MySQL / MariaDB, and in many cases can also be imported into newer versions of MySQL / MariaDB.
 
-#### PostgreSQL backups
+### PostgreSQL backups
 
 When PostgreSQL is running with a write journal it is usually safe to rely upon filesystem backups, without creating any additional logical backups.
 
 If you choose to take logical backups, the most commonly used tools for PostgreSQL are pg_dump and pg_dumpall:
 
-* [PostgreSQL 9: Backup and Restore](http://www.postgresql.org/docs/9.3/static/backup.html) (chapter from PostgreSQL 9 manual)
-* [PostgreSQL 8: Backup and Restore](http://www.postgresql.org/docs/8.4/static/backup.html) (chapter from PostgreSQL 8 manual)
+* [PostgreSQL 18: Backup and Restore](https://www.postgresql.org/docs/18/backup.html) (chapter from PostgreSQL 18 manual)
 
 ### MongoDB backups
 
