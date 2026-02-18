@@ -51,6 +51,17 @@ Restores of filesystem backups are available free of charge 24x7x365 via our sup
 
 If you need a restore, simply open a [support ticket](../../../support) and let us know which files need to be restored and approximately which recovery point (from the last 2 weeks) and our support team will begin right away.
 
+##### How long does a restore take?
+
+The restore process typically involves 2 steps:
+
+1. Restore the relevant node(s) within our backup system
+2. Copy the required data from the restored nodes to your live nodes
+
+The time required for step 1 depends on the amount of data stored on the node being restored, whilst the time required for step 2 can vary substantially depending on the type of data being recovered (e.g. database restores require an SQL dump, copy to the destination node, and SQL import).
+
+Overall, a typical ballpark guide is about 1 hour per 100GB of data.
+
 ### Logical backups using native tools (managed by you)
 
 A logical backup is a backup taken using native tools designed to read logical data (e.g. a database ‘SELECT’) and to output it in a logical format (e.g. an SQL dump) including additional information (e.g. database schemas). This allows you to restore the data on any system that understands the backup format, sometimes including other types of servers (simple SQL without any server-specific information can usually be imported into any SQL-aware database server).
