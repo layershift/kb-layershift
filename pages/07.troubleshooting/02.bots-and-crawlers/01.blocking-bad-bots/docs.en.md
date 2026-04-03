@@ -11,14 +11,14 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-01-19T10:48:19+00:00'
-    'article:modified_time': '2026-01-19T10:48:19+00:00'
+    'article:published_time': '2026-01-21T11:19:13+00:00'
+    'article:modified_time': '2026-01-21T11:19:13+00:00'
     'article:author': Layershift
 ---
 
 ## Tools you can use:
 
-###  .htaccess and robots.txt: First Line of Defense
+###  .htaccess and robots.txt: First Line of Defence
 
 `robots.txt` is a public file that well-behaved bots use to determine what they can crawl. However, many bad bots simply ignore it.
 ```
@@ -38,7 +38,7 @@ This `.htaccess` rule above blocks access to your domain for any request where t
 
 ###  Bad Bot Blocker
 
-The Bad Bot Blocker is a Plesk extension available on our servers that can be installed and activated per domain with just a few clicks. Once enabled, it works by using a large, community-maintained list of known malicious or abusive User-Agents.
+The Bad Bot Blocker is a Plesk extension available on our Layershift managed VPS servers that can be installed and activated on a per-domain basis with just a few clicks. Once enabled, it works by using a large, community-maintained list of known malicious or abusive User-Agents.
 
 This list is regularly updated to keep up with newly discovered bots and crawlers that attempt to overload or scrape websites. The extension configures server-level rules (usually via NGINX) to block these requests before they ever reach your PHP stack, helping reduce CPU, RAM, and bandwidth usage. It's a lightweight yet effective way to cut down on unwanted traffic and protect your hosting environment.
 
@@ -46,9 +46,9 @@ This list is regularly updated to keep up with newly discovered bots and crawler
 
 **BotStopper**, is built on Anubis, developed by [TechAro](https://anubis.techaro.lol/)
 
-It’s a Plesk extension that Layershift is actively developing in collaboration with the Anubis team, with the goal of rolling it out across all our Plesk systems as bot traffic issues continue to grow.
+It’s a Plesk extension that Layershift is actively developing in collaboration with the Anubis team, with the goal of rolling it out across all Plesk systems as issues with bot traffic continue to grow.
 
-This extension needs a license that has a small fixed costs which helps continuously support the developers and ongoing maintenance of the project. Licenses can be purchased directly from [https://extensions.layershift.com/](https://extensions.layershift.com/)
+This extension needs a licence that has a small fixed cost which helps support the developers and the ongoing maintenance and development of the software. Licenses can be purchased directly from [https://extensions.layershift.com/](https://extensions.layershift.com/)
 
 Anubis filters traffic **before it reaches your server**, using a detailed ruleset to block or challenge known scrapers, AI data collectors, headless browsers, and legacy clients. 
 
@@ -57,8 +57,8 @@ Some highlights of its **default** behavior:
 **Blocked by Default:**
 - Requests with the header `CF-Worker: .*`
 - Headless browsers like `HeadlessChrome`, `HeadlessChromium`, and automation tools such as `LightPanda`
-- A long list of AI-related and scraper User-Agents (e.g. `GPTBot`, `ClaudeBot`, `Amazonbot`, `Anthropic-AI`, `PerplexityBot`, `SemrushBot`, etc.)
-- Outdated or suspicious User-Agent strings (e.g. `MSIE`, `Trident`, `Presto`, `Windows 95`, `Alexa Toolbar`)
+- a long list of AI-related and scraper user agents (e.g. GPTBot, ClaudeBot, Amazonbot, Anthropic-AI, PerplexityBot, SemrushBot, etc.)
+- Outdated or suspicious user agent strings (e.g. MSIE, Trident, Presto, Windows 95 or Alexa Toolbar)
 
 **Challenged by Default:**
 - Clients containing `Windows NT 11.0`, `iPod`
@@ -72,11 +72,11 @@ Search engine indexing is **not affected**. Bots like Googlebot and Bingbot are 
 
 #### **Visual Verification**
 
-BotStopper can also be configured on a per-domain basis. When enabled, the first request to a domain presents a short visual verification page. Once the user passes this check, all subsequent requests load normally without interruption. This process is effective against bots, as most cannot properly handle JavaScript challenges. The verification page itself can be lightly customized within the extension to reflect your branding.
+BotStopper can also be configured on a per-domain basis. When enabled, the first request to a domain displays a short visual verification page. Once the user passes this check, all subsequent requests load normally without interruption. This process is effective against bots as most cannot properly handle JavaScript challenges. The verification page itself can be lightly customized within the extension to reflect your branding.
 
 ###  CDNetworks
 
-Our Web Application Firewall (WAF), powered by CDNetworks, helps filter malicious and suspicious traffic before it reaches your server. It offers protection based on:
+The Layershift Web Application Firewall (WAF), powered by CDNetworks, helps filter malicious and suspicious traffic before it reaches your server. It offers protection based on:
 
 * IP-based rules and geo-blocking
 * Rate limiting
@@ -87,7 +87,7 @@ While it does not include a dedicated anti-bot engine or advanced bot fingerprin
 
 You can find out more about CDNetworks and the available plans in [this article.](../../content-delivery-network)
 
-(please note that WAF+DOS protection are in a separate category in the article above)
+(Please note that WAF and DoS protection is in a separate category in the article above.)
 
 ###  Imunify360
 
@@ -125,9 +125,9 @@ Here’s a simplified view of how different tools interact:
 ## The Cost of Bad Code
 When your code is inefficient, even a small number of requests can use a lot of memory or CPU, triggering alerts or rendering your server/domain unresponsive.
 
-* **RAM example**: One PHP process of the domain example.com is serving a single page and using 200MB+. With a max_children setting of let's say 20, this example.com domain will solely use 4GB of RAM.
+* **RAM example**: One PHP process for the domain example.com is serving a single page and using more than 200MB. With a max_children setting of let's say 20, this example.com domain will solely use 4GB of RAM.
 * **CPU example**: A slow database query or loop in PHP can max out a CPU core.
-* **Disk I/O**: Repeated warnings or errors written to logs for invalid requests can cause disk bottlenecks.
+* **Disk I/O**: Repeated warnings or errors written to logs from invalid requests can cause disk bottlenecks.
 
 ## How to Protect Your Site and Server
 
@@ -140,5 +140,5 @@ Going back to points 1 to 6 above, there's several tools to mitigate bot traffic
 * Imunify360 – Included in many plans, or available as an upgrade
 * CloudLinux LVE – Included on shared servers and managed servers to isolate high resource usage
 
-!!!! If your website is under bot pressure or slowing down from unknown traffic, [contact us](../../support). 
+!!!! If your website is affected by bot traffic or slowing down due to unknown traffic, [contact us](../../support). 
 We can help you analyze the logs and provide tailored recommendations for the best course of action moving forward.

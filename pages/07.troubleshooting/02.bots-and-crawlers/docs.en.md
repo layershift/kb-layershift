@@ -11,13 +11,12 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-01-19T11:06:28+00:00'
-    'article:modified_time': '2026-01-19T11:06:28+00:00'
+    'article:published_time': '2026-01-19T11:52:09+00:00'
+    'article:modified_time': '2026-01-19T11:52:09+00:00'
     'article:author': Layershift
 ---
 
-!!! Bots, crawlers, and large language models (LLMs) are now a major source of web traffic. While **some are beneficial**, (like those used by search engines) many are abusive, disruptive, or even harmful to websites and servers. 
-
+!!! Bots, crawlers, and large language models (LLMs) are now a major source of web traffic. While **some are beneficial** (like those used by search engines), many are abusive, disruptive, or even harmful to websites and servers.
 This article explains how these crawlers evolved, the problems they cause, and the tools you can use to defend your hosting environment.
 
 ## How Bots and Crawlers Appeared
@@ -33,7 +32,7 @@ Bad bots started showing up once people realized there was value in mass data co
 * Probe websites for vulnerable WordPress plugins
 * Launch brute-force login attacks
 
-Their purpose was usually SEO manipulation, competitive analysis, or spamming. These bots often ignore robots.txt, rotate IPs to avoid detection, and overload servers with requests.
+The early ones were designed to:” “Their purpose was usually SEO manipulation, competitive analysis, or posting spam. These bots often ignore robots.txt, rotate IPs to avoid detection, and overload servers with requests.
 
 ## Good Bots
 
@@ -43,7 +42,7 @@ Some bots are useful and necessary for your site’s visibility:
 * Bingbot is used by Microsoft Bing and is customizable via Bing Webmaster Tools.
 * Meta/Facebook Crawler fetches page previews for shared links.
 
-These bots are well-documented, and you can verify them online. They generally respect robots.txt and are not aggressive.
+These bots are well documented and you can verify them online. They generally respect robots.txt and are not aggressive.
 
 ## Bad Bots
 
@@ -51,17 +50,17 @@ Bad bots come in many forms, including:
 
 * PetalBot: A crawler from Huawei that often floods websites with requests and doesn't provide much control for webmasters.
 * AhrefsBot: From an SEO tool—technically legitimate but known for extremely high request rates.
-* New User-Agents: Every day new bots show up with names like "RandomBot"
+* Every day new bots show up with names like "RandomBot"
 
-There has been a significant increase in the quantity of bot traffic attempting to access everyone's websites - related to the growth of AI (LLM). Large Language Models require vast quantities of training data in order to acquire their "knowledge", and for the most part they do that by "stealing" it from any and every public information source they can (i.e. including your website). Due to the competition between AI vendors, there is a race to acquire this knowledge as quickly as possible, during which the needs of the content owners (website operators) are disregarded. Unlike search engines, their business is not to work "in harmony" with your website, but to simply consume the data as quickly as they can for their own competitive advantage.
+There has been a significant increase in the quantity of bot traffic attempting to access everyone's websites - related to the growth of AI (LLM). Large Language Models require vast quantities of training data in order to acquire their "knowledge", and for the most part they do that by "stealing" it from any and every public information source they can (i.e. including your website). Due to the competition between AI vendors, there is a race to acquire this knowledge as quickly as possible during which the needs of the content owners (website operators) are disregarded. Unlike search engines, their business is not to work "in harmony" with your website, but to simply consume the data as quickly as they can for their own competitive advantage.
 
-Altogether, this means that even if your website continues to serve a similar number of legitimate visitors, it is likely experiencing significantly more bot traffic than before. Many of these bots are designed to evade detection and bypass restrictions, making them harder to block. As a result, your server faces increased computational load and resource pressure compared to earlier times.
+As a result, this means that even if your website continues to serve a similar number of legitimate visitors, it is likely experiencing significantly more bot traffic than before. Many of these bots are designed to evade detection and bypass restrictions, making them harder to block. As a result, your server faces increased computational load and resource pressure compared to earlier times.
 
 Even if they're not actively malicious, they can overwhelm your server by hitting it thousands of times per hour.
 
 ## Crawlers in Disguise
 
-Some crawlers are written by _really talented_ developers, often for machine learning or data aggregation. They simulate real users and often go undetected by standard bot protection tools. These include:
+Some crawlers are written by highly skilled developers, often for machine learning or data aggregation. They simulate real users and often go undetected by standard bot protection tools. These include:
 
 * LLM scrapers
 * Aggregator tools
@@ -71,9 +70,9 @@ These bots appear in logs as legitimate traffic and aren't blocked easily. Even 
 
 They might make:
 
-* 20–50 requests per second during peak
+* 20–50 requests per second during peak times
 * Several thousand in 10 minutes
-* Repeated requests to heavy WordPress pages, causing strain
+* They make repeated requests to heavy WordPress pages, causing strain
 
 examples of requests below:
 ```
@@ -91,7 +90,7 @@ examples of requests below:
 
 ## Static Resources
 
-Serving static content like images, CSS, or JavaScript files to many visitors (even thousands at the same time) is generally not a problem. The real issue arises when bots trigger full page loads, which involve running WordPress or other CMS stacks, executing PHP, and querying the database. Most bots typically do not just request static resources; instead, they often request full pages, which consumes significantly more server resources and can lead to performance issues.
+Serving static content like images, CSS, or JavaScript files to many visitors (even thousands “simultaneously”) is generally not a problem. The real issue arises when bots trigger full page loads, which involve running WordPress or other CMS stacks, executing PHP, and querying the database. Most bots typically do not just request static resources; instead, they often request full pages, which consumes significantly more server resources and can lead to performance issues.
 
 ## WordPress Installations
 WordPress sites are among the top targets for bots. Commonly abused endpoints include:
@@ -100,7 +99,7 @@ WordPress sites are among the top targets for bots. Commonly abused endpoints in
 * `/xmlrpc.php`: used for DDoS attacks or mass commenting
 * `/wp-json/`: used for scraping public content
 
-If your WordPress install is not well-optimized, even a single bot request can trigger heavy PHP execution and database queries.
+If your WordPress installation is not well optimized, even a single bot request can trigger heavy PHP execution and database queries.
 
 ## HTTP Responses: What the Server Tells You
 The server’s HTTP responses can help you understand bot behavior:
