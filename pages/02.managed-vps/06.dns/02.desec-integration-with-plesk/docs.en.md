@@ -26,6 +26,8 @@ media_order: 'desec-extension-search-result.png,desec-dns-sync-1.png,account-cre
 
 deSEC is a registered non-profit organisation based in Germany. They operate a not-for-profit anycast DNS hosting service as part of their mission to drive large-scale adoption of IT security techniques such as DNSSEC. As a non-profit, their service is free to use and sustained entirely through donations and sponsors.
 
+Layershift actively sponsor the deSEC project, and have developed a (free, open source) Plesk extension to make it easy to publish DNS records from Plesk to deSEC.
+
 # What does the extension do
 
 This extension was built so that you can manage the DNS zone of your domain, without leaving the comfort of Plesk dashboard. This enables you to use deSEC for DNS hosting, benefitting from all of their nice features and security functionality, whilst using Plesk to automate DNS management for your hosted domains.
@@ -111,6 +113,6 @@ Once installed, please open the extension and you will be prompted with the foll
 
 ![extension-desec-form](extension-desec-form.png "extension-desec-form")
 
-At this step, you will be required to paste the previously generated API token and paste it in the appropriate form and agree with the privacy policy of the extension(which can be found [here](https://raw.githubusercontent.com/layershift/ext-ls-desec/refs/heads/main/LICENSE) )
+At this step, you will be required to paste the previously generated API token and paste it in the appropriate form and agree with the privacy policy of the extension.
 
 All set! Now you can fully use the features of the extension!
