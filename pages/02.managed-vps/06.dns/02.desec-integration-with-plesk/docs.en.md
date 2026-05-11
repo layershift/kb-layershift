@@ -28,6 +28,12 @@ deSEC is a registered non-profit organisation based in Germany. They operate a n
 
 Layershift actively sponsor the deSEC project, and have developed a (free, open source) Plesk extension to make it easy to publish DNS records from Plesk to deSEC.
 
+# What's DNSSEC
+
+DNSSEC ensures that your domain's DNS records cannot be tampered with, so visitors reach your real website instead of a fake one.
+
+[Learn more about DNSSEC at Layershift](../../../domains/dns/configure-dnssec)
+
 # What does the extension do
 
 This extension was built so that you can manage the DNS zone of your domain, without leaving the comfort of Plesk dashboard. This enables you to use deSEC for DNS hosting, benefitting from all of their nice features and security functionality, whilst using Plesk to automate DNS management for your hosted domains.
