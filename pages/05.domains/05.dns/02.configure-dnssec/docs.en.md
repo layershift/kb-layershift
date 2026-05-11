@@ -1,6 +1,5 @@
 ---
 title: 'How to configure DNSSEC'
-published: false
 taxonomy:
     category:
         - docs
