@@ -54,7 +54,7 @@ Therefore the first step is to consult your DNS provider to obtain the DS record
 
 ! You might be given the DS record as individual values, or a sequence of values separated by spaces. If the latter, they will be in the order described above: the first is the key tag, the next is the algorithm etc.
 
-At Layershift, you can use DNSSEC in conjunction with the [deSEC Plesk extension](../../../managed-vps/dns/desec-integration-with-plesk) and obtain your DS record in the setup instructions as shown below:
+At Layershift, you can use DNSSEC in conjunction with the [deSEC Plesk extension](../../../managed-vps/dns/desec-integration-with-plesk) and obtain your DS record via [your deSEC account](https://desec.io/login) in the setup instructions for your domain as shown below:
 ![deSEC setup screenshot](desec-setup.png)
 
 ## Step 2: Publish the DS record to the domain registrar
