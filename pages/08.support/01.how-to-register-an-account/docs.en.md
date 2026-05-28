@@ -16,8 +16,8 @@ metadata:
     'og:image:width': 1919
     'og:image:height': 1065
     'og:author': Layershift
-    'article:published_time': '2026-05-28T12:43:34+01:00'
-    'article:modified_time': '2026-05-28T12:43:34+01:00'
+    'article:published_time': '2026-05-28T13:27:23+01:00'
+    'article:modified_time': '2026-05-28T13:27:23+01:00'
     'article:author': Layershift
     keywords: 'layershift support helpdesk tickets support cases'
 aura:
@@ -33,10 +33,10 @@ You can register a helpdesk account and you get easy access to all previous tick
 Just access the [helpdesk](https://help.layershift.com/), click on _sign in_ then on _Create a new helpdesk account_ 
 ![Create%20a%20new%20helpdesk%20account](Create%20a%20new%20helpdesk%20account.png "Create%20a%20new%20helpdesk%20account")
 
-Fill in your email address and click on Send Confirmation Email
+Fill in your email address and click on _Send Confirmation Email_
 ![registration%20form%20for%20a%20new%20helpdesk%20account](registration%20form%20for%20a%20new%20helpdesk%20account.png "registration%20form%20for%20a%20new%20helpdesk%20account")
 
-Check your email address for a new email with the subject: _Please confirm your email address_. Fill in the confirmation code along with your full name and unique password
+Check your email address for a new email with the subject "Please confirm your email address". Fill in the confirmation code along with your full name and unique password
 ![send%20registration%20form%20for%20a%20new%20helpdesk%20account](send%20registration%20form%20for%20a%20new%20helpdesk%20account.png "send%20registration%20form%20for%20a%20new%20helpdesk%20account")
 
 Once logged in, you can view all previous tickets created for your email address, change helpdesk account settings or open a new ticket.
