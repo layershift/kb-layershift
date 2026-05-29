@@ -1,5 +1,5 @@
 ---
-title: 'User guide'
+title: 'Helpdesk user guide'
 taxonomy:
     category:
         - docs
@@ -23,10 +23,15 @@ metadata:
 media_order: 'User guide.png,contact us.png,my account - profile.png,my account - email addresses.png,my account - change password.png,my account - sharing and collaboration - shared by me.png,my account - sharing and collaboration - shared with me.png,my account - delete my account.png,your ticket history.png'
 ---
 
-You can get in touch with us even if you don't have access to your email address. Once you register, you can view the current and all previously created tickets.
+A helpdesk account allows you to get in touch with us even if you don't have access to your email account. Once you [register](how-to-register-an-account), you can view the current and all previously created tickets.
+
+!!! Access to your email account is required for helpdesk registration (or if you need to reset your helpdesk password)
+
 # Contact us
 [Access the helpdesk](https://help.layershift.com/), select a category and describe the issue you are encountering.
 ![contact%20us](contact%20us.png "contact%20us")
+
+! Your ticket may be routed to a different team (with different skills or working hours) depending on your selection, so please take a moment to select the most appropriate option for your issue
 
 # Ticket history
 Here you can see all the tickets created with one of your email addresses. You can filter the list by creation date, status or keyword.
@@ -45,7 +50,7 @@ Here you can change your current helpdesk account password.
 ![my%20account%20-%20change%20password](my%20account%20-%20change%20password.png "my%20account%20-%20change%20password")
 
 # Sharing and collaboration
-From this section, you can control how you share your ticket history and how you see tickets shared with you.
+This section allows you to share your ticket history with your colleagues, and see which of your colleagues are sharing their ticket history with you.
 
 ## Shared by me
 You can individually control ticket sharing for each email address you add to your helpdesk account.
@@ -57,5 +62,7 @@ If you no longer want to have access to the shared tickets, you can remove the l
 ![my%20account%20-%20sharing%20and%20collaboration%20-%20shared%20with%20me](my%20account%20-%20sharing%20and%20collaboration%20-%20shared%20with%20me.png "my%20account%20-%20sharing%20and%20collaboration%20-%20shared%20with%20me")
 
 # Delete my account
-It will remove just your login details. Existing tickets are not removed and you can regain access by registering a new account with the same email address.
+This is **ONLY** regarding deleting your helpdesk account. Your existing tickets are not removed by doing this, and it has no impact on your hosting services/subscriptions etc.
+
+You can regain access by registering a new account with the same email address.
 ![my%20account%20-%20delete%20my%20account](my%20account%20-%20delete%20my%20account.png "my%20account%20-%20delete%20my%20account")
