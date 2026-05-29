@@ -22,6 +22,15 @@ media_order: 'Effective support.png,priority escalations.png'
 
 We strive to offer the best support experience in our market. This means we aim to provide you with fast, knowledgeable, and accurate assistance every day (and night) of the year.
 
+# Our support process
+We operate an email based ticketing system to triage and prioritise support cases. This allows us to assign the most relevant engineer to each case, collaborate on your issues across our team, and ensure that all appropriate details are taken into consideration when investigating and resolving your issue.
+
+We know that you're busy, and simply want your issue to be fixed completely and accurately first time. We don't keep you on hold whilst we work on it, check details with colleagues, or anything else - you can get on with your day whilst we get on with fixing your issue.
+
+We prioritise the most urgent cases first (e.g. server down), but in any case we aim to get back to you (with your issue resolved) as quickly as we can - and we measure that time in minutes, not in days!
+
+It's sometimes necessary to discuss more complex issues in real-time; we're happy to schedule online meetings with a suitable engineer where it makes sense and will lead to a faster resolution - but all cases must be logged and described in a ticket first and foremost, and **in most cases** are solved most effectively that way. We'll make arrangements with you via the ticket if we consider an online meeting to be beneficial in resolving your case more expediently.
+
 # Opening tickets
 The quality of our support also depends on your collaboration. In particular please:
 
