@@ -28,7 +28,7 @@ aura:
         keywords: 'layershift support helpdesk tickets support cases'
 ---
 
-You can register a helpdesk account and you get easy access to all previous tickets.
+You can register a helpdesk account to get easy access to all previous tickets opened for your email address.
 
 Just access the [helpdesk](https://help.layershift.com/), click on _sign in_ then on _Create a new helpdesk account_ 
 ![Create%20a%20new%20helpdesk%20account](Create%20a%20new%20helpdesk%20account.png "Create%20a%20new%20helpdesk%20account")
@@ -36,7 +36,7 @@ Just access the [helpdesk](https://help.layershift.com/), click on _sign in_ the
 Fill in your email address and click on _Send Confirmation Email_
 ![registration%20form%20for%20a%20new%20helpdesk%20account](registration%20form%20for%20a%20new%20helpdesk%20account.png "registration%20form%20for%20a%20new%20helpdesk%20account")
 
-Check your email address for a new email with the subject "Please confirm your email address". Fill in the confirmation code along with your full name and unique password
+Check your inbox for a new email with subject "Please confirm your email address". Fill in the confirmation code along with your full name and unique password
 ![send%20registration%20form%20for%20a%20new%20helpdesk%20account](send%20registration%20form%20for%20a%20new%20helpdesk%20account.png "send%20registration%20form%20for%20a%20new%20helpdesk%20account")
 
 Once logged in, you can view all previous tickets created for your email address, change helpdesk account settings or open a new ticket.
