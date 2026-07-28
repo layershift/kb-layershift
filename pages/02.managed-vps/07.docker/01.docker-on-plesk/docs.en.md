@@ -26,7 +26,7 @@ Setting up a Dockerised container might seem complicated, but with Layershift an
 
 ### Prerequisites
 
-Your server will need to be one of our AlmaLinux servers to operate Docker on Plesk. This can be seen in the System Overview panel on the right hand panel when you view the Websites and Domains page in Plesk.
+Your server will need to be one of our AlmaLinux or Cloudlinux servers to operate Docker on Plesk. This can be seen in the System Overview panel on the right hand panel when you view the Websites and Domains page in Plesk.
 																				![COntext](COntext.png?lightbox&resize=555 "COntext")
  
 You're likely to need at least 512MiB of free RAM per container, but this may need to be higher depending on workload and image. Keep in mind that each Docker container adds to the overall resource requirements for your server. You can upgrade easily at any time; just reach out to our Support team if you need to add more!
