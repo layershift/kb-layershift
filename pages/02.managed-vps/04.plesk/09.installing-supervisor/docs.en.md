@@ -14,8 +14,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-07-29T15:43:38+01:00'
-    'article:modified_time': '2026-07-29T15:43:38+01:00'
+    'article:published_time': '2026-07-29T15:45:38+01:00'
+    'article:modified_time': '2026-07-29T15:45:38+01:00'
     'article:author': Layershift
 media_order: 'SSH_enable_1.png,SSH_enable_2.png,schedule_task_2.png,schedule_task_3.png,SSH_login.png,schedule_task_1.png'
 ---
@@ -26,14 +26,14 @@ Supervisor is a process manager that manages long-running programs. To avoid con
 As a prerequisite, SSH access needs to be enabled.
 
 This can be achieved by accessing the hosting & DNS settings:
-!["Screenshot of Plesk, indicating where to open the Hosting settings to enable SSH"](SSH_enable_1.png "Screenshot of Plesk, indicating where to open the Hosting settings to enable SSH")
+![Screenshot of Plesk, indicating where to open the Hosting settings to enable SSH](SSH_enable_1.png "Screenshot of Plesk, indicating where to open the Hosting settings to enable SSH")
 
 and selecting `/bin/bash`:
-!["Screenshot of Plesk, indicating to set SSH access Type to /bin/bash to enable SSH access"](SSH_enable_2.png "Screenshot of Plesk, indicating to set SSH access Type to /bin/bash to enable SSH access")
+![Screenshot of Plesk, indicating to set SSH access Type to /bin/bash to enable SSH access](SSH_enable_2.png "Screenshot of Plesk, indicating to set SSH access Type to /bin/bash to enable SSH access")
 
 
 Once enabled, we can login via SSH using the SSH Terminal button:
-!["Screenshot of Plesk, indicating how to open the built-in SSH Terminal"](SSH_login.png "Screenshot of Plesk, indicating how to open the built-in SSH Terminal")
+![Screenshot of Plesk, indicating how to open the built-in SSH Terminal](SSH_login.png "Screenshot of Plesk, indicating how to open the built-in SSH Terminal")
 
 ### Installing supervisor and adjusting configuration files
 
@@ -142,6 +142,6 @@ chmod +x ~/.local/bin/test_supervisord
 ```
 
 And add the script as a scheduled task in Plesk:
-!["Screenshot of Plesk, indicating how to open the Scheduled Tasks (cron) section"](schedule_task_1.png "Screenshot of Plesk, indicating how to open the Scheduled Tasks (cron) section")
-!["Screenshot of Plesk, indicating how to add a new Scheduled Task (cronjob)"](schedule_task_2.png "Screenshot of Plesk, indicating how to add a new Scheduled Task (cronjob)")
-!["Screenshot of Plesk, indicating how to configure a Scheduled Task (cronjob) to correctly monitor supervisord"](schedule_task_3.png "Screenshot of Plesk, indicating how to configure a Scheduled Task (cronjob) to correctly monitor supervisord")
+![Screenshot of Plesk, indicating how to open the Scheduled Tasks (cron) section](schedule_task_1.png "Screenshot of Plesk, indicating how to open the Scheduled Tasks (cron) section")
+![Screenshot of Plesk, indicating how to add a new Scheduled Task (cronjob)](schedule_task_2.png "Screenshot of Plesk, indicating how to add a new Scheduled Task (cronjob)")
+![Screenshot of Plesk, indicating how to configure a Scheduled Task (cronjob) to correctly monitor supervisord](schedule_task_3.png "Screenshot of Plesk, indicating how to configure a Scheduled Task (cronjob) to correctly monitor supervisord")
