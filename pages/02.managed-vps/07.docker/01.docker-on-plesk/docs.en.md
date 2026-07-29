@@ -25,9 +25,6 @@ page-toc:
 Setting up a Dockerised container might seem complicated, but with Layershift and Plesk it's extremely easy!
 
 ### Prerequisites
-
-Your server will need to be one of our AlmaLinux or Cloudlinux servers to operate Docker on Plesk. This can be seen in the System Overview panel on the right hand panel when you view the Websites and Domains page in Plesk.
-																				![COntext](COntext.png?lightbox&resize=555 "COntext")
  
 You're likely to need at least 512MiB of free RAM per container, but this may need to be higher depending on workload and image. Keep in mind that each Docker container adds to the overall resource requirements for your server. You can upgrade easily at any time; just reach out to our Support team if you need to add more!
 
@@ -37,30 +34,27 @@ We also recommend that you read the [Plesk Documentation](https://docs.plesk.com
  
 
 ## Installation
-Docker installation is a two step process, first we will install the Plesk extension, then we will setup a running container.
-
-
-Plesk Dashboard > Extensions > Search Docker > Select "Get It Free". Once installed it will appear in the menu on the left.
-        
-        
-![Extension%20Installation](Extension%20Installation.png "Extension%20Installation")
+Docker comes pre-installed on all Layershift Plesk servers, so no need for installation. Just look to the left hand panel and you should an option labelled Docker.   
    
-   
-If you are unable to install the extension, please contact our [helpdesk](https://help.layershift.com).
-
-
+If you are unable to see the extension, please contact our [helpdesk](https://help.layershift.com).
 
 
 ### Image Selection
-Goto the Docker option in the left hand panel, then Run Container.
+Go to the Docker option in the left hand panel, then Run Container.
 
  Docker image search pulls images from [Docker Hub](https://hub.docker.com/). Check the Upload Image below for adding your own, or adding images you have sourced from other sources.
+
   Search for your desired application image > Select specific image > Select version. 
       
-      
+Below you can see the image results with the chosen option highlight in purple.      
    ![ValkeySearch](ValkeySearch.png "ValkeySearch")
-      
-      
+
+Docker uses the term "Tag" to refer to the version details of a particular image. The version is split into both the numbered version (9.1.0 below) and the named version. Alpine, Trixie, rc2 in the image below.
+
+If you are uncertain which version, use "latest"
+
+Below you can see the various tags
+	   
    ![ValkeyVersion](ValkeyVersion.png "ValkeyVersion")
 
 
@@ -68,11 +62,11 @@ Goto the Docker option in the left hand panel, then Run Container.
 
 If you have your own custom images that you would like to use, following the instructions in https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#o77137.
  
-You can now upload that image by going to the purple and then green highlighted boxes below. Once up 
+You can now upload that image by going to the purple highlighted Images tab and using the green highlighted Upload, shown below.
  
 ![UploadImage](UploadImage.png "UploadImage")
 
-Once the image is uploaded, you can run that image (or any other local images), by pressing the Run button highlighted below.
+Once the image is uploaded, you can run that image (or any other local images), by pressing the Run button highlighted in the image below.
 
 ![RunLocal](RunLocal.png "RunLocal")
 
@@ -80,13 +74,24 @@ Once done, you can follow the instructions below on setting up limits and config
 
 
 ### Memory Limits and Autostart
-We now set the container name, any desired memory_limits and auto restart.
+We now set the container name, any desired memory_limits and auto restart. These are shown in the image below with the memory_limit set to 1024Mb and auto-restart activated.
 
 ![valkeyMemoryLimits](valkeyMemoryLimits.png "valkeyMemoryLimits")
-  
+
+
 ## Mapping
 ### Port Mapping
-Manual port binding is available if the "Automatic port mapping" button is deselected. You can set both the port you wish inside and outside the container and if you wish the port to accessible from the internet. It is always accessible from the server(127.0.0.1)
+Manual port binding is available if the "Automatic port mapping" button is deselected. You can set both the port you wish inside and outside the container and if you wish the port to accessible from the internet. It is always accessible from the server (127.0.0.1)
+
+ You may have issues with pre-existing services or other containers already using a particular port. This is called a Port Clash and you can mitigate it through using manual port mapping  and setting the port to an appropriate IP.
+
+Two important details, if you need anything routed to that container, make sure to point your application at the correct port. The second detail is to avoid reserved ports, below are the three groupings of port types. you will need to avoid the Well Known and Dynamic ports. Additionally, you will need to ensure that the Registered ports you do use are not already being in use. For example on a Plesk server port 8443 and 3306 will always be in use.
+
+Well-Known (0–1023): Locked for essential global protocols like DNS (53) and DHCP (67).
+
+Registered (1024–49151): Assigned to specific software vendors upon request (e.g., MySQL on 3306).
+
+Dynamic (49152–65535): Used as short-lived ephemeral ports by an operating system for outbound client communication.
 
 ### Volume Mapping
 Please disregard the error message. Your volumes will be backed up according to your servers backup license and schedule.
