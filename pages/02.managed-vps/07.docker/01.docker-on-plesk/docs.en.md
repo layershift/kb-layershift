@@ -47,15 +47,13 @@ Go to the Docker option in the left hand panel, then Run Container.
   Search for your desired application image > Select specific image > Select version. 
       
 Below you can see the image results with the chosen option highlight in purple.      
-   ![ValkeySearch](ValkeySearch.png "ValkeySearch")
+   ![Valkey image search results, with the selected image highlighted in purple](ValkeySearch.png "ValkeySearch")
 
 Docker uses the term "Tag" to refer to the version details of a particular image. The version is split into both the numbered version (9.1.0 below) and the named version. Alpine, Trixie, rc2 in the image below.
 
 If you are uncertain which version, use "latest"
-
-Below you can see the various tags
 	   
-   ![ValkeyVersion](ValkeyVersion.png "ValkeyVersion")
+   ![Image tag search results including both numbered, named and latest versions](ValkeyVersion.png "ValkeyVersion")
 
 
 #### Upload Image
@@ -64,11 +62,11 @@ If you have your own custom images that you would like to use, following the ins
  
 You can now upload that image by going to the purple highlighted Images tab and using the green highlighted Upload, shown below.
  
-![UploadImage](UploadImage.png "UploadImage")
+![Screenshot of the Plesk Docker extension. The Images tab is selected, and the Upload Image button at the top of that section is highlighted.](UploadImage.png "UploadImage")
 
 Once the image is uploaded, you can run that image (or any other local images), by pressing the Run button highlighted in the image below.
 
-![RunLocal](RunLocal.png "RunLocal")
+![Screenshot showing highlighted run local play button from the Valkey search](RunLocal.png "RunLocal")
 
 Once done, you can follow the instructions below on setting up limits and configuration.
 
@@ -76,7 +74,7 @@ Once done, you can follow the instructions below on setting up limits and config
 ### Memory Limits and Autostart
 We now set the container name, any desired memory_limits and auto restart. These are shown in the image below with the memory_limit set to 1024Mb and auto-restart activated.
 
-![valkeyMemoryLimits](valkeyMemoryLimits.png "valkeyMemoryLimits")
+![Screenshot of the container name prod-valkey-cache, a set memory_limit of 1024Mb and auto-restart tick box checked](valkeyMemoryLimits.png "valkeyMemoryLimits")
 
 
 ## Mapping
@@ -102,14 +100,12 @@ Below we have a mapping for
 
 /var/lib/docker/volumes/valkeycache > /var/lib/valkey.
 
-![volumes](volumes.png "volumes")
-
-![Volume%20Mappings](Volume%20Mappings.png "Volume%20Mappings")
+![Screenshot of volume mapping with server directory /var/lib/docker/volumes/valkeycache on the left and container directory /var/lib/valkey on the right. There is a blank entry showing greyed out text with Host on the right and Container on the left](volumes.png "volumes")
 
 ### Environmental Variables
 Below you can examples of port, volume and environmental variable mapping.
 
-![ValkeyENV](ValkeyENV.png "ValkeyENV")
+![Screenshot showing Automatic Mapping in unticked, Manual Mapping set to port 6379 on both host and container with the port being inaccessible from the internet. Volume mapping, as per the above image. Various common Environmental Variables within generic values to demonstrate purpose](ValkeyENV.png "ValkeyENV")
 
 
 
@@ -117,23 +113,23 @@ Below you can examples of port, volume and environmental variable mapping.
 
 Should you wish to run a docker-compose.yaml file and setup a whole stack like the below. There are multiple ways you can upload your compose file.
 
-![stack](stack.png "stack")
+![Screenshot of a sample stack, including an NGINX load-balancer, 2 Apache application containers and a Postgres database container](stack.png "stack")
 
 Click on Add Stack or the blue plus shown in the image above.
  
 You can paste, upload or select the file depending upon your needs. Set the name, it must be in lower case but can container '-' and numbers
  
-![demo-stack](demo-stack.png "demo-stack")
+![Screenshot of the three possible upload options, a project name set to demo-stack and a sample of the YAML file within the in browser editor](demo-stack.png "demo-stack")
  
 We can see in the image above that the container is stopped, and by going into the highlighted Settings we can edit the container and fix it.
  
-![port_clash](port_clash.png "port_clash")
+![Screenshot of Manual Mapping port entries and both options are set to 80](port_clash.png "port_clash")
  
 We can see that there is a clash since something is already using port 80. So we can edit to a different port, save and restart the container. Click on Stopped and select Start.
  
 If it fails, you will receive an error message in the top right corner of your dashboard.
  
-![restartcontainer](restartcontainer.png "restartcontainer")
+![Image showing the Stopped state and the Start state of containers](restartcontainer.png "restartcontainer")
  
  
   
@@ -195,7 +191,7 @@ Once your stack is started, delete ""/usr/local/psa/var/modules/docker/stacks/yo
   
 When that file is in place, recreate your web facing container.
 
-![lb-recreate](lb-recreate.png "lb-recreate")
+![Screenshot of NGINX lb container details, with the hamburger many highlighted in purple and the Recreate button higlighted in green](lb-recreate.png "lb-recreate")
 
 Et voila! You now have part of your website hosted on docker and completely separate from the rest of your website, this is excellent for both reducing attack surface, defense in depth as well as any operational considerations.
 
@@ -203,7 +199,7 @@ Et voila! You now have part of your website hosted on docker and completely sepa
   
 Stopping or removing a stack can be done through the highlighted button below.
   
-![stack%20removal](stack%20removal.png "stack%20removal")
+![Screenshot of the demo-stack details, with purple highlighted hamburger menu showing the options Deploy, Watch, Stop and Destroy](stack%20removal.png "stack%20removal")
 
 
 ## Portainer
