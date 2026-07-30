@@ -83,6 +83,8 @@ Manual port binding is available if the "Automatic port mapping" button is desel
 
  You may have issues with pre-existing services or other containers already using a particular port. This is called a Port Clash and you can mitigate it through using manual port mapping  and setting the port to an appropriate IP.
 
+A demonstration of how to resolve port clashes is provided later in the document under Domain Proxying.
+
 Two important details, if you need anything routed to that container, make sure to point your application at the correct port. The second detail is to avoid reserved ports, below are the three groupings of port types. you will need to avoid the Well Known and Dynamic ports. Additionally, you will need to ensure that the Registered ports you do use are not already being in use. For example on a Plesk server port 8443 and 3306 will always be in use.
 
 Well-Known (0–1023): Locked for essential global protocols like DNS (53) and DHCP (67).
@@ -92,7 +94,9 @@ Registered (1024–49151): Assigned to specific software vendors upon request (e
 Dynamic (49152–65535): Used as short-lived ephemeral ports by an operating system for outbound client communication.
 
 ### Volume Mapping
-Please disregard the error message. Your volumes will be backed up according to your servers backup license and schedule.
+A Docker volume allows persistent data storage for your container between redeployments, as redeploying a container will destroy all the data contained within it. A Docker volume is a directory on your server that you map onto a directory within the container.
+
+Please disregard the error message. This warning is due to Docker volumes not being backed up by the Plesk Backup Tool. Your volumes will be backed up according to your servers backup license and schedule, as backing up the server will necessarily include backing up your Docker volumes.
 
 You must use absolute paths in both entries.
 
