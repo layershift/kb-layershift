@@ -79,19 +79,30 @@ We now set the container name, any desired memory_limits and auto restart. These
 
 ## Mapping
 ### Port Mapping
-Manual port binding is available if the "Automatic port mapping" button is deselected. You can set both the port you wish inside and outside the container and if you wish the port to accessible from the internet. It is always accessible from the server (127.0.0.1)
 
-!! You may have issues with pre-existing services or other containers already using a particular port. This is called a Port Clash and you can mitigate it through using manual port mapping  and setting the port to an appropriate value.
+By default, Automatic port mapping selects an available host port for you. This is the recommended option for most deployments, as it helps avoid port conflicts.
 
-A demonstration of how to resolve port clashes is provided later in the document under Domain Proxying.
+Disable Automatic port mapping only if you need your container to be available on a specific host port. When using manual mapping, you can specify both the container port and the host port, and choose whether the port is accessible from the internet. The service is always accessible from the server itself (127.0.0.1).
 
-Two important details, if you need anything routed to that container, make sure to point your application code at the correct port. The second detail is to avoid reserved ports, below are the three groupings of port types. you will need to avoid the Well Known and Dynamic ports. Additionally, you will need to ensure that the Registered ports you do use are not already being in use. For example on a Plesk server port 8443 and 3306 will always be in use.
+!! If the host port you choose is already in use by another service or container, the container will fail to bind to that port. This is known as a port conflict. If this happens, select a different host port or enable Automatic port mapping.
 
-Well-Known (0–1023): Locked for essential global protocols like DNS (53) and DHCP (67).
+A demonstration of resolving port conflicts is provided later in this guide under Domain Proxying.
 
-Registered (1024–49151): Assigned to specific software vendors upon request (e.g., MySQL/MariaDB on 3306).
+Choosing a Host Port
 
-Dynamic (49152–65535): Used as short-lived ephemeral ports by an operating system for outbound client communication.
+If you are manually assigning a host port:
+
+Use the port expected by your application where possible (for example, 8080 for web applications or 2222 for SSH services).
+If that port is already in use, choose another unused registered port.
+Avoid well-known system ports (0-1023) and dynamic/ephemeral ports (49152-65535).
+On servers running other software, some ports are commonly already in use. For example, on a Plesk server, ports 8443 and 3306 are typically unavailable.
+
+Port ranges:
+
+Well-known (0-1023): Reserved for core system services (for example, SSH on 22).
+Registered (1024-49151): Intended for applications and services. This is the range you should typically choose from.
+Dynamic (49152-65535): Reserved by the operating system for temporary outbound connections and should not be used for manual port assignments.
+
 
 ### Volume Mapping
 A Docker volume allows persistent data storage for your container between redeployments, as redeploying a container will destroy all the data contained within it. A Docker volume is a directory on your server that you map onto a directory within the container. The container while able to read and write to that directory, cannot access anything above that directory.
@@ -218,4 +229,23 @@ Due to the extremely large number of images and versions available, we do not of
 We do offer support for the setup of Docker on Plesk, Plesk and server related issues you may experience while installing and operating your containers.
   
 ##   License
+
+You do not need a license to manage the local Docker service running on your Layershift Plesk server.
+
 A paid license option is available to enable you to manage Docker containers hosted on multiple different servers from a single interface (please contact billing@layershift.com for assistance), but managing containers hosted locally by a single Layershift Managed VPS is included at no additional cost.
+
+# Going Further
+
+## Making Your Own Docker Image
+
+Once you are comfortable with launching containers and stacks you may wish to customise your images. This can be done without having to publish the image to a public repository, as long as you have the image locally. Below is the Docker documentation for writing and customising your own images.
+
+https://docs.docker.com/get-started/docker-concepts/building-images/
+
+https://docs.docker.com/build/concepts/dockerfile/#building
+
+https://docs.docker.com/build/
+
+https://docs.docker.com/build/concepts/overview/
+
+Please note that while you can run customised images on layershift Plesk servers, we do not offer support for troubleshooting them.
