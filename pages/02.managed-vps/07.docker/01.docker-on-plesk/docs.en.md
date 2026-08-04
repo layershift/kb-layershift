@@ -26,7 +26,7 @@ Setting up a Dockerised container might seem complicated, but with Layershift an
 
 ### Prerequisites
  
-You're likely to need at least 512MiB of free RAM per container, but this may need to be higher depending on workload and image. Keep in mind that each Docker container adds to the overall resource requirements for your server. You can upgrade easily at any time; just reach out to our Support team if you need to add more!
+You're likely to need at least 512MiB of free RAM per container, but this may need to be higher depending on workload and image. Keep in mind that each Docker container adds to the overall resource requirements for your server. You can upgrade resources easily at any time; just reach out to our Support team if you need to add more!
 
 Every Layershift VPS includes regular automated backups. The entire server filesystem is backed up on a frequency and retention scheduled according to your server's backup plan, but depending on your particular Docker image you might want to make additional arrangements, for example some database containers may not be properly restorable from a filesystem backup.
 
