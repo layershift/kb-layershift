@@ -125,7 +125,7 @@ The exact variables and their values are unique to the image you're using; pleas
 
 
 
-## Docker-compose
+## Docker Compose
 
 Should you wish to run a docker-compose.yaml file and setup a whole stack like the below. There are multiple ways you can upload your compose file.
 
