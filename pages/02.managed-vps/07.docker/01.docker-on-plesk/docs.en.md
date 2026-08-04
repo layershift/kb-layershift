@@ -61,7 +61,7 @@ Below you can see the image results with the chosen option highlight in purple.
 
 If you have your own custom image, the image resides in an unsupported registry (one that doesn't support `docker search`), or in a private registry, you can upload an image created with [`docker save`](https://docs.docker.com/reference/cli/docker/image/save/) directly to the server:
  
-You can now upload that image by going to the purple highlighted Images tab and using the green highlighted Upload, shown below.
+Click on the Images tab, and then the Upload image button.
  
 ![Screenshot of the Plesk Docker extension. The Images tab is selected, and the Upload Image button at the top of that section is highlighted.](UploadImage.png "UploadImage")
 
