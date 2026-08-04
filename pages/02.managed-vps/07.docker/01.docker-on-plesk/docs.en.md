@@ -101,13 +101,6 @@ If you are manually assigning a host port:
   * Avoid well-known system ports (0 - 1023) and dynamic/ephemeral ports (49152 - 65535).
 * On servers running other software, some ports are commonly already in use. For example, on a Plesk server, ports 3306 and 8443 are typically unavailable.
 
-Port ranges:
-
-Well-known (0-1023): Reserved for core system services (for example, SSH on 22).
-Registered (1024-49151): Intended for applications and services. This is the range you should typically choose from.
-Dynamic (49152-65535): Reserved by the operating system for temporary outbound connections and should not be used for manual port assignments.
-
-
 ### Volume Mapping
 By default, data written or changed inside your Docker container is **not persistent**! For some containers that's perfect, but for most you'll have at least *some* data that you want to keep hold of (e.g. if you're running a database server, you want to keep the files that represent the actual database).
 
