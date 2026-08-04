@@ -49,7 +49,6 @@ Go to the Docker option in the left hand panel, then Run Container.
 Below you can see the image results with the chosen option highlight in purple.      
    ![Valkey image search results, with the selected image highlighted in purple](ValkeySearch.png "ValkeySearch")
 
-Docker uses the term "Tag" to refer to the version details of a particular image.
 
 If you are uncertain which version, use an explicitly named version so you can see what you are running simply be checking the tag.
 	   
