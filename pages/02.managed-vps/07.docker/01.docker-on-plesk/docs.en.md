@@ -42,7 +42,7 @@ If you are unable to see the extension, please contact our [helpdesk](https://he
 ### Image Selection
 Go to the Docker option in the left hand panel, then Run Container.
 
- Docker image search pulls images from [Docker Hub](https://hub.docker.com/). Check the Upload Image below for adding your own, or adding images you have sourced from other sources.
+By default, Docker image search pulls images from [Docker Hub](https://hub.docker.com/), but you can also search other registries provided they're compatible with the `docker search` command (not all registries are) - for example `quay.io/keycloak/keycloak` will get you Keycloak from the Quay.io registry, whilst simply entering `valkey` will get you Valkey from Docker Hub.
 
 Search for your desired application image > Select specific image > Select version. 
       
