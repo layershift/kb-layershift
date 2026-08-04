@@ -96,10 +96,10 @@ Choosing a Host Port
 
 If you are manually assigning a host port:
 
-Use the port expected by your application where possible (for example, 8080 for web applications or 2222 for SSH services).
-If that port is already in use, choose another unused registered port.
-Avoid well-known system ports (0-1023) and dynamic/ephemeral ports (49152-65535).
-On servers running other software, some ports are commonly already in use. For example, on a Plesk server, ports 8443 and 3306 are typically unavailable.
+* Use the standard port expected by your application where possible (for example: 3036 for MySQL, 5432 for PostgreSQL, 6379 for Valkey etc.).
+* If that port is already in use, choose another unused registered port (1024 - 49151).
+  * Avoid well-known system ports (0 - 1023) and dynamic/ephemeral ports (49152 - 65535).
+* On servers running other software, some ports are commonly already in use. For example, on a Plesk server, ports 3306 and 8443 are typically unavailable.
 
 Port ranges:
 
