@@ -172,8 +172,8 @@ For more information on setting this up, [please see the extensive Plesk documen
 Please note that the above is for setting up docker as the site root.
 
 Should you wish to only have a part of your website hosted through docker, for example a members area or for different departments, this can be quite easily achieved but does require some finesse.
-worldsbestbusiness.com could take you to the home page, you can then have worldsbestbusiness.com/singapore or worldsbestbusiness.com/members
-Since Plesk allows for the easy setup of subdomains, you can even have a container for accounting.worldsbestbusiness.com/compliance.
+example.com could take you to the home page, you can then have example.com/singapore or example.com/members
+Since Plesk allows for the easy setup of subdomains, you can even have a container for accounting.example.com/compliance.
 
 Where this can really shine is when combined with the previously mentioned Docker Stack. Behind the subdirectories listed above, you can have entire docker clusters and essentially a wholly different website including separate database.
 
