@@ -136,8 +136,21 @@ Should you wish to run a docker-compose.yaml file and setup a whole stack like t
 Click on Add Stack or the blue plus shown in the image above.
  
 You can paste, upload or select the file depending upon your needs. Set the name, it must be in lower case but can container '-' and numbers
+
+### Troubleshooting
+If your Stack doesn't launch smoothly:
+Review the docker compose up output
+
+!!!! You can re-deploy an existing Stack via the vertical ellipsis (kebab menu) icon
+
+Start the problem container (if it fails to start it may output an error)
+
+Review the container's console log
+
+#### Port Conflicts
+One possible scenario, especially with third party Docker Compose files - since they don't know the rest of your setup, is that your Docker Compose is attempting to use a port that's already in use by another service or container.
  
-![Screenshot of the three possible upload options, a project name set to demo-stack and a sample of the YAML file within the in browser editor](demo-stack.png "demo-stack")
+![Screenshot of the load balancer container in the stacked, it is in a Stopped state](container_settings.png "container_settings")
  
 We can see in the image above that the container is stopped, and by going into the highlighted Settings we can edit the container and fix it.
  
