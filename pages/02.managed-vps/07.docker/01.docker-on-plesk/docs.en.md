@@ -236,16 +236,16 @@ A paid license option is available to enable you to manage Docker containers hos
 
 # Going Further
 
-## Making Your Own Docker Image
+## Customising Docker Images
+Once you are comfortable with launching containers and stacks you may wish to customise your images. 
 
-Once you are comfortable with launching containers and stacks you may wish to customise your images. This can be done without having to publish the image to a public repository, as long as you have the image locally. Below is the Docker documentation for writing and customising your own images.
+You can create a new image based on changes to an existing container by following [the steps outlined in the Plesk Documentation](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#o77137)
 
-https://docs.docker.com/get-started/docker-concepts/building-images/
+! We recommend to use a meaningful tag name instead of `latest` (the default) because what is `latest` today will soon become outdated over time... You might use an incrementing version number or something containing the creation date as example alternatives.
 
-https://docs.docker.com/build/concepts/dockerfile/#building
+## Creating Your Own Docker Image
+Creating your own Docker image involves writing a `Dockerfile`, and then `building` it. 
 
-https://docs.docker.com/build/
+!!!! Docker images are composed in layers, meaning that it's normal for one image to inherit / be built upon another - so you don't need to start from scratch. However, be mindful that as well as inheriting someone else's work, you're inheriting their bugs and security vulnerabilities too!
 
-https://docs.docker.com/build/concepts/overview/
-
-Please note that while you can run customised images on layershift Plesk servers, we do not offer support for troubleshooting them.
+Please refer to [Docker's Building images guide](https://docs.docker.com/get-started/docker-concepts/building-images/) for more details.
