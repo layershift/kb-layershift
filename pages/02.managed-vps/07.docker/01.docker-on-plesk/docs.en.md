@@ -127,7 +127,9 @@ The exact variables and their values are unique to the image you're using; pleas
 
 ## Docker Compose
 
-Should you wish to run a docker-compose.yaml file and setup a whole stack like the below. There are multiple ways you can upload your compose file.
+Docker Compose allows you to define and run multi-container applications (e.g. an application and its dependencies). In particular, you might find third party applications packaged in this manner.
+
+Plesk enables you to easily utilise the Docker Compose file provided by those applications (or to write your own, for your own applications).
 
 ![Screenshot of a sample stack, including an NGINX load-balancer, 2 Apache application containers and a Postgres database container](stack.png "stack")
 
