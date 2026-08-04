@@ -116,7 +116,7 @@ In the example below, we mount a server directory at `/var/lib/docker/volumes/va
 
 !!! Docker volumes are excluded from backups created by Plesk's own backup tools; but your entire Layershift Managed VPS (including any Docker volumes) is backed up according to your selected [backup plan](../backups/full-filesystem-backups#retention-period-and-freq).
 
-### Environmental Variables
+### Environment Variables
 Below you can examples of port, volume and environmental variable mapping.
 
 ![Screenshot showing Automatic Mapping in unticked, Manual Mapping set to port 6379 on both host and container with the port being inaccessible from the internet. Volume mapping, as per the above image. Various common Environmental Variables within generic values to demonstrate purpose](ValkeyENV.png "ValkeyENV")
