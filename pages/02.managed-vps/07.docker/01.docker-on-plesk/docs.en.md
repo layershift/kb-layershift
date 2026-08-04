@@ -73,7 +73,6 @@ Once the image is uploaded, you can run it by pressing the Run button as highlig
 
 ![Screenshot showing highlighted run local play button from the Valkey search](RunLocal.png "RunLocal")
 
-Once done, you can follow the instructions below on setting up limits and configuration.
 
 
 ### Memory Limits and Autostart
