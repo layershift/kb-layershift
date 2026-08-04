@@ -65,7 +65,11 @@ Click on the Images tab, and then the Upload image button.
  
 ![Screenshot of the Plesk Docker extension. The Images tab is selected, and the Upload Image button at the top of that section is highlighted.](UploadImage.png "UploadImage")
 
-Once the image is uploaded, you can run that image (or any other local images), by pressing the Run button highlighted in the image below.
+Choose the file from your computer, and click Upload to add it to the list of local images stored on your server.
+
+! Keep in mind that these images consume your VPS disk space, and can quickly add up (especially if you have multiple tags within each image).
+
+Once the image is uploaded, you can run it by pressing the Run button as highlighted below:
 
 ![Screenshot showing highlighted run local play button from the Valkey search](RunLocal.png "RunLocal")
 
