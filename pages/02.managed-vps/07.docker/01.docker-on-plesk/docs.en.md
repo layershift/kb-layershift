@@ -50,7 +50,7 @@ Below you can see the image results with the chosen option highlight in purple.
    ![Valkey image search results, with the selected image highlighted in purple](ValkeySearch.png "ValkeySearch")
 
 
-If you are uncertain which version, use an explicitly named version so you can see what you are running simply be checking the tag.
+!!! We recommend to avoid `latest` and prefer named version tags instead (to easily identify which version you have deployed later).
 	   
    ![Image tag search results including both numbered, named and latest versions](ValkeyVersion.png "ValkeyVersion")
 
