@@ -57,7 +57,7 @@ Below you can see the image results with the chosen option highlight in purple.
 
 #### Upload Image
 
-If you have your own custom images that you would like to use, following the instructions in https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#o77137.
+If you have your own custom image, the image resides in an unsupported registry (one that doesn't support `docker search`), or in a private registry, you can upload an image created with [`docker save`](https://docs.docker.com/reference/cli/docker/image/save/) directly to the server:
  
 You can now upload that image by going to the purple highlighted Images tab and using the green highlighted Upload, shown below.
  
