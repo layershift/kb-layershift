@@ -30,7 +30,9 @@ You're likely to need at least 512MiB of free RAM per container, but this may ne
 
 Every Layershift VPS includes regular automated backups. The entire server filesystem is backed up on a frequency and retention scheduled according to your server's backup plan, but depending on your particular Docker image you might want to make additional arrangements, for example some database containers may not be properly restorable from a filesystem backup.
 
-We also recommend that you read the [Plesk Documentation](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#setting-up-nginx-to-proxy-requests-from-domains-to-a-container) on the topic, although the below article will help you get setup using Docker on Plesk and if you run into any issues along the way, we have a [24/7 Helpdesk you can contact with your issues](https://help.layershift.com)
+Although this article will help you to get set up using Docker on Plesk, we recommend that you also read the [Plesk Documentation](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#setting-up-nginx-to-proxy-requests-from-domains-to-a-container) on the topic for additional context and guidance. 
+
+If you run into any issues along the way, our [24/7 Helpdesk will be happy to assist](https://help.layershift.com), but please note the [Support Scope](#support) section below.
  
 
 ## Installation
