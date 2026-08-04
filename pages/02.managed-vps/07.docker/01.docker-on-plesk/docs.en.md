@@ -44,7 +44,7 @@ Go to the Docker option in the left hand panel, then Run Container.
 
  Docker image search pulls images from [Docker Hub](https://hub.docker.com/). Check the Upload Image below for adding your own, or adding images you have sourced from other sources.
 
-  Search for your desired application image > Select specific image > Select version. 
+Search for your desired application image > Select specific image > Select version. 
       
 Below you can see the image results with the chosen option highlight in purple.      
    ![Valkey image search results, with the selected image highlighted in purple](ValkeySearch.png "ValkeySearch")
