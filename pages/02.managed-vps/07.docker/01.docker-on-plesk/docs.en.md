@@ -167,7 +167,7 @@ You can have all or part of your website served from a container.
 
 This is achieved by having NGINX forward the URL to a mapped external container port.
 
-For more information on setting this up, [please see the extensive Plesk documentation on the setup.](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#setting-up-nginx-to-proxy-requests-from-domains-to-a-container)
+For more information on setting this up, [please see the extensive Plesk documentation on the steps](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/using-docker.75823/#setting-up-nginx-to-proxy-requests-from-domains-to-a-container).
 
 Please note that the above is for setting up docker as the site root.
 
