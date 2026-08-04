@@ -105,19 +105,19 @@ Dynamic (49152-65535): Reserved by the operating system for temporary outbound c
 
 
 ### Volume Mapping
-A Docker volume allows persistent data storage for your container between redeployments, as redeploying a container will destroy all the data contained within it. A Docker volume is a directory on your server that you map onto a directory within the container. The container while able to read and write to that directory, cannot access anything above that directory.
+By default, data written or changed inside your Docker container is **not persistent**! For some containers that's perfect, but for most you'll have at least *some* data that you want to keep hold of (e.g. if you're running a database server, you want to keep the files that represent the actual database).
 
-Please disregard the error message. This warning is due to Docker volumes not being backed up by the Plesk Backup Tool. Your volumes will be backed up according to your servers backup license and schedule, as backing up the server will necessarily include backing up your Docker volumes.
+A Docker volume is a directory on your server that you mount to a directory inside the container. The container can read and write to that directory, but cannot access anything above it (such as its parent directory).
 
-You must use absolute paths in both entries.
+! You must use absolute paths for the Host and Container volume paths
 
-/Server/Directory > /Container/Directory
+!!!! We recommend to save all of your Docker volumes under `/var/lib/docker/volumes` (which is their usual location) on the server (Host) side.
 
-Below we have a mapping for
-
-/var/lib/docker/volumes/valkeycache > /var/lib/valkey.
+In the example below, we mount a server directory at `/var/lib/docker/volumes/valkeycache` to `/var/lib/valkey` inside the container, which allows us to retain the `/var/lib/valkey` data across Valkey redeploys (e.g. updating Valkey version).
 
 ![Screenshot of volume mapping with server directory /var/lib/docker/volumes/valkeycache on the left and container directory /var/lib/valkey on the right. There is a blank entry showing greyed out text with Host on the right and Container on the left](volumes.png "volumes")
+
+!!! Docker volumes are excluded from backups created by Plesk's own backup tools; but your entire Layershift Managed VPS (including any Docker volumes) is backed up according to your selected [backup plan](../backups/full-filesystem-backups#retention-period-and-freq).
 
 ### Environmental Variables
 Below you can examples of port, volume and environmental variable mapping.
