@@ -22,5 +22,7 @@ media_order: Portainer.gif
 
 [Portainer](https://docs.portainer.io/) hides the complexity of managing containers behind an easy-to-use UI. By removing the need to use the CLI, write YAML or understand manifests, Portainer makes deploying apps and troubleshooting problems so easy that anyone can do it.
 
-It can be deplyed and accessed directly from the Plesk Docker interface
+It can be deployed and accessed directly from the Plesk Docker interface
 ![Portainer](Portainer.gif "Portainer")
+
+! Whilst Portainer itself is mature, Portainer is a beta feature within Plesk - there may be undocumented issues or limitations; please share your feedback!
