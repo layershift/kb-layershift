@@ -14,8 +14,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-08-18T14:57:19+01:00'
-    'article:modified_time': '2026-08-18T14:57:19+01:00'
+    'article:published_time': '2026-08-18T15:44:52+01:00'
+    'article:modified_time': '2026-08-18T15:44:52+01:00'
     'article:author': Layershift
 ---
 
@@ -37,7 +37,7 @@ Due to the vast flexibility and nature of Docker images, we cannot provide our u
 * Timely deployment of required security updates: Docker images contain a whole OS stack, so you must remain vigilant not only to application-level security updates (e.g. within Valkey), but also within rest of the image (e.g. within Alpine, Debian etc. as applicable to your chosen image).
 * Implementation of access controls: any user authentication or firewall ACLs required to prevent unauthorised access to your application must be implemented within the Docker image since the VPS firewall doesn't apply to the Docker container.
 
-## Tips
+### Tips
 
 * Some publishers provide security information about their images (e.g. Docker Hardened Images, Docker Official Images), tracking known vulnerabilities for each tag.
 * Avoid use of ambiguous tags (e.g. "latest") which will become confusing over time: specific named tags make it much easier to evaluate which versions you have deployed, and therefore what your current security posture is (which things need updating!)
