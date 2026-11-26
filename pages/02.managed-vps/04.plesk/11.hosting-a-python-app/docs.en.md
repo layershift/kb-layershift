@@ -16,8 +16,8 @@ metadata:
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-11-26T15:33:07+00:00'
-    'article:modified_time': '2026-11-26T15:33:07+00:00'
+    'article:published_time': '2026-11-26T15:34:23+00:00'
+    'article:modified_time': '2026-11-26T15:34:38+00:00'
     'article:author': Layershift
     keywords: 'host Python app Plesk, Python hosting Plesk, Plesk Python extension, Managed VPS Python hosting, Layershift Plesk, Django hosting Plesk, Flask hosting Plesk, FastAPI deployment, WSGI, ASGI, Passenger WSGI, Phusion Passenger, Gunicorn, Uvicorn, Starlette, uv Python package manager, install Python version with uv, Python virtual environment, Poetry, pip requirements.txt, pyproject.toml, uv.lock, uv sync, Nginx reverse proxy, proxy_pass Unix socket, Supervisord, Plesk Scheduled Tasks, cron auto-update, logrotate, RotatingFileHandler, Python log rotation, update Python application, restart Python app, how to deploy FastAPI on Plesk, run Python app without root access, keep Python app alive after reboot, Plesk Apache & nginx settings, Layershift knowledge base'
 media_order: 'enable python.png,python extension restart app.png,python extension options.png,get started.png'
@@ -140,7 +140,7 @@ Activate the environment:
 source .venv/bin/activate
 ```
 
-### Using standard pip
+### Using pip
 
 If your project uses a traditional pylock.toml or requirements.txt file, uv can act as a faster replacement for pip.
 
