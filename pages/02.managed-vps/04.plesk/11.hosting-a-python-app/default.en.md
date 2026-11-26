@@ -6,15 +6,15 @@ metadata:
     'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/hosting-a-python-app'
     'og:type': website
     'og:title': 'Hosting a Python App | Layershift KB'
-    'og:image': 'https://www.layershift.com/kb/kb/user/images/ls-kb.jpg'
+    'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
     'og:image:width': 1200
     'og:image:height': 630
     'og:author': Layershift
-    'article:published_time': '2026-11-20T12:35:19+00:00'
-    'article:modified_time': '2026-11-20T12:35:19+00:00'
+    'article:published_time': '2026-11-26T15:06:58+00:00'
+    'article:modified_time': '2026-11-26T15:07:45+00:00'
     'article:author': Layershift
-media_order: 'get started.png,enable python.png,python extension options.png'
+media_order: 'enable python.png,python extension restart app.png,python extension options.png,get started.png'
 ---
 
 Hosting a Python application on your Plesk server gives you a robust environment for frameworks like Django, Flask, or FastAPI. You can host your app using Phusion Passenger (integrated directly into the web server) or as a Standalone Service using a reverse proxy.
@@ -83,7 +83,7 @@ We also recommend setting up crons to periodically update python and uv.
 You can schedule these tasks using the Scheduled Tasks feature in the Plesk dashboard or by editing the crontab via SSH.
 
 ```
-~/.local/bin/uv python upgrade # update to the latest patched version
+~/.local/bin/uv python upgrade # update to the latest patch (micro version: bugfix/security) release of each installed major.minor version
 ~/.local/bin/uv self update -q # keep uv up to date
 ```
 
@@ -97,16 +97,15 @@ It is highly recommended to isolate your application's dependencies using a virt
 ### Using uv (Fast package manager)
 If your project uses uv as its dependency manager and has a `pyproject.toml` file, run:
 ```
-uv -v sync 
+uv -v sync --managed-python --locked
 ```
-This creates the project's virtual environment (by default, .venv) and installs the dependencies specified in the pyproject.toml file.
+This creates the project's virtual environment (by default, .venv) and installs the dependencies specified in the pyproject.toml file.  
+!!! We recommend including the `uv.lock` file when uploading your project. This ensures the same dependency versions are installed as the ones used during local development. `uv sync --locked` will install your dependencies.
 
 Activate the environment:
 ```
 source .venv/bin/activate
 ```
-!!! We recommend including the `uv.lock` file when uploading your project. This ensures the same dependency versions are installed as the ones used during local development. `uv sync --locked` will install your dependencies.
-
 
 ### Using Poetry
 If your project uses Poetry to manage dependencies, you can still use uv to create the virtual environment and install the dependencies recorded in the Poetry lock file.
@@ -156,24 +155,23 @@ You can serve your application using one of the three methods:
 
 Plesk provides a convenient interface to manage Python applications.
 
-Open the domain card, go to Get Started - Python - Choose your domain - Enable Python, then configure the paths:
-
+Upload your application to a folder in the webspace (e.g. /app), open the domain card, go to Get Started - Python
 ![get%20started](get%20started.png "get%20started")
 
+Scan (it will search the website webspace for Python application folders) or set the _Application root_ and _Document root_ then click on _Enable Python_
 ![enable%20python](enable%20python.png "enable%20python")
+* Application root: The application directory within the website’s webspace (e.g. /app)  
+* Document root: The public directory inside the application folder (e.g. /app/public)  
+!!! The Document Root option will change the Document root value in the website Hostting Settings, usually httpdocs/, to the specified value
 
-
-* Application Root: The application directory within the website’s webspace (e.g. /app)
-* Document Root: The public directory inside the application folder (e.g. /app/public)
-
-Plesk will then scan the application, set up the virtual environment, install dependencies, and start the app. The extension also lets you view and edit configuration files and manage environment variables and secrets.
+Plesk will then scan the application, set up the virtual environment, install dependencies, and start the app. The extension also lets you view and edit configuration files, set the Python version, manage environment variables and secrets.
 
 ![python%20extension%20options](python%20extension%20options.png "python%20extension%20options")
 
-!!! The install dependencies button performs a uv sync if a uv.lock is detected, or else pip install -r requirements.txt. You may wish to use a different command to resolve your dependencies via SSH instead (e.g. uv sync --locked to ensure that your uv.lock is not rewritten, or resolving your dependencies from a pylock.toml / via a different dependency management tool)
+!!! The install dependencies button performs a ``uv sync`` if a ``uv.lock`` is detected, or else ``pip install -r requirements.txt``. You may wish to use a different command to resolve your dependencies via SSH instead (e.g. ``uv sync --locked`` to ensure that your ``uv.lock`` is not rewritten, or resolving your dependencies from a ``pylock.toml`` / via a different dependency management tool)
 
-### Standalone Service (ASGI) & Reverse Proxy (Supervisord + Nginx)
-If Passenger is unavailable or you are using an async framework (like FastAPI), you must run your app as a standalone service and proxy Nginx to it. Because you are on a shared hosting environment without root access, you should bind your app to a Unix Socket and use a Scheduled Task (Cron) to keep it alive.
+### Standalone Service (ASGI) & Reverse Proxy
+If you are using an async framework (like FastAPI), you must run your app as a standalone service and proxy the requests to it with a reverse proxy like Nginx. Because root access shouldn't be required to run the application, you should bind your app to a Unix Socket in the application root folder and use a Scheduled Task (Cron) to keep it alive.
 
 !!! Add your application server to your project's dependencies on your local development machine using `uv add gunicorn` or `uv add uvicorn`, respectively. Uploading  `pyproject.toml` and `uv.lock` files along with your application code ensures consistency between the environements.
 
@@ -226,7 +224,7 @@ location / {
 ## Log Rotation
 To prevent your application logs from growing indefinitely and consuming your webspace disk quota, you must configure log rotation. 
 
-Because you are in a shared hosting environment, you have two completely self-service options to handle this without needing to contact support.
+Without root access, there are two completely self-service approaches to handle this:
 
 ### Use a Custom Logrotate Config & Cron Job (Recommended)
 You can run the server's native log rotation tool entirely from within your own webspace.
@@ -278,7 +276,6 @@ logger.addHandler(handler)
 
 !! This logging configuration is intended to manage only app.log and its automatically rotated backup files. All other log files must remain untouched.
 
-
 ## Updating and Maintaining Your Application
 
 Deploying an application is not a one-time task. Whenever you release a new version, you may need to update the application code, dependencies, configuration, and database schema.
@@ -313,10 +310,9 @@ uv venv --managed-python --clear && uv pip sync --strict requirements.txt
 
 After updating the code and dependencies, restart the application so that the running process loads the latest version.
 
-Passanger_WSGI: Use the Restart App button in the Plesk Dashboard - Python  
-Supervisord: Restart the relevant program using supervisorctl.
-
-
-
-
-
+Passenger_WSGI: Use the Restart App button in the Plesk Dashboard - Python
+![python%20extension%20restart%20app](python%20extension%20restart%20app.png "python%20extension%20restart%20app")
+Supervisord: Restart the relevant program using supervisorctl, while connected via SSH.  
+```
+supervisorctl restart python_app
+```
