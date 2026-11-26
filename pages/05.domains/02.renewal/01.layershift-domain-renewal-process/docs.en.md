@@ -18,26 +18,28 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-12-02T18:24:27+00:00'
-    'article:modified_time': '2024-12-02T18:24:27+00:00'
+    'article:modified_time': '2026-08-27T14:14:27+00:00'
     'article:author': Layershift
 menu: 'Renewal process'
 ---
 
 !!! All Layershift domain registrations are auto-renew by default to ensure that your valuable domain stays online and registered to you!
 # When are domains renewed
-We auto-renew your domains 30 days prior to expiry. We do this for 2 reasons:
-* To ensure that your domain remains online whilst any unexpected problems during the renewal (payment errors etc.) are resolved
-* To avoid confusion arising from ICANN's mandatory renewal/expiry notices - sent to the domain registrant at one month before expiry, and again at one week before expiry
+We auto-renew domains **at least** 30 days prior to expiry. 
 
-!!!! You can see the auto-renewal date for each of your domains via [https://dashboard.layershift.com](https://dashboard.layershift.com) > Domains.
+We do this for 2 reasons:
+* To ensure your domain does not expire and drop offline whilst any unexpected payment errors (credit card issues etc.) are resolved
+* To avoid ICANN's mandatory renewal/expiry notices creating confusion
+  * Sent to the domain registrant one month before expiry, and again one week before expiry
+
+!!!! The auto-renewal date for each of domain is displayed in your [Layershift Dashboard](https://dashboard.layershift.com) > Domains.
 # When are domain renewals invoiced
-To reduce the number of invoices your accountant has to deal with, we consolidate all domain renewals arising in the same month onto one invoice.
+We consolidate all domain renewals arising in the same month onto one invoice to reduce the number of invoices your accountant has to deal with.
 
-To guarantee that at the same time as ensuring that your domains auto-renew at least 30 days prior to expiry, we:
-* Take your subscription date as the 1st of the expiry month
-* Process your renewal invoice 45 days before (giving a 15 day window to resolve any unexpected payment problems)
+To guarantee that your domain is renewed at least 30 days prior to expiry (avoiding ICANN notification confusion) and consolidating your domain renewal invoices, we issue domain renewal invoices on the 9th of each month for domains that expire between the 15th of next month and the 15th of the following month.
 
-This means renewal invoices are issued 45 - 75 days before domain expiry.
+! Prior to September 2026 we invoiced 45 - 75 days before domain expiry (the new approach is 36/37 - 66 days before domain expiry)
+
 # How much does domain renewal cost
 The domain registries responsible for administering each TLD (domain extension) frequently adjust their registration and renewal prices. That might involve promotions to try to encourage more new registrations or renewals, or price changes to factor in changes to the operational costs of running their particular registry. Since domain registries are located around the world, pricing is fixed in their local currency which might differ to yours.
 
@@ -45,6 +47,6 @@ To give you the most competitive domain (registration and) renewal prices, we dy
 
 !!!! If the domain registry has a special promotional discount, you benefit from it automatically
 
-We email you the renewal price for each domain renewal 14 days before issuing the renewal invoice.
+We email you the renewal price for each domain renewal 7 days before issuing the renewal invoice.
 # If the domain is no longer required
-Simply disable auto-renewal prior to the invoice date, and the registration will lapse on the expiry date.
+Simply disable auto-renewal prior to the invoice date; the registration will lapse on the expiry date.
