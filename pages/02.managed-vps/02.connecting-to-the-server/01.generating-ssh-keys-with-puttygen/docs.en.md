@@ -8,7 +8,7 @@ aura:
     description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
 metadata:
     description: 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/ssh/generating-ssh-keys-with-puttygen'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/connecting-to-the-server/generating-ssh-keys-with-puttygen'
     'og:type': website
     'og:title': 'Generate SSH Key using PuTTYgen | Layershift KB'
     'og:description': 'Here is a step-by-step article about how to generate SSH key using PuTTYgen, so you can access your server via SSH from a Windows client.'
@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 472
     'og:author': Layershift
     'article:published_time': '2024-03-04T14:01:07+00:00'
-    'article:modified_time': '2024-03-04T14:01:07+00:00'
+    'article:modified_time': '2026-11-27T16:10:01+00:00'
     'article:author': Layershift
 media_order: 'Generate SSH Key using PuTTYgen-1.png,Generate SSH Key using PuTTYgen-2.png,Generate SSH Key using PuTTYgen-4.png,Generate SSH Key using PuTTYgen-3.png,Generate SSH Key using PuTTYgen-6.png,Generate SSH Key using PuTTYgen-5.png'
 ---

@@ -10,7 +10,7 @@ aura:
     description: 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
 metadata:
     description: 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-connect-to-your-plesk-ftp-using-filezilla'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/connecting-to-the-server/how-to-connect-to-your-plesk-ftp-using-filezilla'
     'og:type': website
     'og:title': 'How to connect to your Plesk FTP using Filezilla | Layershift KB'
     'og:description': 'Learn how to connect to your Plesk FTP server using Filezilla FTP client.'
@@ -20,7 +20,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-03-20T11:17:30+00:00'
-    'article:modified_time': '2024-03-20T11:17:30+00:00'
+    'article:modified_time': '2026-11-27T16:11:38+00:00'
     'article:author': Layershift
 menu: 'Connect to FTP server'
 ---

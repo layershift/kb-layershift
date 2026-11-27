@@ -8,7 +8,7 @@ aura:
     description: 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
 metadata:
     description: 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/ssh/connect-to-your-plesk-server-using-ssh-client'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/connecting-to-the-server/connect-to-your-plesk-server-using-ssh-client'
     'og:type': website
     'og:title': 'Connect to your Plesk server via SSH | Layershift KB'
     'og:description': 'A guide for enabling SSH access and connecting to the VPS using PuTTY SSH client'
@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2025-09-05T14:38:14+01:00'
-    'article:modified_time': '2025-09-05T14:38:14+01:00'
+    'article:modified_time': '2026-11-27T16:10:50+00:00'
     'article:author': Layershift
 media_order: 'Connect to your Plesk server using SSH client-1.png,Connect to your Plesk server using SSH client-2.png,Connect to your Plesk server using SSH client-3.png,SSH_extension.png,Connect to your Plesk server using SSH client-4.png,Connect to your Plesk server using SSH client-5.png,Connect to your Plesk server using SSH client-7.png'
 ---
