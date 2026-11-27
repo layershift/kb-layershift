@@ -2,7 +2,7 @@
 title: 'Plesk editions explained'
 metadata:
     description: 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/plesk-editions-explained'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/getting-started/plesk-editions-explained'
     'og:type': website
     'og:title': 'Plesk editions explained | Layershift KB'
     'og:description': 'Our Managed VPS hosting plans come with the latest Plesk panel editions: Web Admin, Web Pro and Web Host.'
@@ -12,7 +12,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2025-04-09T14:42:28+01:00'
-    'article:modified_time': '2025-04-09T14:42:28+01:00'
+    'article:modified_time': '2026-11-27T15:47:20+00:00'
     'article:author': Layershift
 visible: true
 taxonomy:

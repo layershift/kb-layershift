@@ -8,7 +8,7 @@ aura:
     description: 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Dashboard.'
 metadata:
     description: 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Dashboard.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-reset-plesk-admin-password'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/getting-started/how-to-reset-plesk-admin-password'
     'og:type': website
     'og:title': 'How to reset Plesk admin password | Layershift KB'
     'og:description': 'Here are the four simple steps you need to preform in order to reset Plesk admin password in your Layershift Dashboard.'
@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-06-21T12:24:53+01:00'
-    'article:modified_time': '2026-05-07T13:20:53+01:00'
+    'article:modified_time': '2026-11-27T15:47:59+00:00'
     'article:author': Layershift
 menu: 'Reset admin password'
 media_order: 'How to reset Plesk admin password-1.png,How to reset Plesk admin password-2.png,How to reset Plesk admin password-3.png,How to reset Plesk admin password-auth_layershift_com.png,How to reset Plesk admin password-dashboard_layershift_com.png,How to reset Plesk admin password-dashboard_layershift_com-servers.png,How to reset Plesk admin password-dashboard_layershift_com-servers-reset_password.png,How to reset Plesk admin password-dashboard_layershift_com-servers-reset_password-complete.png'

@@ -8,7 +8,7 @@ aura:
     description: 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
 metadata:
     description: 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/getting-started-with-plesk-dashboard'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/getting-started/getting-started-with-plesk-dashboard'
     'og:type': website
     'og:title': 'Getting Started with Plesk Dashboard | Layershift KB'
     'og:description': 'Plesk Control Panel is a powerful, but easy-to-use server automation software pre-installed on our servers. Here are a few tips for getting started.'
@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-03-05T15:07:06+00:00'
-    'article:modified_time': '2024-03-05T15:07:06+00:00'
+    'article:modified_time': '2026-11-27T15:46:15+00:00'
     'article:author': Layershift
 menu: 'Getting started with Plesk'
 ---

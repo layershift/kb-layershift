@@ -8,7 +8,7 @@ aura:
     description: 'Web Scripting Explained, Plesk Proxy Mode and web scripting, LiteSpeed and web scripting'
 metadata:
     description: 'Web Scripting Explained, Plesk Proxy Mode and web scripting, LiteSpeed and web scripting'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/programing-and-scripting-languages'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/getting-started/programing-and-scripting-languages'
     'og:type': website
     'og:title': 'Programing and scripting languages | Layershift KB'
     'og:description': 'Web Scripting Explained, Plesk Proxy Mode and web scripting, LiteSpeed and web scripting'
@@ -18,7 +18,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2025-06-26T16:16:11+01:00'
-    'article:modified_time': '2025-06-26T16:16:11+01:00'
+    'article:modified_time': '2026-11-27T15:48:49+00:00'
     'article:author': Layershift
 media_order: 'hosting and dns hosting.png,web scripting .png'
 menu: 'Programing and scripting'

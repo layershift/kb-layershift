@@ -6,7 +6,7 @@ aura:
     description: 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
 metadata:
     description: 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/plesk-cgroups-manager'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/getting-started/plesk-cgroups-manager'
     'og:type': website
     'og:title': 'Plesk CGroups Manager | Layershift KB'
     'og:description': 'The Plesk CGroups Manager is designed to manage the CPU, RAM, and disk read/write bandwidth consumption in an efficient way.'
@@ -16,7 +16,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-03-02T23:21:43+00:00'
-    'article:modified_time': '2024-03-02T23:21:43+00:00'
+    'article:modified_time': '2026-11-27T15:49:32+00:00'
     'article:author': Layershift
 taxonomy:
     category:
