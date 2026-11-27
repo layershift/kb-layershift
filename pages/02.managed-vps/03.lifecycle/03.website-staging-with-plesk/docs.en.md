@@ -1,13 +1,13 @@
 ---
-title: 'Website staging with Plesk Obsidian'
+title: 'Website staging with Plesk'
 aura:
     pagetype: website
     description: 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
 metadata:
     description: 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/website-staging-with-plesk-obsidian'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/lifecycle/website-staging-with-plesk'
     'og:type': website
-    'og:title': 'Website staging with Plesk Obsidian | Layershift KB'
+    'og:title': 'Website staging with Plesk | Layershift KB'
     'og:description': 'Step by step guide for setting up a website staging environment in Plesk to test before you go live into production.'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
     'og:image:type': image/jpeg
@@ -15,7 +15,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2024-03-02T23:33:35+00:00'
-    'article:modified_time': '2024-03-02T23:33:35+00:00'
+    'article:modified_time': '2026-11-27T16:25:04+00:00'
     'article:author': Layershift
 taxonomy:
     category:
