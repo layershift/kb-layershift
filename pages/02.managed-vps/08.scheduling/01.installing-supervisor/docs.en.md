@@ -6,7 +6,7 @@ taxonomy:
 aura:
     pagetype: website
 metadata:
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/installing-supervisor'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/scheduling/installing-supervisor'
     'og:type': website
     'og:title': 'Installing Supervisor | Layershift KB'
     'og:image': 'https://www.layershift.com/kb/user/images/ls-kb.jpg'
@@ -15,7 +15,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2026-07-29T15:45:38+01:00'
-    'article:modified_time': '2026-07-29T15:45:38+01:00'
+    'article:modified_time': '2026-11-27T16:33:19+00:00'
     'article:author': Layershift
 media_order: 'SSH_enable_1.png,SSH_enable_2.png,schedule_task_2.png,schedule_task_3.png,SSH_login.png,schedule_task_1.png'
 ---
