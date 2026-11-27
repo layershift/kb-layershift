@@ -5,7 +5,7 @@ aura:
     description: 'Find out how to change PHP version and PHP handler in Plesk. Step by step guide.'
 metadata:
     description: 'Find out how to change PHP version and PHP handler in Plesk. Step by step guide.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-change-the-php-handler-in-plesk'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/php/how-to-change-the-php-handler-in-plesk'
     'og:type': website
     'og:title': 'How to change PHP handler in Plesk | Layershift KB'
     'og:description': 'Find out how to change PHP version and PHP handler in Plesk. Step by step guide.'
@@ -15,7 +15,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2025-12-12T16:43:39+00:00'
-    'article:modified_time': '2025-12-12T16:44:32+00:00'
+    'article:modified_time': '2026-11-27T16:53:57+00:00'
     'article:author': Layershift
 taxonomy:
     category:

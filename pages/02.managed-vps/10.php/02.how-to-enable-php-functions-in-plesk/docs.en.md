@@ -6,7 +6,7 @@ aura:
     description: 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
 metadata:
     description: 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/how-to-enable-php-functions-in-plesk'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/php/how-to-enable-php-functions-in-plesk'
     'og:type': website
     'og:title': 'How to enable PHP functions in Plesk | Layershift KB'
     'og:description': 'Learn best practice usage of powerful PHP functions and steps to enable them for CLI and HTTP scripts in Plesk on your Layershift servers.'
@@ -16,7 +16,7 @@ metadata:
     'og:image:height': 788
     'og:author': Layershift
     'article:published_time': '2024-03-03T00:53:57+00:00'
-    'article:modified_time': '2024-03-03T00:53:57+00:00'
+    'article:modified_time': '2026-11-27T16:54:39+00:00'
     'article:author': Layershift
 taxonomy:
     category:

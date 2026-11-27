@@ -8,13 +8,13 @@ aura:
     description: 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
 metadata:
     description: 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/installing-php-5-x-7-x-or-8-x-on-your-server'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/php/how-to-install-new-php-versions'
     'og:type': website
     'og:title': 'Installing PHP 5.x, 7.x or 8.x on your server | Layershift KB'
     'og:description': 'A guide for installing PHP versions in Plesk and for changing between versions that are already installed in your Plesk Panel.'
     'og:author': Layershift
     'article:published_time': '2024-03-05T18:20:53+00:00'
-    'article:modified_time': '2024-03-05T18:20:53+00:00'
+    'article:modified_time': '2026-11-27T16:56:20+00:00'
     'article:author': Layershift
 media_order: 'Installing PHP 5.4, 5.5, 5.6 or 7 on your server-1.png,Installing PHP 5.4, 5.5, 5.6 or 7 on your server-2.png'
 menu: 'Install new PHP versions'
