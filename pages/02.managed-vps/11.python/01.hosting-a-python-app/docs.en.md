@@ -7,7 +7,7 @@ aura:
         keywords: 'host Python app Plesk, Python hosting Plesk, Plesk Python extension, Managed VPS Python hosting, Layershift Plesk, Django hosting Plesk, Flask hosting Plesk, FastAPI deployment, WSGI, ASGI, Passenger WSGI, Phusion Passenger, Gunicorn, Uvicorn, Starlette, uv Python package manager, install Python version with uv, Python virtual environment, Poetry, pip requirements.txt, pyproject.toml, uv.lock, uv sync, Nginx reverse proxy, proxy_pass Unix socket, Supervisord, Plesk Scheduled Tasks, cron auto-update, logrotate, RotatingFileHandler, Python log rotation, update Python application, restart Python app, how to deploy FastAPI on Plesk, run Python app without root access, keep Python app alive after reboot, Plesk Apache & nginx settings, Layershift knowledge base'
 metadata:
     description: 'Step-by-step guide to hosting Python apps on a Layershift Managed VPS with Plesk. Covers WSGI vs ASGI, uv and Poetry environments, Passenger or Nginx reverse proxy hosting, Supervisord, log rotation, and updates.'
-    'og:url': 'https://www.layershift.com/kb/managed-vps/plesk/hosting-a-python-app'
+    'og:url': 'https://www.layershift.com/kb/managed-vps/python/hosting-a-python-app'
     'og:type': website
     'og:title': 'Hosting a Python App | Layershift KB'
     'og:description': 'Step-by-step guide to hosting Python apps on a Layershift Managed VPS with Plesk. Covers WSGI vs ASGI, uv and Poetry environments, Passenger or Nginx reverse proxy hosting, Supervisord, log rotation, and updates.'
@@ -17,7 +17,7 @@ metadata:
     'og:image:height': 630
     'og:author': Layershift
     'article:published_time': '2026-11-26T15:34:23+00:00'
-    'article:modified_time': '2026-11-26T15:34:38+00:00'
+    'article:modified_time': '2026-11-27T17:00:10+00:00'
     'article:author': Layershift
     keywords: 'host Python app Plesk, Python hosting Plesk, Plesk Python extension, Managed VPS Python hosting, Layershift Plesk, Django hosting Plesk, Flask hosting Plesk, FastAPI deployment, WSGI, ASGI, Passenger WSGI, Phusion Passenger, Gunicorn, Uvicorn, Starlette, uv Python package manager, install Python version with uv, Python virtual environment, Poetry, pip requirements.txt, pyproject.toml, uv.lock, uv sync, Nginx reverse proxy, proxy_pass Unix socket, Supervisord, Plesk Scheduled Tasks, cron auto-update, logrotate, RotatingFileHandler, Python log rotation, update Python application, restart Python app, how to deploy FastAPI on Plesk, run Python app without root access, keep Python app alive after reboot, Plesk Apache & nginx settings, Layershift knowledge base'
 media_order: 'enable python.png,python extension restart app.png,python extension options.png,get started.png'
